@@ -12,6 +12,7 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
     @Override
     protected void addTranslations() {
         add("itemGroup." + SlabsStairsWalls.MODID, SlabsStairsWalls.MODNAME);
+        fenceGate(MinecraftItems.NETHER_BRICK_FENCE_GATE, "Nether Brick");
         stairs(MinecraftItems.CUT_RED_SANDSTONE_STAIRS, "Cut Red Sandstone");
         stairs(MinecraftItems.CUT_SANDSTONE_STAIRS, "Cut Sandstone");
         stairs(MinecraftItems.SMOOTH_STONE_STAIRS, "Smooth Stone");
@@ -29,6 +30,17 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         wall(MinecraftItems.SMOOTH_SANDSTONE_WALL, "Smooth Sandstone");
         wall(MinecraftItems.SMOOTH_STONE_WALL, "Smooth Stone");
         wall(MinecraftItems.STONE_WALL, "Stone");
-        fenceGate(MinecraftItems.NETHER_BRICK_FENCE_GATE, "Nether Brick");
+        wall(MinecraftItems.OAK_WALL, "Oak");
+        wall(MinecraftItems.SPRUCE_WALL, "Spruce");
+        wall(MinecraftItems.BIRCH_WALL, "Birch");
+        wall(MinecraftItems.JUNGLE_WALL, "Jungle");
+        wall(MinecraftItems.ACACIA_WALL, "Acacia");
+        wall(MinecraftItems.DARK_OAK_WALL, "Dark Oak");
+        wall(MinecraftItems.STRIPPED_OAK_WALL, "Stripped Oak");
+        wall(MinecraftItems.STRIPPED_SPRUCE_WALL, "Stripped Spruce");
+        wall(MinecraftItems.STRIPPED_BIRCH_WALL, "Stripped Birch");
+        wall(MinecraftItems.STRIPPED_JUNGLE_WALL, "Stripped Jungle");
+        wall(MinecraftItems.STRIPPED_ACACIA_WALL, "Stripped Acacia");
+        wall(MinecraftItems.STRIPPED_DARK_OAK_WALL, "Stripped Dark Oak");
     }
 }

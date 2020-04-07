@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:prismarine_bricks_wall"
+    },
+    {
+      "item": "slabsstairswalls:prismarine_bricks_wall"
+    },
+    {
+      "item": "slabsstairswalls:prismarine_bricks_wall"
+    },
+    {
+      "item": "slabsstairswalls:prismarine_bricks_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:prismarine_bricks",
+    "count": 3
+  }
+}

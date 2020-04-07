@@ -30,5 +30,17 @@ public final class MinecraftBlockStates extends BlockStates {
 //        wall(MinecraftBlocks.SMOOTH_SANDSTONE_WALL, Blocks.SMOOTH_SANDSTONE);
         wall(MinecraftBlocks.SMOOTH_STONE_WALL, Blocks.SMOOTH_STONE);
         wall(MinecraftBlocks.STONE_WALL, Blocks.STONE);
+        wall(MinecraftBlocks.OAK_WALL, Blocks.OAK_LOG);
+        wall(MinecraftBlocks.SPRUCE_WALL, Blocks.SPRUCE_LOG);
+        wall(MinecraftBlocks.BIRCH_WALL, Blocks.BIRCH_LOG);
+        wall(MinecraftBlocks.JUNGLE_WALL, Blocks.JUNGLE_LOG);
+        wall(MinecraftBlocks.ACACIA_WALL, Blocks.ACACIA_LOG);
+        wall(MinecraftBlocks.DARK_OAK_WALL, Blocks.DARK_OAK_LOG);
+        wall(MinecraftBlocks.STRIPPED_OAK_WALL, Blocks.STRIPPED_OAK_LOG);
+        wall(MinecraftBlocks.STRIPPED_SPRUCE_WALL, Blocks.STRIPPED_SPRUCE_LOG);
+        wall(MinecraftBlocks.STRIPPED_BIRCH_WALL, Blocks.STRIPPED_BIRCH_LOG);
+        wall(MinecraftBlocks.STRIPPED_JUNGLE_WALL, Blocks.STRIPPED_JUNGLE_LOG);
+        wall(MinecraftBlocks.STRIPPED_ACACIA_WALL, Blocks.STRIPPED_ACACIA_LOG);
+        wall(MinecraftBlocks.STRIPPED_DARK_OAK_WALL, Blocks.STRIPPED_DARK_OAK_LOG);
     }
 }

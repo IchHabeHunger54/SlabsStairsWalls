@@ -35,21 +35,33 @@ public interface IInit {
         return BLOCKS.register(b.get().getRegistryName().getPath() + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
     }
 
+    static RegistryObject<SlabBlock> registerSlab(String n, Supplier<Block> b) {
+        return BLOCKS.register(n + "_slab", () -> new SlabBlock(Block.Properties.from(b.get())));
+    }
+
+    static RegistryObject<StairsBlock> registerStairs(String n, Supplier<Block> b) {
+        return BLOCKS.register(n + "_stairs", () -> new StairsBlock(() -> b.get().getDefaultState(), Block.Properties.from(b.get())));
+    }
+
+    static RegistryObject<WallBlock> registerWall(String n, Supplier<Block> b) {
+        return BLOCKS.register(n + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
+    }
+
     static RegistryObject<FenceBlock> registerFence(String n, Supplier<Block> b) {
-        return BLOCKS.register(n, () -> new FenceBlock(Block.Properties.from(b.get())));
+        return BLOCKS.register(n + "_fence", () -> new FenceBlock(Block.Properties.from(b.get())));
     }
 
     static RegistryObject<FenceGateBlock> registerFenceGate(String n, Supplier<Block> b) {
-        return BLOCKS.register(n, () -> new FenceGateBlock(Block.Properties.from(b.get())));
+        return BLOCKS.register(n + "_fence_gate", () -> new FenceGateBlock(Block.Properties.from(b.get())));
     }
 
     static RegistryObject<WoodButtonBlock> registerButton(String n, Supplier<Block> b) {
-        return BLOCKS.register(n, () -> new WoodButtonBlock(Block.Properties.from(b.get())) {
+        return BLOCKS.register(n + "_button", () -> new WoodButtonBlock(Block.Properties.from(b.get())) {
         });
     }
 
     static RegistryObject<PressurePlateBlock> registerPressurePlate(String n, Supplier<Block> b) {
-        return BLOCKS.register(n, () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, Block.Properties.from(b.get())) {
+        return BLOCKS.register(n + "_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, Block.Properties.from(b.get())) {
         });
     }
 }

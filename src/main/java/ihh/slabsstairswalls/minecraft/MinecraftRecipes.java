@@ -5,6 +5,7 @@ import java.util.function.Consumer;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.item.Items;
+import net.minecraftforge.common.Tags;
 
 public final class MinecraftRecipes extends RecipeGen {
     public MinecraftRecipes(DataGenerator g) {
@@ -13,6 +14,7 @@ public final class MinecraftRecipes extends RecipeGen {
 
     @Override
     protected void registerRecipes(Consumer<IFinishedRecipe> c) {
+        fenceGateRecipe(MinecraftItems.NETHER_BRICK_FENCE_GATE, () -> Items.NETHER_BRICKS, Tags.Items.INGOTS_NETHER_BRICK, c);
         stairsRecipe(MinecraftItems.CUT_RED_SANDSTONE_STAIRS, () -> Items.CUT_RED_SANDSTONE, true, c);
         stairsRecipe(MinecraftItems.CUT_SANDSTONE_STAIRS, () -> Items.CUT_SANDSTONE, true, c);
         stairsRecipe(MinecraftItems.SMOOTH_STONE_STAIRS, () -> Items.SMOOTH_STONE, true, c);
@@ -30,6 +32,17 @@ public final class MinecraftRecipes extends RecipeGen {
         wallRecipe(MinecraftItems.SMOOTH_SANDSTONE_WALL, () -> Items.SMOOTH_SANDSTONE, true, c);
         wallRecipe(MinecraftItems.SMOOTH_STONE_WALL, () -> Items.SMOOTH_STONE, true, c);
         wallRecipe(MinecraftItems.STONE_WALL, () -> Items.STONE, true, c);
-        fenceGateRecipe(MinecraftItems.NETHER_BRICK_FENCE_GATE, () -> Items.NETHER_BRICKS, () -> Items.NETHER_BRICK, c);
+        wallRecipe(MinecraftItems.OAK_WALL, () -> Items.OAK_WOOD, false, c);
+        wallRecipe(MinecraftItems.SPRUCE_WALL, () -> Items.SPRUCE_WOOD, false, c);
+        wallRecipe(MinecraftItems.BIRCH_WALL, () -> Items.BIRCH_WOOD, false, c);
+        wallRecipe(MinecraftItems.JUNGLE_WALL, () -> Items.JUNGLE_WOOD, false, c);
+        wallRecipe(MinecraftItems.ACACIA_WALL, () -> Items.ACACIA_WOOD, false, c);
+        wallRecipe(MinecraftItems.DARK_OAK_WALL, () -> Items.DARK_OAK_WOOD, false, c);
+        wallRecipe(MinecraftItems.STRIPPED_OAK_WALL, () -> Items.STRIPPED_OAK_WOOD, false, c);
+        wallRecipe(MinecraftItems.STRIPPED_SPRUCE_WALL, () -> Items.STRIPPED_SPRUCE_WOOD, false, c);
+        wallRecipe(MinecraftItems.STRIPPED_BIRCH_WALL, () -> Items.STRIPPED_BIRCH_WOOD, false, c);
+        wallRecipe(MinecraftItems.STRIPPED_JUNGLE_WALL, () -> Items.STRIPPED_JUNGLE_WOOD, false, c);
+        wallRecipe(MinecraftItems.STRIPPED_ACACIA_WALL, () -> Items.STRIPPED_ACACIA_WOOD, false, c);
+        wallRecipe(MinecraftItems.STRIPPED_DARK_OAK_WALL, () -> Items.STRIPPED_DARK_OAK_WOOD, false, c);
     }
 }

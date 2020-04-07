@@ -25,5 +25,17 @@ public final class MinecraftBlockTags extends BlockTagGen {
         getBuilder(BlockTags.WALLS).add(MinecraftBlocks.SMOOTH_SANDSTONE_WALL.get());
         getBuilder(BlockTags.WALLS).add(MinecraftBlocks.SMOOTH_STONE_WALL.get());
         getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STONE_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.OAK_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.SPRUCE_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.BIRCH_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.JUNGLE_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.ACACIA_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.DARK_OAK_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STRIPPED_OAK_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STRIPPED_SPRUCE_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STRIPPED_BIRCH_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STRIPPED_JUNGLE_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STRIPPED_ACACIA_WALL.get());
+        getBuilder(BlockTags.WALLS).add(MinecraftBlocks.STRIPPED_DARK_OAK_WALL.get());
     }
 }

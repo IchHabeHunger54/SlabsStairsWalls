@@ -25,19 +25,19 @@ public abstract class RecipeGen extends ForgeRecipeProvider {
     public static void slabRecipe(Supplier<Item> r, Supplier<Item> b, boolean s, Consumer<IFinishedRecipe> c) {
         ShapedRecipeBuilder.shapedRecipe(r.get(), 6).patternLine("###").key('#', b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c);
         ShapelessRecipeBuilder.shapelessRecipe(b.get()).addIngredient(r.get()).addIngredient(r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, Registry.ITEM.getKey(r.get()).getPath() + "_uncrafting"));
-        if (s) SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get(), 2);
+        if (s) SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get(), 2).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting_from_slab"));
     }
 
     public static void stairsRecipe(Supplier<Item> r, Supplier<Item> b, boolean s, Consumer<IFinishedRecipe> c) {
         ShapedRecipeBuilder.shapedRecipe(r.get(), 8).patternLine("#  ").patternLine("## ").patternLine("###").key('#', b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c);
         ShapelessRecipeBuilder.shapelessRecipe(b.get(), 3).addIngredient(r.get()).addIngredient(r.get()).addIngredient(r.get()).addIngredient(r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, Registry.ITEM.getKey(r.get()).getPath() + "_uncrafting"));
-        if (s) SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get());
+        if (s) SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting_from_stairs"));
     }
 
     public static void wallRecipe(Supplier<Item> r, Supplier<Item> b, boolean s, Consumer<IFinishedRecipe> c) {
         ShapedRecipeBuilder.shapedRecipe(r.get(), 8).patternLine("###").patternLine("###").key('#', b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c);
         ShapelessRecipeBuilder.shapelessRecipe(b.get(), 3).addIngredient(r.get()).addIngredient(r.get()).addIngredient(r.get()).addIngredient(r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, Registry.ITEM.getKey(r.get()).getPath() + "_uncrafting"));
-        if (s) SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get());
+        if (s) SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting_from_wall"));
     }
 
     public static void fenceRecipe(Supplier<Item> r, Supplier<Item> b, Supplier<Item> s, Consumer<IFinishedRecipe> c) {
@@ -92,8 +92,8 @@ public abstract class RecipeGen extends ForgeRecipeProvider {
         ShapelessRecipeBuilder.shapelessRecipe(r.get()).addIngredient(b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c);
         ShapelessRecipeBuilder.shapelessRecipe(b.get()).addIngredient(r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, Registry.ITEM.getKey(r.get()).getPath() + "_uncrafting"));
         if (s) {
-            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get());
-            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(r.get()), b.get());
+            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting"));
+            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(r.get()), b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting"));
         }
     }
 
@@ -101,8 +101,8 @@ public abstract class RecipeGen extends ForgeRecipeProvider {
         ShapedRecipeBuilder.shapedRecipe(r.get()).patternLine("##").key('#', b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c);
         ShapelessRecipeBuilder.shapelessRecipe(b.get(), 2).addIngredient(r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, Registry.ITEM.getKey(r.get()).getPath() + "_uncrafting"));
         if (s) {
-            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get());
-            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(r.get()), b.get(), 2);
+            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(b.get()), r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting"));
+            SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(r.get()), b.get(), 2).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting"));
         }
     }
 }
