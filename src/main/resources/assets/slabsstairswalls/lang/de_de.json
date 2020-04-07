@@ -1,0 +1,21 @@
+{
+  "block.slabsstairswalls.cut_red_sandstone_stairs": "Geschnittene rote Sandsteintreppe",
+  "block.slabsstairswalls.cut_red_sandstone_wall": "Geschnittene rote Sandsteinmauer",
+  "block.slabsstairswalls.cut_sandstone_stairs": "Geschnittene Sandsteintreppe",
+  "block.slabsstairswalls.cut_sandstone_wall": "Geschnittene Sandsteinmauer",
+  "block.slabsstairswalls.dark_prismarine_wall": "Dunkle Prismarinmauer",
+  "block.slabsstairswalls.nether_brick_fence_gate": "Netherziegelzauntor",
+  "block.slabsstairswalls.polished_andesite_wall": "Polierte Andesitmauer",
+  "block.slabsstairswalls.polished_diorite_wall": "Polierte Dioritmauer",
+  "block.slabsstairswalls.polished_granite_wall": "Polierte Granitmauer",
+  "block.slabsstairswalls.prismarine_bricks_wall": "Prismarinziegelmauer",
+  "block.slabsstairswalls.purpur_block_wall": "Purpurmauer",
+  "block.slabsstairswalls.quartz_block_wall": "Quarzmauer",
+  "block.slabsstairswalls.smooth_quartz_wall": "Glatte Quarzmauer",
+  "block.slabsstairswalls.smooth_red_sandstone_wall": "Glatte rote Sandsteinmauer",
+  "block.slabsstairswalls.smooth_sandstone_wall": "Glatte Sandsteinmauer",
+  "block.slabsstairswalls.smooth_stone_stairs": "Glatte Steintreppe",
+  "block.slabsstairswalls.smooth_stone_wall": "Glatte Steinmauer",
+  "block.slabsstairswalls.stone_wall": "Steinmauer",
+  "itemGroup.slabsstairswalls": "Slabs, Stairs, Walls"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:polished_granite_wall"
+    },
+    {
+      "item": "slabsstairswalls:polished_granite_wall"
+    },
+    {
+      "item": "slabsstairswalls:polished_granite_wall"
+    },
+    {
+      "item": "slabsstairswalls:polished_granite_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:polished_granite",
+    "count": 3
+  }
+}
