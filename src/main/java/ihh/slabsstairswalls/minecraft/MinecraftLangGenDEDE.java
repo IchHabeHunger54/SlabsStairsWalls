@@ -42,5 +42,29 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         wall(MinecraftItems.STRIPPED_JUNGLE_WALL, "Entrindete Dschungel");
         wall(MinecraftItems.STRIPPED_ACACIA_WALL, "Entrindete Akazien");
         wall(MinecraftItems.STRIPPED_DARK_OAK_WALL, "Entrindete Schwarzeichen");
+        stairs(MinecraftItems.OAK_STAIRS, "Eichen");
+        stairs(MinecraftItems.SPRUCE_STAIRS, "Fichten");
+        stairs(MinecraftItems.BIRCH_STAIRS, "Birken");
+        stairs(MinecraftItems.JUNGLE_STAIRS, "Dschungel");
+        stairs(MinecraftItems.ACACIA_STAIRS, "Akazien");
+        stairs(MinecraftItems.DARK_OAK_STAIRS, "Schwarzeichen");
+        stairs(MinecraftItems.STRIPPED_OAK_STAIRS, "Entrindete Eichen");
+        stairs(MinecraftItems.STRIPPED_SPRUCE_STAIRS, "Entrindete Fichten");
+        stairs(MinecraftItems.STRIPPED_BIRCH_STAIRS, "Entrindete Birken");
+        stairs(MinecraftItems.STRIPPED_JUNGLE_STAIRS, "Entrindete Dschungel");
+        stairs(MinecraftItems.STRIPPED_ACACIA_STAIRS, "Entrindete Akazien");
+        stairs(MinecraftItems.STRIPPED_DARK_OAK_STAIRS, "Entrindete Schwarzeichen");
+        slab(MinecraftItems.OAK_SLAB, "Eichen");
+        slab(MinecraftItems.SPRUCE_SLAB, "Fichten");
+        slab(MinecraftItems.BIRCH_SLAB, "Birken");
+        slab(MinecraftItems.JUNGLE_SLAB, "Dschungel");
+        slab(MinecraftItems.ACACIA_SLAB, "Akazien");
+        slab(MinecraftItems.DARK_OAK_SLAB, "Schwarzeichen");
+        slab(MinecraftItems.STRIPPED_OAK_SLAB, "Entrindete Eichen");
+        slab(MinecraftItems.STRIPPED_SPRUCE_SLAB, "Entrindete Fichten");
+        slab(MinecraftItems.STRIPPED_BIRCH_SLAB, "Entrindete Birken");
+        slab(MinecraftItems.STRIPPED_JUNGLE_SLAB, "Entrindete Dschungel");
+        slab(MinecraftItems.STRIPPED_ACACIA_SLAB, "Entrindete Akazien");
+        slab(MinecraftItems.STRIPPED_DARK_OAK_SLAB, "Entrindete Schwarzeichen");
     }
 }

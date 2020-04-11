@@ -42,5 +42,29 @@ public final class MinecraftBlockStates extends BlockStates {
         wall(MinecraftBlocks.STRIPPED_JUNGLE_WALL, Blocks.STRIPPED_JUNGLE_LOG);
         wall(MinecraftBlocks.STRIPPED_ACACIA_WALL, Blocks.STRIPPED_ACACIA_LOG);
         wall(MinecraftBlocks.STRIPPED_DARK_OAK_WALL, Blocks.STRIPPED_DARK_OAK_LOG);
+        stairs(MinecraftBlocks.OAK_STAIRS, Blocks.OAK_LOG);
+        stairs(MinecraftBlocks.SPRUCE_STAIRS, Blocks.SPRUCE_LOG);
+        stairs(MinecraftBlocks.BIRCH_STAIRS, Blocks.BIRCH_LOG);
+        stairs(MinecraftBlocks.JUNGLE_STAIRS, Blocks.JUNGLE_LOG);
+        stairs(MinecraftBlocks.ACACIA_STAIRS, Blocks.ACACIA_LOG);
+        stairs(MinecraftBlocks.DARK_OAK_STAIRS, Blocks.DARK_OAK_LOG);
+        stairs(MinecraftBlocks.STRIPPED_OAK_STAIRS, Blocks.STRIPPED_OAK_LOG);
+        stairs(MinecraftBlocks.STRIPPED_SPRUCE_STAIRS, Blocks.STRIPPED_SPRUCE_LOG);
+        stairs(MinecraftBlocks.STRIPPED_BIRCH_STAIRS, Blocks.STRIPPED_BIRCH_LOG);
+        stairs(MinecraftBlocks.STRIPPED_JUNGLE_STAIRS, Blocks.STRIPPED_JUNGLE_LOG);
+        stairs(MinecraftBlocks.STRIPPED_ACACIA_STAIRS, Blocks.STRIPPED_ACACIA_LOG);
+        stairs(MinecraftBlocks.STRIPPED_DARK_OAK_STAIRS, Blocks.STRIPPED_DARK_OAK_LOG);
+        slab(MinecraftBlocks.OAK_SLAB, Blocks.OAK_LOG);
+        slab(MinecraftBlocks.SPRUCE_SLAB, Blocks.SPRUCE_LOG);
+        slab(MinecraftBlocks.BIRCH_SLAB, Blocks.BIRCH_LOG);
+        slab(MinecraftBlocks.JUNGLE_SLAB, Blocks.JUNGLE_LOG);
+        slab(MinecraftBlocks.ACACIA_SLAB, Blocks.ACACIA_LOG);
+        slab(MinecraftBlocks.DARK_OAK_SLAB, Blocks.DARK_OAK_LOG);
+        slab(MinecraftBlocks.STRIPPED_OAK_SLAB, Blocks.STRIPPED_OAK_LOG);
+        slab(MinecraftBlocks.STRIPPED_SPRUCE_SLAB, Blocks.STRIPPED_SPRUCE_LOG);
+        slab(MinecraftBlocks.STRIPPED_BIRCH_SLAB, Blocks.STRIPPED_BIRCH_LOG);
+        slab(MinecraftBlocks.STRIPPED_JUNGLE_SLAB, Blocks.STRIPPED_JUNGLE_LOG);
+        slab(MinecraftBlocks.STRIPPED_ACACIA_SLAB, Blocks.STRIPPED_ACACIA_LOG);
+        slab(MinecraftBlocks.STRIPPED_DARK_OAK_SLAB, Blocks.STRIPPED_DARK_OAK_LOG);
     }
 }

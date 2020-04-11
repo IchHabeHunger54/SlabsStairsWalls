@@ -44,5 +44,29 @@ public final class MinecraftRecipes extends RecipeGen {
         wallRecipe(MinecraftItems.STRIPPED_JUNGLE_WALL, () -> Items.STRIPPED_JUNGLE_WOOD, false, c);
         wallRecipe(MinecraftItems.STRIPPED_ACACIA_WALL, () -> Items.STRIPPED_ACACIA_WOOD, false, c);
         wallRecipe(MinecraftItems.STRIPPED_DARK_OAK_WALL, () -> Items.STRIPPED_DARK_OAK_WOOD, false, c);
+        stairsRecipe(MinecraftItems.OAK_STAIRS, () -> Items.OAK_WOOD, false, c);
+        stairsRecipe(MinecraftItems.SPRUCE_STAIRS, () -> Items.SPRUCE_WOOD, false, c);
+        stairsRecipe(MinecraftItems.BIRCH_STAIRS, () -> Items.BIRCH_WOOD, false, c);
+        stairsRecipe(MinecraftItems.JUNGLE_STAIRS, () -> Items.JUNGLE_WOOD, false, c);
+        stairsRecipe(MinecraftItems.ACACIA_STAIRS, () -> Items.ACACIA_WOOD, false, c);
+        stairsRecipe(MinecraftItems.DARK_OAK_STAIRS, () -> Items.DARK_OAK_WOOD, false, c);
+        stairsRecipe(MinecraftItems.STRIPPED_OAK_STAIRS, () -> Items.STRIPPED_OAK_WOOD, false, c);
+        stairsRecipe(MinecraftItems.STRIPPED_SPRUCE_STAIRS, () -> Items.STRIPPED_SPRUCE_WOOD, false, c);
+        stairsRecipe(MinecraftItems.STRIPPED_BIRCH_STAIRS, () -> Items.STRIPPED_BIRCH_WOOD, false, c);
+        stairsRecipe(MinecraftItems.STRIPPED_JUNGLE_STAIRS, () -> Items.STRIPPED_JUNGLE_WOOD, false, c);
+        stairsRecipe(MinecraftItems.STRIPPED_ACACIA_STAIRS, () -> Items.STRIPPED_ACACIA_WOOD, false, c);
+        stairsRecipe(MinecraftItems.STRIPPED_DARK_OAK_STAIRS, () -> Items.STRIPPED_DARK_OAK_WOOD, false, c);
+        slabRecipe(MinecraftItems.OAK_SLAB, () -> Items.OAK_WOOD, false, c);
+        slabRecipe(MinecraftItems.SPRUCE_SLAB, () -> Items.SPRUCE_WOOD, false, c);
+        slabRecipe(MinecraftItems.BIRCH_SLAB, () -> Items.BIRCH_WOOD, false, c);
+        slabRecipe(MinecraftItems.JUNGLE_SLAB, () -> Items.JUNGLE_WOOD, false, c);
+        slabRecipe(MinecraftItems.ACACIA_SLAB, () -> Items.ACACIA_WOOD, false, c);
+        slabRecipe(MinecraftItems.DARK_OAK_SLAB, () -> Items.DARK_OAK_WOOD, false, c);
+        slabRecipe(MinecraftItems.STRIPPED_OAK_SLAB, () -> Items.STRIPPED_OAK_WOOD, false, c);
+        slabRecipe(MinecraftItems.STRIPPED_SPRUCE_SLAB, () -> Items.STRIPPED_SPRUCE_WOOD, false, c);
+        slabRecipe(MinecraftItems.STRIPPED_BIRCH_SLAB, () -> Items.STRIPPED_BIRCH_WOOD, false, c);
+        slabRecipe(MinecraftItems.STRIPPED_JUNGLE_SLAB, () -> Items.STRIPPED_JUNGLE_WOOD, false, c);
+        slabRecipe(MinecraftItems.STRIPPED_ACACIA_SLAB, () -> Items.STRIPPED_ACACIA_WOOD, false, c);
+        slabRecipe(MinecraftItems.STRIPPED_DARK_OAK_SLAB, () -> Items.STRIPPED_DARK_OAK_WOOD, false, c);
     }
 }

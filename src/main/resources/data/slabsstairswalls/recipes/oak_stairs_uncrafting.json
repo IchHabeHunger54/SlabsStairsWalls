@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "oak_stairs"
+      "item": "slabsstairswalls:oak_stairs"
     },
     {
-      "item": "oak_stairs"
+      "item": "slabsstairswalls:oak_stairs"
     },
     {
-      "item": "oak_stairs"
+      "item": "slabsstairswalls:oak_stairs"
     },
     {
-      "item": "oak_stairs"
+      "item": "slabsstairswalls:oak_stairs"
     }
   ],
   "result": {
-    "item": "oak_planks",
+    "item": "minecraft:oak_wood",
     "count": 3
   }
 }

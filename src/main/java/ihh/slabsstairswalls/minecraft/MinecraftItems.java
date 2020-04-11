@@ -35,6 +35,30 @@ public final class MinecraftItems implements IInit {
     public static final RegistryObject<Item> STRIPPED_JUNGLE_WALL = IInit.registerItem(MinecraftBlocks.STRIPPED_JUNGLE_WALL);
     public static final RegistryObject<Item> STRIPPED_ACACIA_WALL = IInit.registerItem(MinecraftBlocks.STRIPPED_ACACIA_WALL);
     public static final RegistryObject<Item> STRIPPED_DARK_OAK_WALL = IInit.registerItem(MinecraftBlocks.STRIPPED_DARK_OAK_WALL);
+    public static final RegistryObject<Item> OAK_STAIRS = IInit.registerItem(MinecraftBlocks.OAK_STAIRS);
+    public static final RegistryObject<Item> SPRUCE_STAIRS = IInit.registerItem(MinecraftBlocks.SPRUCE_STAIRS);
+    public static final RegistryObject<Item> BIRCH_STAIRS = IInit.registerItem(MinecraftBlocks.BIRCH_STAIRS);
+    public static final RegistryObject<Item> JUNGLE_STAIRS = IInit.registerItem(MinecraftBlocks.JUNGLE_STAIRS);
+    public static final RegistryObject<Item> ACACIA_STAIRS = IInit.registerItem(MinecraftBlocks.ACACIA_STAIRS);
+    public static final RegistryObject<Item> DARK_OAK_STAIRS = IInit.registerItem(MinecraftBlocks.DARK_OAK_STAIRS);
+    public static final RegistryObject<Item> STRIPPED_OAK_STAIRS = IInit.registerItem(MinecraftBlocks.STRIPPED_OAK_STAIRS);
+    public static final RegistryObject<Item> STRIPPED_SPRUCE_STAIRS = IInit.registerItem(MinecraftBlocks.STRIPPED_SPRUCE_STAIRS);
+    public static final RegistryObject<Item> STRIPPED_BIRCH_STAIRS = IInit.registerItem(MinecraftBlocks.STRIPPED_BIRCH_STAIRS);
+    public static final RegistryObject<Item> STRIPPED_JUNGLE_STAIRS = IInit.registerItem(MinecraftBlocks.STRIPPED_JUNGLE_STAIRS);
+    public static final RegistryObject<Item> STRIPPED_ACACIA_STAIRS = IInit.registerItem(MinecraftBlocks.STRIPPED_ACACIA_STAIRS);
+    public static final RegistryObject<Item> STRIPPED_DARK_OAK_STAIRS = IInit.registerItem(MinecraftBlocks.STRIPPED_DARK_OAK_STAIRS);
+    public static final RegistryObject<Item> OAK_SLAB = IInit.registerItem(MinecraftBlocks.OAK_SLAB);
+    public static final RegistryObject<Item> SPRUCE_SLAB = IInit.registerItem(MinecraftBlocks.SPRUCE_SLAB);
+    public static final RegistryObject<Item> BIRCH_SLAB = IInit.registerItem(MinecraftBlocks.BIRCH_SLAB);
+    public static final RegistryObject<Item> JUNGLE_SLAB = IInit.registerItem(MinecraftBlocks.JUNGLE_SLAB);
+    public static final RegistryObject<Item> ACACIA_SLAB = IInit.registerItem(MinecraftBlocks.ACACIA_SLAB);
+    public static final RegistryObject<Item> DARK_OAK_SLAB = IInit.registerItem(MinecraftBlocks.DARK_OAK_SLAB);
+    public static final RegistryObject<Item> STRIPPED_OAK_SLAB = IInit.registerItem(MinecraftBlocks.STRIPPED_OAK_SLAB);
+    public static final RegistryObject<Item> STRIPPED_SPRUCE_SLAB = IInit.registerItem(MinecraftBlocks.STRIPPED_SPRUCE_SLAB);
+    public static final RegistryObject<Item> STRIPPED_BIRCH_SLAB = IInit.registerItem(MinecraftBlocks.STRIPPED_BIRCH_SLAB);
+    public static final RegistryObject<Item> STRIPPED_JUNGLE_SLAB = IInit.registerItem(MinecraftBlocks.STRIPPED_JUNGLE_SLAB);
+    public static final RegistryObject<Item> STRIPPED_ACACIA_SLAB = IInit.registerItem(MinecraftBlocks.STRIPPED_ACACIA_SLAB);
+    public static final RegistryObject<Item> STRIPPED_DARK_OAK_SLAB = IInit.registerItem(MinecraftBlocks.STRIPPED_DARK_OAK_SLAB);
 
     public static void register() {
     }

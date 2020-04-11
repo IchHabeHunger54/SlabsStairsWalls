@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "acacia_stairs"
+      "item": "slabsstairswalls:acacia_stairs"
     },
     {
-      "item": "acacia_stairs"
+      "item": "slabsstairswalls:acacia_stairs"
     },
     {
-      "item": "acacia_stairs"
+      "item": "slabsstairswalls:acacia_stairs"
     },
     {
-      "item": "acacia_stairs"
+      "item": "slabsstairswalls:acacia_stairs"
     }
   ],
   "result": {
-    "item": "acacia_planks",
+    "item": "minecraft:acacia_wood",
     "count": 3
   }
 }

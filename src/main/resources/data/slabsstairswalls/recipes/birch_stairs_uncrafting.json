@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "birch_stairs"
+      "item": "slabsstairswalls:birch_stairs"
     },
     {
-      "item": "birch_stairs"
+      "item": "slabsstairswalls:birch_stairs"
     },
     {
-      "item": "birch_stairs"
+      "item": "slabsstairswalls:birch_stairs"
     },
     {
-      "item": "birch_stairs"
+      "item": "slabsstairswalls:birch_stairs"
     }
   ],
   "result": {
-    "item": "birch_planks",
+    "item": "minecraft:birch_wood",
     "count": 3
   }
 }

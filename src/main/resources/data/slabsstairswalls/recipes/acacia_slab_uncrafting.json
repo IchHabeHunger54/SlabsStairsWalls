@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_slab"
+      "item": "slabsstairswalls:acacia_slab"
     },
     {
-      "item": "minecraft:acacia_slab"
+      "item": "slabsstairswalls:acacia_slab"
     }
   ],
   "result": {
-    "item": "minecraft:acacia_planks"
+    "item": "minecraft:acacia_wood"
   }
 }

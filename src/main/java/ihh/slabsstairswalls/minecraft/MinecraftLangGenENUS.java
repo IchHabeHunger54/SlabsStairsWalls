@@ -42,5 +42,29 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         wall(MinecraftItems.STRIPPED_JUNGLE_WALL, "Stripped Jungle");
         wall(MinecraftItems.STRIPPED_ACACIA_WALL, "Stripped Acacia");
         wall(MinecraftItems.STRIPPED_DARK_OAK_WALL, "Stripped Dark Oak");
+        stairs(MinecraftItems.OAK_STAIRS, "Oak");
+        stairs(MinecraftItems.SPRUCE_STAIRS, "Spruce");
+        stairs(MinecraftItems.BIRCH_STAIRS, "Birch");
+        stairs(MinecraftItems.JUNGLE_STAIRS, "Jungle");
+        stairs(MinecraftItems.ACACIA_STAIRS, "Acacia");
+        stairs(MinecraftItems.DARK_OAK_STAIRS, "Dark Oak");
+        stairs(MinecraftItems.STRIPPED_OAK_STAIRS, "Stripped Oak");
+        stairs(MinecraftItems.STRIPPED_SPRUCE_STAIRS, "Stripped Spruce");
+        stairs(MinecraftItems.STRIPPED_BIRCH_STAIRS, "Stripped Birch");
+        stairs(MinecraftItems.STRIPPED_JUNGLE_STAIRS, "Stripped Jungle");
+        stairs(MinecraftItems.STRIPPED_ACACIA_STAIRS, "Stripped Acacia");
+        stairs(MinecraftItems.STRIPPED_DARK_OAK_STAIRS, "Stripped Dark Oak");
+        slab(MinecraftItems.OAK_SLAB, "Oak");
+        slab(MinecraftItems.SPRUCE_SLAB, "Spruce");
+        slab(MinecraftItems.BIRCH_SLAB, "Birch");
+        slab(MinecraftItems.JUNGLE_SLAB, "Jungle");
+        slab(MinecraftItems.ACACIA_SLAB, "Acacia");
+        slab(MinecraftItems.DARK_OAK_SLAB, "Dark Oak");
+        slab(MinecraftItems.STRIPPED_OAK_SLAB, "Stripped Oak");
+        slab(MinecraftItems.STRIPPED_SPRUCE_SLAB, "Stripped Spruce");
+        slab(MinecraftItems.STRIPPED_BIRCH_SLAB, "Stripped Birch");
+        slab(MinecraftItems.STRIPPED_JUNGLE_SLAB, "Stripped Jungle");
+        slab(MinecraftItems.STRIPPED_ACACIA_SLAB, "Stripped Acacia");
+        slab(MinecraftItems.STRIPPED_DARK_OAK_SLAB, "Stripped Dark Oak");
     }
 }

@@ -3,6 +3,7 @@ package ihh.slabsstairswalls.minecraft;
 import ihh.slabsstairswalls.IInit;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FenceGateBlock;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.StairsBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraftforge.fml.RegistryObject;
@@ -38,6 +39,30 @@ public final class MinecraftBlocks implements IInit {
     public static final RegistryObject<WallBlock> STRIPPED_JUNGLE_WALL = IInit.registerWall("stripped_jungle", () -> Blocks.STRIPPED_JUNGLE_WOOD);
     public static final RegistryObject<WallBlock> STRIPPED_ACACIA_WALL = IInit.registerWall("stripped_acacia", () -> Blocks.STRIPPED_ACACIA_WOOD);
     public static final RegistryObject<WallBlock> STRIPPED_DARK_OAK_WALL = IInit.registerWall("stripped_dark_oak", () -> Blocks.STRIPPED_DARK_OAK_WOOD);
+    public static final RegistryObject<StairsBlock> OAK_STAIRS = IInit.registerStairs("oak", () -> Blocks.OAK_WOOD);
+    public static final RegistryObject<StairsBlock> SPRUCE_STAIRS = IInit.registerStairs("spruce", () -> Blocks.SPRUCE_WOOD);
+    public static final RegistryObject<StairsBlock> BIRCH_STAIRS = IInit.registerStairs("birch", () -> Blocks.BIRCH_WOOD);
+    public static final RegistryObject<StairsBlock> JUNGLE_STAIRS = IInit.registerStairs("jungle", () -> Blocks.JUNGLE_WOOD);
+    public static final RegistryObject<StairsBlock> ACACIA_STAIRS = IInit.registerStairs("acacia", () -> Blocks.ACACIA_WOOD);
+    public static final RegistryObject<StairsBlock> DARK_OAK_STAIRS = IInit.registerStairs("dark_oak", () -> Blocks.DARK_OAK_WOOD);
+    public static final RegistryObject<StairsBlock> STRIPPED_OAK_STAIRS = IInit.registerStairs("stripped_oak", () -> Blocks.STRIPPED_OAK_WOOD);
+    public static final RegistryObject<StairsBlock> STRIPPED_SPRUCE_STAIRS = IInit.registerStairs("stripped_spruce", () -> Blocks.STRIPPED_SPRUCE_WOOD);
+    public static final RegistryObject<StairsBlock> STRIPPED_BIRCH_STAIRS = IInit.registerStairs("stripped_birch", () -> Blocks.STRIPPED_BIRCH_WOOD);
+    public static final RegistryObject<StairsBlock> STRIPPED_JUNGLE_STAIRS = IInit.registerStairs("stripped_jungle", () -> Blocks.STRIPPED_JUNGLE_WOOD);
+    public static final RegistryObject<StairsBlock> STRIPPED_ACACIA_STAIRS = IInit.registerStairs("stripped_acacia", () -> Blocks.STRIPPED_ACACIA_WOOD);
+    public static final RegistryObject<StairsBlock> STRIPPED_DARK_OAK_STAIRS = IInit.registerStairs("stripped_dark_oak", () -> Blocks.STRIPPED_DARK_OAK_WOOD);
+    public static final RegistryObject<SlabBlock> OAK_SLAB = IInit.registerSlab("oak", () -> Blocks.OAK_WOOD);
+    public static final RegistryObject<SlabBlock> SPRUCE_SLAB = IInit.registerSlab("spruce", () -> Blocks.SPRUCE_WOOD);
+    public static final RegistryObject<SlabBlock> BIRCH_SLAB = IInit.registerSlab("birch", () -> Blocks.BIRCH_WOOD);
+    public static final RegistryObject<SlabBlock> JUNGLE_SLAB = IInit.registerSlab("jungle", () -> Blocks.JUNGLE_WOOD);
+    public static final RegistryObject<SlabBlock> ACACIA_SLAB = IInit.registerSlab("acacia", () -> Blocks.ACACIA_WOOD);
+    public static final RegistryObject<SlabBlock> DARK_OAK_SLAB = IInit.registerSlab("dark_oak", () -> Blocks.DARK_OAK_WOOD);
+    public static final RegistryObject<SlabBlock> STRIPPED_OAK_SLAB = IInit.registerSlab("stripped_oak", () -> Blocks.STRIPPED_OAK_WOOD);
+    public static final RegistryObject<SlabBlock> STRIPPED_SPRUCE_SLAB = IInit.registerSlab("stripped_spruce", () -> Blocks.STRIPPED_SPRUCE_WOOD);
+    public static final RegistryObject<SlabBlock> STRIPPED_BIRCH_SLAB = IInit.registerSlab("stripped_birch", () -> Blocks.STRIPPED_BIRCH_WOOD);
+    public static final RegistryObject<SlabBlock> STRIPPED_JUNGLE_SLAB = IInit.registerSlab("stripped_jungle", () -> Blocks.STRIPPED_JUNGLE_WOOD);
+    public static final RegistryObject<SlabBlock> STRIPPED_ACACIA_SLAB = IInit.registerSlab("stripped_acacia", () -> Blocks.STRIPPED_ACACIA_WOOD);
+    public static final RegistryObject<SlabBlock> STRIPPED_DARK_OAK_SLAB = IInit.registerSlab("stripped_dark_oak", () -> Blocks.STRIPPED_DARK_OAK_WOOD);
 
     public static void register() {
     }
