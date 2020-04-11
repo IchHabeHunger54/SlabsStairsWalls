@@ -6,9 +6,6 @@ import net.minecraftforge.fml.RegistryObject;
 
 public final class MinecraftItems implements IInit {
     public static final RegistryObject<Item> NETHER_BRICK_FENCE_GATE = IInit.registerItem(MinecraftBlocks.NETHER_BRICK_FENCE_GATE);
-    public static final RegistryObject<Item> CUT_RED_SANDSTONE_STAIRS = IInit.registerItem(MinecraftBlocks.CUT_RED_SANDSTONE_STAIRS);
-    public static final RegistryObject<Item> CUT_SANDSTONE_STAIRS = IInit.registerItem(MinecraftBlocks.CUT_SANDSTONE_STAIRS);
-    public static final RegistryObject<Item> SMOOTH_STONE_STAIRS = IInit.registerItem(MinecraftBlocks.SMOOTH_STONE_STAIRS);
     public static final RegistryObject<Item> CUT_RED_SANDSTONE_WALL = IInit.registerItem(MinecraftBlocks.CUT_RED_SANDSTONE_WALL);
     public static final RegistryObject<Item> CUT_SANDSTONE_WALL = IInit.registerItem(MinecraftBlocks.CUT_SANDSTONE_WALL);
     public static final RegistryObject<Item> DARK_PRISMARINE_WALL = IInit.registerItem(MinecraftBlocks.DARK_PRISMARINE_WALL);
@@ -23,6 +20,9 @@ public final class MinecraftItems implements IInit {
     public static final RegistryObject<Item> SMOOTH_SANDSTONE_WALL = IInit.registerItem(MinecraftBlocks.SMOOTH_SANDSTONE_WALL);
     public static final RegistryObject<Item> SMOOTH_STONE_WALL = IInit.registerItem(MinecraftBlocks.SMOOTH_STONE_WALL);
     public static final RegistryObject<Item> STONE_WALL = IInit.registerItem(MinecraftBlocks.STONE_WALL);
+    public static final RegistryObject<Item> CUT_RED_SANDSTONE_STAIRS = IInit.registerItem(MinecraftBlocks.CUT_RED_SANDSTONE_STAIRS);
+    public static final RegistryObject<Item> CUT_SANDSTONE_STAIRS = IInit.registerItem(MinecraftBlocks.CUT_SANDSTONE_STAIRS);
+    public static final RegistryObject<Item> SMOOTH_STONE_STAIRS = IInit.registerItem(MinecraftBlocks.SMOOTH_STONE_STAIRS);
     public static final RegistryObject<Item> OAK_WALL = IInit.registerItem(MinecraftBlocks.OAK_WALL);
     public static final RegistryObject<Item> SPRUCE_WALL = IInit.registerItem(MinecraftBlocks.SPRUCE_WALL);
     public static final RegistryObject<Item> BIRCH_WALL = IInit.registerItem(MinecraftBlocks.BIRCH_WALL);

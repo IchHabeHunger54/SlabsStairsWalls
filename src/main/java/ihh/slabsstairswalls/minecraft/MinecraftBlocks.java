@@ -10,9 +10,6 @@ import net.minecraftforge.fml.RegistryObject;
 
 public final class MinecraftBlocks implements IInit {
     public static final RegistryObject<FenceGateBlock> NETHER_BRICK_FENCE_GATE = IInit.registerFenceGate("nether_brick", () -> Blocks.NETHER_BRICKS);
-    public static final RegistryObject<StairsBlock> CUT_RED_SANDSTONE_STAIRS = IInit.registerStairs(() -> Blocks.CUT_RED_SANDSTONE);
-    public static final RegistryObject<StairsBlock> CUT_SANDSTONE_STAIRS = IInit.registerStairs(() -> Blocks.CUT_SANDSTONE);
-    public static final RegistryObject<StairsBlock> SMOOTH_STONE_STAIRS = IInit.registerStairs(() -> Blocks.SMOOTH_STONE);
     public static final RegistryObject<WallBlock> CUT_RED_SANDSTONE_WALL = IInit.registerWall(() -> Blocks.CUT_RED_SANDSTONE);
     public static final RegistryObject<WallBlock> CUT_SANDSTONE_WALL = IInit.registerWall(() -> Blocks.CUT_SANDSTONE);
     public static final RegistryObject<WallBlock> DARK_PRISMARINE_WALL = IInit.registerWall(() -> Blocks.DARK_PRISMARINE);
@@ -27,6 +24,9 @@ public final class MinecraftBlocks implements IInit {
     public static final RegistryObject<WallBlock> SMOOTH_SANDSTONE_WALL = IInit.registerWall(() -> Blocks.SMOOTH_SANDSTONE);
     public static final RegistryObject<WallBlock> SMOOTH_STONE_WALL = IInit.registerWall(() -> Blocks.SMOOTH_STONE);
     public static final RegistryObject<WallBlock> STONE_WALL = IInit.registerWall(() -> Blocks.STONE);
+    public static final RegistryObject<StairsBlock> CUT_RED_SANDSTONE_STAIRS = IInit.registerStairs(() -> Blocks.CUT_RED_SANDSTONE);
+    public static final RegistryObject<StairsBlock> CUT_SANDSTONE_STAIRS = IInit.registerStairs(() -> Blocks.CUT_SANDSTONE);
+    public static final RegistryObject<StairsBlock> SMOOTH_STONE_STAIRS = IInit.registerStairs(() -> Blocks.SMOOTH_STONE);
     public static final RegistryObject<WallBlock> OAK_WALL = IInit.registerWall("oak", () -> Blocks.OAK_WOOD);
     public static final RegistryObject<WallBlock> SPRUCE_WALL = IInit.registerWall("spruce", () -> Blocks.SPRUCE_WOOD);
     public static final RegistryObject<WallBlock> BIRCH_WALL = IInit.registerWall("birch", () -> Blocks.BIRCH_WOOD);
