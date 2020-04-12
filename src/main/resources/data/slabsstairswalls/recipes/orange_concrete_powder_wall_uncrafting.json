@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:orange_concrete_powder_wall"
+    },
+    {
+      "item": "slabsstairswalls:orange_concrete_powder_wall"
+    },
+    {
+      "item": "slabsstairswalls:orange_concrete_powder_wall"
+    },
+    {
+      "item": "slabsstairswalls:orange_concrete_powder_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_concrete_powder",
+    "count": 3
+  }
+}

@@ -45,7 +45,82 @@ public abstract class LangGenENUS extends LangGen {
     }
 
     @Override
-    public void hedge(String b, String k) {
-        add("item." + b, k + " Hedge");
+    public String white(String s) {
+        return "White " + s;
+    }
+
+    @Override
+    public String orange(String s) {
+        return "Orange " + s;
+    }
+
+    @Override
+    public String magenta(String s) {
+        return "Magenta " + s;
+    }
+
+    @Override
+    public String lightBlue(String s) {
+        return "Light Blue " + s;
+    }
+
+    @Override
+    public String yellow(String s) {
+        return "Yellow " + s;
+    }
+
+    @Override
+    public String lime(String s) {
+        return "Lime " + s;
+    }
+
+    @Override
+    public String pink(String s) {
+        return "Pink " + s;
+    }
+
+    @Override
+    public String gray(String s) {
+        return "Gray " + s;
+    }
+
+    @Override
+    public String lightGray(String s) {
+        return "Light Gray " + s;
+    }
+
+    @Override
+    public String cyan(String s) {
+        return "Cyan " + s;
+    }
+
+    @Override
+    public String purple(String s) {
+        return "Purple " + s;
+    }
+
+    @Override
+    public String blue(String s) {
+        return "Blue " + s;
+    }
+
+    @Override
+    public String brown(String s) {
+        return "Brown " + s;
+    }
+
+    @Override
+    public String green(String s) {
+        return "Green " + s;
+    }
+
+    @Override
+    public String red(String s) {
+        return "Red " + s;
+    }
+
+    @Override
+    public String black(String s) {
+        return "Black " + s;
     }
 }

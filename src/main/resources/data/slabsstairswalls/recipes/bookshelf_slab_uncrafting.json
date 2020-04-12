@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:bookshelf_slab"
+    },
+    {
+      "item": "slabsstairswalls:bookshelf_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bookshelf"
+  }
+}

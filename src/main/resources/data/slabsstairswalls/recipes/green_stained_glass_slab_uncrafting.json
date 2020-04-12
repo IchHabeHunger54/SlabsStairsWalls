@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:green_stained_glass_slab"
+    },
+    {
+      "item": "slabsstairswalls:green_stained_glass_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_stained_glass"
+  }
+}

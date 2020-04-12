@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:orange_stained_glass_stairs"
+    },
+    {
+      "item": "slabsstairswalls:orange_stained_glass_stairs"
+    },
+    {
+      "item": "slabsstairswalls:orange_stained_glass_stairs"
+    },
+    {
+      "item": "slabsstairswalls:orange_stained_glass_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_stained_glass",
+    "count": 3
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:brain_coral_stairs"
+    },
+    {
+      "item": "slabsstairswalls:brain_coral_stairs"
+    },
+    {
+      "item": "slabsstairswalls:brain_coral_stairs"
+    },
+    {
+      "item": "slabsstairswalls:brain_coral_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brain_coral",
+    "count": 3
+  }
+}

@@ -17,6 +17,7 @@ public final class MinecraftDataGen extends DataGen {
         if (e.includeServer()) {
             g.addProvider(new MinecraftRecipes(g));
             g.addProvider(new MinecraftBlockTags(g));
+            g.addProvider(new MinecraftItemTags(g));
         }
         if (e.includeClient()) {
             g.addProvider(new MinecraftLangGenENUS(g));

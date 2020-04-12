@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:iron_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:iron_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:iron_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:iron_ore_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_ore",
+    "count": 3
+  }
+}

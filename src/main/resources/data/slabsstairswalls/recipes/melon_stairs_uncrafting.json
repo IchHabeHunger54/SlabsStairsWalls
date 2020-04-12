@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:melon_stairs"
+    },
+    {
+      "item": "slabsstairswalls:melon_stairs"
+    },
+    {
+      "item": "slabsstairswalls:melon_stairs"
+    },
+    {
+      "item": "slabsstairswalls:melon_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:melon",
+    "count": 3
+  }
+}

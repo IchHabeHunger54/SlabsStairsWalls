@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:podzol_slab"
+    },
+    {
+      "item": "slabsstairswalls:podzol_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:podzol"
+  }
+}

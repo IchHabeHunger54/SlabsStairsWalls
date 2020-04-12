@@ -105,4 +105,10 @@ public abstract class RecipeGen extends ForgeRecipeProvider {
             SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(r.get()), b.get(), 2).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, b.get().getRegistryName().getPath() + "_stonecutting"));
         }
     }
+
+    public static void slabStairsWallRecipe(Supplier<Item> s, Supplier<Item> st, Supplier<Item> w, Supplier<Item> l, boolean b, Consumer<IFinishedRecipe> c) {
+        slabRecipe(s, l, b, c);
+        stairsRecipe(st, l, b, c);
+        wallRecipe(w, l, b, c);
+    }
 }

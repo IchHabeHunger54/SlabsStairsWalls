@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:gold_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:gold_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:gold_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:gold_block_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_block",
+    "count": 3
+  }
+}

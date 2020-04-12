@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "slabsstairswalls:block/packed_ice_slab_top"
+    },
+    "type=bottom": {
+      "model": "slabsstairswalls:block/packed_ice_slab"
+    },
+    "type=double": {
+      "model": "slabsstairswalls:block/packed_ice"
+    }
+  }
+}

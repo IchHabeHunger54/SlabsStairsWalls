@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:bubble_coral_wall"
+    },
+    {
+      "item": "slabsstairswalls:bubble_coral_wall"
+    },
+    {
+      "item": "slabsstairswalls:bubble_coral_wall"
+    },
+    {
+      "item": "slabsstairswalls:bubble_coral_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bubble_coral",
+    "count": 3
+  }
+}

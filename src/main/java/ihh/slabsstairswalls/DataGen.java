@@ -13,6 +13,7 @@ public abstract class DataGen {
 //        if(e.includeServer()) {
 //            g.addProvider(new RecipeGen(g));
 //            g.addProvider(new BlockTagGen(g));
+//            g.addProvider(new ItemTagGen(g));
 //        }
 //        if(e.includeClient()) {
 //            g.addProvider(new LangGenENUS(g));

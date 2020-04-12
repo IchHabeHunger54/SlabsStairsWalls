@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:ice_slab"
+    },
+    {
+      "item": "slabsstairswalls:ice_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ice"
+  }
+}

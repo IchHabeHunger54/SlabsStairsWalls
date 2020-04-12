@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:pink_concrete_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_concrete_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_concrete_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_concrete_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_concrete",
+    "count": 3
+  }
+}

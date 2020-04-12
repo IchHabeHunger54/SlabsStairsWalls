@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "slabsstairswalls:block/pink_concrete_powder_slab_top"
+    },
+    "type=bottom": {
+      "model": "slabsstairswalls:block/pink_concrete_powder_slab"
+    },
+    "type=double": {
+      "model": "slabsstairswalls:block/pink_concrete_powder"
+    }
+  }
+}

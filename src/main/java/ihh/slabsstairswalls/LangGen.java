@@ -24,5 +24,96 @@ abstract class LangGen extends LanguageProvider {
 
     public abstract void pressurePlate(Supplier<Item> i, String k);
 
-    public abstract void hedge(String b, String k);
+    public abstract String white(String s);
+    public abstract String orange(String s);
+    public abstract String magenta(String s);
+    public abstract String lightBlue(String s);
+    public abstract String yellow(String s);
+    public abstract String lime(String s);
+    public abstract String pink(String s);
+    public abstract String gray(String s);
+    public abstract String lightGray(String s);
+    public abstract String cyan(String s);
+    public abstract String purple(String s);
+    public abstract String blue(String s);
+    public abstract String brown(String s);
+    public abstract String green(String s);
+    public abstract String red(String s);
+    public abstract String black(String s);
+
+    public void rainbow(String s, Supplier<Item> white, Supplier<Item> orange, Supplier<Item> magenta, Supplier<Item> lightBlue, Supplier<Item> yellow, Supplier<Item> lime, Supplier<Item> pink, Supplier<Item> gray, Supplier<Item> lightGray, Supplier<Item> cyan, Supplier<Item> purple, Supplier<Item> blue, Supplier<Item> brown, Supplier<Item> green, Supplier<Item> red, Supplier<Item> black) {
+        add(white.get(), white(s));
+        add(orange.get(), orange(s));
+        add(magenta.get(), magenta(s));
+        add(lightBlue.get(), lightBlue(s));
+        add(yellow.get(), yellow(s));
+        add(lime.get(), lime(s));
+        add(pink.get(), pink(s));
+        add(gray.get(), gray(s));
+        add(lightGray.get(), lightGray(s));
+        add(cyan.get(), cyan(s));
+        add(purple.get(), purple(s));
+        add(blue.get(), blue(s));
+        add(brown.get(), brown(s));
+        add(green.get(), green(s));
+        add(red.get(), red(s));
+        add(black.get(), black(s));
+    }
+
+    public void rainbowSlab(String s, Supplier<Item> white, Supplier<Item> orange, Supplier<Item> magenta, Supplier<Item> lightBlue, Supplier<Item> yellow, Supplier<Item> lime, Supplier<Item> pink, Supplier<Item> gray, Supplier<Item> lightGray, Supplier<Item> cyan, Supplier<Item> purple, Supplier<Item> blue, Supplier<Item> brown, Supplier<Item> green, Supplier<Item> red, Supplier<Item> black) {
+        slab(white, white(s));
+        slab(orange, orange(s));
+        slab(magenta, magenta(s));
+        slab(lightBlue, lightBlue(s));
+        slab(yellow, yellow(s));
+        slab(lime, lime(s));
+        slab(pink, pink(s));
+        slab(gray, gray(s));
+        slab(lightGray, lightGray(s));
+        slab(cyan, cyan(s));
+        slab(purple, purple(s));
+        slab(blue, blue(s));
+        slab(brown, brown(s));
+        slab(green, green(s));
+        slab(red, red(s));
+        slab(black, black(s));
+    }
+
+    public void rainbowStairs(String s, Supplier<Item> white, Supplier<Item> orange, Supplier<Item> magenta, Supplier<Item> lightBlue, Supplier<Item> yellow, Supplier<Item> lime, Supplier<Item> pink, Supplier<Item> gray, Supplier<Item> lightGray, Supplier<Item> cyan, Supplier<Item> purple, Supplier<Item> blue, Supplier<Item> brown, Supplier<Item> green, Supplier<Item> red, Supplier<Item> black) {
+        stairs(white, white(s));
+        stairs(orange, orange(s));
+        stairs(magenta, magenta(s));
+        stairs(lightBlue, lightBlue(s));
+        stairs(yellow, yellow(s));
+        stairs(lime, lime(s));
+        stairs(pink, pink(s));
+        stairs(gray, gray(s));
+        stairs(lightGray, lightGray(s));
+        stairs(cyan, cyan(s));
+        stairs(purple, purple(s));
+        stairs(blue, blue(s));
+        stairs(brown, brown(s));
+        stairs(green, green(s));
+        stairs(red, red(s));
+        stairs(black, black(s));
+    }
+
+    public void rainbowWall(String s, Supplier<Item> white, Supplier<Item> orange, Supplier<Item> magenta, Supplier<Item> lightBlue, Supplier<Item> yellow, Supplier<Item> lime, Supplier<Item> pink, Supplier<Item> gray, Supplier<Item> lightGray, Supplier<Item> cyan, Supplier<Item> purple, Supplier<Item> blue, Supplier<Item> brown, Supplier<Item> green, Supplier<Item> red, Supplier<Item> black) {
+        wall(white, white(s));
+        wall(orange, orange(s));
+        wall(magenta, magenta(s));
+        wall(lightBlue, lightBlue(s));
+        wall(yellow, yellow(s));
+        wall(lime, lime(s));
+        wall(pink, pink(s));
+        wall(gray, gray(s));
+        wall(lightGray, lightGray(s));
+        wall(cyan, cyan(s));
+        wall(purple, purple(s));
+        wall(blue, blue(s));
+        wall(brown, brown(s));
+        wall(green, green(s));
+        wall(red, red(s));
+        wall(black, black(s));
+    }
 }

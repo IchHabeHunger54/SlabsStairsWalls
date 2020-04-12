@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:obsidian_slab"
+    },
+    {
+      "item": "slabsstairswalls:obsidian_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian"
+  }
+}

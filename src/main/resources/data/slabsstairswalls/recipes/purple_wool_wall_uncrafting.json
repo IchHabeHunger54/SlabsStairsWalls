@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:purple_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:purple_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:purple_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:purple_wool_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_wool",
+    "count": 3
+  }
+}

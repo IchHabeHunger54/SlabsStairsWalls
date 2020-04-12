@@ -45,7 +45,82 @@ public abstract class LangGenDEDE extends LangGen {
     }
 
     @Override
-    public void hedge(String b, String k) {
-        add("item." + b, k + "hecke");
+    public String white(String s) {
+        return "Weiße " + s;
+    }
+
+    @Override
+    public String orange(String s) {
+        return "Orange " + s;
+    }
+
+    @Override
+    public String magenta(String s) {
+        return "Magenta " + s;
+    }
+
+    @Override
+    public String lightBlue(String s) {
+        return "Hellblaue " + s;
+    }
+
+    @Override
+    public String yellow(String s) {
+        return "Gelbe " + s;
+    }
+
+    @Override
+    public String lime(String s) {
+        return "Hellgrüne " + s;
+    }
+
+    @Override
+    public String pink(String s) {
+        return "Pinke " + s;
+    }
+
+    @Override
+    public String gray(String s) {
+        return "Graue " + s;
+    }
+
+    @Override
+    public String lightGray(String s) {
+        return "Hellgraue " + s;
+    }
+
+    @Override
+    public String cyan(String s) {
+        return "Türkise " + s;
+    }
+
+    @Override
+    public String purple(String s) {
+        return "Violette " + s;
+    }
+
+    @Override
+    public String blue(String s) {
+        return "Blaue " + s;
+    }
+
+    @Override
+    public String brown(String s) {
+        return "Braune " + s;
+    }
+
+    @Override
+    public String green(String s) {
+        return "Grüne " + s;
+    }
+
+    @Override
+    public String red(String s) {
+        return "Rote " + s;
+    }
+
+    @Override
+    public String black(String s) {
+        return "Schwarze " + s;
     }
 }

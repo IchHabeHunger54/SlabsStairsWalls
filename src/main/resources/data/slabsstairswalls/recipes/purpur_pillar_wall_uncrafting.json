@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:purpur_pillar_wall"
+    },
+    {
+      "item": "slabsstairswalls:purpur_pillar_wall"
+    },
+    {
+      "item": "slabsstairswalls:purpur_pillar_wall"
+    },
+    {
+      "item": "slabsstairswalls:purpur_pillar_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purpur_pillar",
+    "count": 3
+  }
+}
