@@ -4,7 +4,7 @@ loaderVersion="[28,)"
 modId="slabsstairswalls"
 version="${file.jarVersion}"
 displayName="SlabsStairsWalls"
-#displayURL="http://example.com/"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/slabs-stairs-walls"
 authors="IchHabeHunger54"
 description='''
 Adds slabs, stairs and fences/walls for blocks where there are none yet.
