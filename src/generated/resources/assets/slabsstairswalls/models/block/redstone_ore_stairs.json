@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "side": "block/redstone_ore",
+    "bottom": "block/redstone_ore",
+    "top": "block/redstone_ore"
+  }
+}

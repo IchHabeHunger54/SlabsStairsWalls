@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:black_terracotta_stairs"
+    },
+    {
+      "item": "slabsstairswalls:black_terracotta_stairs"
+    },
+    {
+      "item": "slabsstairswalls:black_terracotta_stairs"
+    },
+    {
+      "item": "slabsstairswalls:black_terracotta_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_terracotta",
+    "count": 3
+  }
+}

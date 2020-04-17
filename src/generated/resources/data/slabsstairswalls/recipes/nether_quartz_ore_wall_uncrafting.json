@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:nether_quartz_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:nether_quartz_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:nether_quartz_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:nether_quartz_ore_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:nether_quartz_ore",
+    "count": 3
+  }
+}

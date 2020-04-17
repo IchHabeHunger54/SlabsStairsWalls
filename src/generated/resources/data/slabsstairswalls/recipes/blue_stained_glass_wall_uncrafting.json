@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:blue_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:blue_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:blue_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:blue_stained_glass_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_stained_glass",
+    "count": 3
+  }
+}

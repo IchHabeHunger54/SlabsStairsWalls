@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:cyan_terracotta_slab"
+    },
+    {
+      "item": "slabsstairswalls:cyan_terracotta_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_terracotta"
+  }
+}

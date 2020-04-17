@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:pink_stained_glass_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_stained_glass_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_stained_glass_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_stained_glass_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_stained_glass",
+    "count": 3
+  }
+}

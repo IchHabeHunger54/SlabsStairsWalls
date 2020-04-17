@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:honeycomb_stairs"
+    },
+    {
+      "item": "slabsstairswalls:honeycomb_stairs"
+    },
+    {
+      "item": "slabsstairswalls:honeycomb_stairs"
+    },
+    {
+      "item": "slabsstairswalls:honeycomb_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:honeycomb_block",
+    "count": 3
+  }
+}

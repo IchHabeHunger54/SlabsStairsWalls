@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:jungle_stairs"
+    },
+    {
+      "item": "slabsstairswalls:jungle_stairs"
+    },
+    {
+      "item": "slabsstairswalls:jungle_stairs"
+    },
+    {
+      "item": "slabsstairswalls:jungle_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jungle_wood",
+    "count": 3
+  }
+}

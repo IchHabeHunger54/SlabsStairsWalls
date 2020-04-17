@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:light_gray_wool_stairs"
+    },
+    {
+      "item": "slabsstairswalls:light_gray_wool_stairs"
+    },
+    {
+      "item": "slabsstairswalls:light_gray_wool_stairs"
+    },
+    {
+      "item": "slabsstairswalls:light_gray_wool_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_wool",
+    "count": 3
+  }
+}

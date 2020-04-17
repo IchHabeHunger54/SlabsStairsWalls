@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:gray_terracotta_stairs"
+    },
+    {
+      "item": "slabsstairswalls:gray_terracotta_stairs"
+    },
+    {
+      "item": "slabsstairswalls:gray_terracotta_stairs"
+    },
+    {
+      "item": "slabsstairswalls:gray_terracotta_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_terracotta",
+    "count": 3
+  }
+}

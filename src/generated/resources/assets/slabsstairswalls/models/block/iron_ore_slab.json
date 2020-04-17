@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "side": "block/iron_ore",
+    "bottom": "block/iron_ore",
+    "top": "block/iron_ore"
+  }
+}

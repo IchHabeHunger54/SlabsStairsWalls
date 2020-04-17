@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:cracked_stone_brick_wall"
+    },
+    {
+      "item": "slabsstairswalls:cracked_stone_brick_wall"
+    },
+    {
+      "item": "slabsstairswalls:cracked_stone_brick_wall"
+    },
+    {
+      "item": "slabsstairswalls:cracked_stone_brick_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cracked_stone_bricks",
+    "count": 3
+  }
+}

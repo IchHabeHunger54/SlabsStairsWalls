@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "slabsstairswalls:block/bedrock_slab_top"
+    },
+    "type=bottom": {
+      "model": "slabsstairswalls:block/bedrock_slab"
+    },
+    "type=double": {
+      "model": "slabsstairswalls:block/bedrock"
+    }
+  }
+}

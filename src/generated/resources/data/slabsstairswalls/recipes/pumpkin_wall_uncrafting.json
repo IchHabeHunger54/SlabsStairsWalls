@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:pumpkin_wall"
+    },
+    {
+      "item": "slabsstairswalls:pumpkin_wall"
+    },
+    {
+      "item": "slabsstairswalls:pumpkin_wall"
+    },
+    {
+      "item": "slabsstairswalls:pumpkin_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin",
+    "count": 3
+  }
+}

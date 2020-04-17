@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:lime_concrete_powder_slab"
+    },
+    {
+      "item": "slabsstairswalls:lime_concrete_powder_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_concrete_powder"
+  }
+}

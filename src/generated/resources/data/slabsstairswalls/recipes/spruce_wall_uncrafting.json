@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:spruce_wall"
+    },
+    {
+      "item": "slabsstairswalls:spruce_wall"
+    },
+    {
+      "item": "slabsstairswalls:spruce_wall"
+    },
+    {
+      "item": "slabsstairswalls:spruce_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spruce_wood",
+    "count": 3
+  }
+}

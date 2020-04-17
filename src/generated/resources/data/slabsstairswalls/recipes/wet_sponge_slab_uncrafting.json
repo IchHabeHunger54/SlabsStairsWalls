@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:wet_sponge_slab"
+    },
+    {
+      "item": "slabsstairswalls:wet_sponge_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wet_sponge"
+  }
+}

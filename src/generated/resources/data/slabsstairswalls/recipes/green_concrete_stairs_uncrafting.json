@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:green_concrete_stairs"
+    },
+    {
+      "item": "slabsstairswalls:green_concrete_stairs"
+    },
+    {
+      "item": "slabsstairswalls:green_concrete_stairs"
+    },
+    {
+      "item": "slabsstairswalls:green_concrete_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_concrete",
+    "count": 3
+  }
+}

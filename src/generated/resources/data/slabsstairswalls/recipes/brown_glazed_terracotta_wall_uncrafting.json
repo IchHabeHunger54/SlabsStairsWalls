@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:brown_glazed_terracotta_wall"
+    },
+    {
+      "item": "slabsstairswalls:brown_glazed_terracotta_wall"
+    },
+    {
+      "item": "slabsstairswalls:brown_glazed_terracotta_wall"
+    },
+    {
+      "item": "slabsstairswalls:brown_glazed_terracotta_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_glazed_terracotta",
+    "count": 3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:emerald_block_slab"
+    },
+    {
+      "item": "slabsstairswalls:emerald_block_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:emerald_block"
+  }
+}

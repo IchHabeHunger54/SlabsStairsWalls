@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:black_stained_glass_slab"
+    },
+    {
+      "item": "slabsstairswalls:black_stained_glass_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_stained_glass"
+  }
+}

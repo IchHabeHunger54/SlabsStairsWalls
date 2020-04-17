@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:chiseled_red_sandstone_stairs"
+    },
+    {
+      "item": "slabsstairswalls:chiseled_red_sandstone_stairs"
+    },
+    {
+      "item": "slabsstairswalls:chiseled_red_sandstone_stairs"
+    },
+    {
+      "item": "slabsstairswalls:chiseled_red_sandstone_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:chiseled_red_sandstone",
+    "count": 3
+  }
+}

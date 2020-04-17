@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:snow_stairs"
+    },
+    {
+      "item": "slabsstairswalls:snow_stairs"
+    },
+    {
+      "item": "slabsstairswalls:snow_stairs"
+    },
+    {
+      "item": "slabsstairswalls:snow_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:snow_block",
+    "count": 3
+  }
+}
