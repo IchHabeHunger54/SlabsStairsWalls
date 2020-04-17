@@ -2,13 +2,10 @@ package ihh.slabsstairswalls.minecraft;
 
 import ihh.slabsstairswalls.RecipeGen;
 import java.util.function.Consumer;
-
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.item.Items;
 import net.minecraftforge.common.Tags;
-
-import static ihh.slabsstairswalls.IInit.registerSlab;
 
 public final class MinecraftRecipes extends RecipeGen {
     public MinecraftRecipes(DataGenerator g) {
@@ -196,16 +193,16 @@ public final class MinecraftRecipes extends RecipeGen {
         slabStairsWallRecipe(MinecraftItems.MAGMA_SLAB, MinecraftItems.MAGMA_STAIRS, MinecraftItems.MAGMA_WALL, () -> Items.MAGMA_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.NETHER_WART_SLAB, MinecraftItems.NETHER_WART_STAIRS, MinecraftItems.NETHER_WART_WALL, () -> Items.NETHER_WART_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.BONE_SLAB, MinecraftItems.BONE_STAIRS, MinecraftItems.BONE_WALL, () -> Items.BONE_BLOCK, false, c);
-        slabStairsWallRecipe(MinecraftItems.DEAD_TUBE_CORAL_SLAB, MinecraftItems.DEAD_TUBE_CORAL_STAIRS, MinecraftItems.DEAD_TUBE_CORAL_WALL, () -> Items.DEAD_TUBE_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.DEAD_BRAIN_CORAL_SLAB, MinecraftItems.DEAD_BRAIN_CORAL_STAIRS, MinecraftItems.DEAD_BRAIN_CORAL_WALL, () -> Items.DEAD_BRAIN_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.DEAD_BUBBLE_CORAL_SLAB, MinecraftItems.DEAD_BUBBLE_CORAL_STAIRS, MinecraftItems.DEAD_BUBBLE_CORAL_WALL, () -> Items.DEAD_BUBBLE_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.DEAD_FIRE_CORAL_SLAB, MinecraftItems.DEAD_FIRE_CORAL_STAIRS, MinecraftItems.DEAD_FIRE_CORAL_WALL, () -> Items.DEAD_FIRE_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.DEAD_HORN_CORAL_SLAB, MinecraftItems.DEAD_HORN_CORAL_STAIRS, MinecraftItems.DEAD_HORN_CORAL_WALL, () -> Items.DEAD_HORN_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.TUBE_CORAL_SLAB, MinecraftItems.TUBE_CORAL_STAIRS, MinecraftItems.TUBE_CORAL_WALL, () -> Items.TUBE_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.BRAIN_CORAL_SLAB, MinecraftItems.BRAIN_CORAL_STAIRS, MinecraftItems.BRAIN_CORAL_WALL, () -> Items.BRAIN_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.BUBBLE_CORAL_SLAB, MinecraftItems.BUBBLE_CORAL_STAIRS, MinecraftItems.BUBBLE_CORAL_WALL, () -> Items.BUBBLE_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.FIRE_CORAL_SLAB, MinecraftItems.FIRE_CORAL_STAIRS, MinecraftItems.FIRE_CORAL_WALL, () -> Items.FIRE_CORAL, false, c);
-        slabStairsWallRecipe(MinecraftItems.HORN_CORAL_SLAB, MinecraftItems.HORN_CORAL_STAIRS, MinecraftItems.HORN_CORAL_WALL, () -> Items.HORN_CORAL, false, c);
+        slabStairsWallRecipe(MinecraftItems.DEAD_TUBE_CORAL_SLAB, MinecraftItems.DEAD_TUBE_CORAL_STAIRS, MinecraftItems.DEAD_TUBE_CORAL_WALL, () -> Items.DEAD_TUBE_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.DEAD_BRAIN_CORAL_SLAB, MinecraftItems.DEAD_BRAIN_CORAL_STAIRS, MinecraftItems.DEAD_BRAIN_CORAL_WALL, () -> Items.DEAD_BRAIN_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.DEAD_BUBBLE_CORAL_SLAB, MinecraftItems.DEAD_BUBBLE_CORAL_STAIRS, MinecraftItems.DEAD_BUBBLE_CORAL_WALL, () -> Items.DEAD_BUBBLE_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.DEAD_FIRE_CORAL_SLAB, MinecraftItems.DEAD_FIRE_CORAL_STAIRS, MinecraftItems.DEAD_FIRE_CORAL_WALL, () -> Items.DEAD_FIRE_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.DEAD_HORN_CORAL_SLAB, MinecraftItems.DEAD_HORN_CORAL_STAIRS, MinecraftItems.DEAD_HORN_CORAL_WALL, () -> Items.DEAD_HORN_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.TUBE_CORAL_SLAB, MinecraftItems.TUBE_CORAL_STAIRS, MinecraftItems.TUBE_CORAL_WALL, () -> Items.TUBE_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.BRAIN_CORAL_SLAB, MinecraftItems.BRAIN_CORAL_STAIRS, MinecraftItems.BRAIN_CORAL_WALL, () -> Items.BRAIN_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.BUBBLE_CORAL_SLAB, MinecraftItems.BUBBLE_CORAL_STAIRS, MinecraftItems.BUBBLE_CORAL_WALL, () -> Items.BUBBLE_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.FIRE_CORAL_SLAB, MinecraftItems.FIRE_CORAL_STAIRS, MinecraftItems.FIRE_CORAL_WALL, () -> Items.FIRE_CORAL_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.HORN_CORAL_SLAB, MinecraftItems.HORN_CORAL_STAIRS, MinecraftItems.HORN_CORAL_WALL, () -> Items.HORN_CORAL_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.DRIED_KELP_SLAB, MinecraftItems.DRIED_KELP_STAIRS, MinecraftItems.DRIED_KELP_WALL, () -> Items.DRIED_KELP_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.HONEYCOMB_SLAB, MinecraftItems.HONEYCOMB_STAIRS, MinecraftItems.HONEYCOMB_WALL, () -> Items.HONEYCOMB_BLOCK, false, c);
     }
