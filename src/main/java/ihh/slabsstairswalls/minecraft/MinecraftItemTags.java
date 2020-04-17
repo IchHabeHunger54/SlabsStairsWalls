@@ -2,13 +2,11 @@ package ihh.slabsstairswalls.minecraft;
 
 import ihh.slabsstairswalls.ItemTagGen;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.tags.BlockTags;
-
 import static net.minecraft.tags.ItemTags.SLABS;
 import static net.minecraft.tags.ItemTags.STAIRS;
 import static net.minecraft.tags.ItemTags.WALLS;
 
-public class MinecraftItemTags extends ItemTagGen {
+public final class MinecraftItemTags extends ItemTagGen {
     public MinecraftItemTags(DataGenerator g) {
         super(g);
     }
