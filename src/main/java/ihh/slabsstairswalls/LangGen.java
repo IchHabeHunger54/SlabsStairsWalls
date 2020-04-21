@@ -16,6 +16,10 @@ abstract class LangGen extends LanguageProvider {
 
     public abstract void wall(Supplier<Item> i, String k);
 
+    public abstract void vertSlab(Supplier<Item> i, String k);
+
+    public abstract void vertStairs(Supplier<Item> i, String k);
+
     public abstract void fence(Supplier<Item> i, String k);
 
     public abstract void fenceGate(Supplier<Item> i, String k);
@@ -115,5 +119,43 @@ abstract class LangGen extends LanguageProvider {
         wall(green, green(s));
         wall(red, red(s));
         wall(black, black(s));
+    }
+
+    public void rainbowVertSlab(String s, Supplier<Item> white, Supplier<Item> orange, Supplier<Item> magenta, Supplier<Item> lightBlue, Supplier<Item> yellow, Supplier<Item> lime, Supplier<Item> pink, Supplier<Item> gray, Supplier<Item> lightGray, Supplier<Item> cyan, Supplier<Item> purple, Supplier<Item> blue, Supplier<Item> brown, Supplier<Item> green, Supplier<Item> red, Supplier<Item> black) {
+        vertSlab(white, white(s));
+        vertSlab(orange, orange(s));
+        vertSlab(magenta, magenta(s));
+        vertSlab(lightBlue, lightBlue(s));
+        vertSlab(yellow, yellow(s));
+        vertSlab(lime, lime(s));
+        vertSlab(pink, pink(s));
+        vertSlab(gray, gray(s));
+        vertSlab(lightGray, lightGray(s));
+        vertSlab(cyan, cyan(s));
+        vertSlab(purple, purple(s));
+        vertSlab(blue, blue(s));
+        vertSlab(brown, brown(s));
+        vertSlab(green, green(s));
+        vertSlab(red, red(s));
+        vertSlab(black, black(s));
+    }
+
+    public void rainbowVertStairs(String s, Supplier<Item> white, Supplier<Item> orange, Supplier<Item> magenta, Supplier<Item> lightBlue, Supplier<Item> yellow, Supplier<Item> lime, Supplier<Item> pink, Supplier<Item> gray, Supplier<Item> lightGray, Supplier<Item> cyan, Supplier<Item> purple, Supplier<Item> blue, Supplier<Item> brown, Supplier<Item> green, Supplier<Item> red, Supplier<Item> black) {
+        vertStairs(white, white(s));
+        vertStairs(orange, orange(s));
+        vertStairs(magenta, magenta(s));
+        vertStairs(lightBlue, lightBlue(s));
+        vertStairs(yellow, yellow(s));
+        vertStairs(lime, lime(s));
+        vertStairs(pink, pink(s));
+        vertStairs(gray, gray(s));
+        vertStairs(lightGray, lightGray(s));
+        vertStairs(cyan, cyan(s));
+        vertStairs(purple, purple(s));
+        vertStairs(blue, blue(s));
+        vertStairs(brown, brown(s));
+        vertStairs(green, green(s));
+        vertStairs(red, red(s));
+        vertStairs(black, black(s));
     }
 }

@@ -3,7 +3,6 @@ package ihh.slabsstairswalls.minecraft;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import static ihh.slabsstairswalls.IInit.registerItem;
-import static ihh.slabsstairswalls.IInit.registerSlab;
 
 public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> NETHER_BRICK_FENCE_GATE = registerItem(MinecraftBlocks.NETHER_BRICK_FENCE_GATE);
@@ -177,9 +176,11 @@ public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> NETHER_QUARTZ_ORE_SLAB = registerItem(MinecraftBlocks.NETHER_QUARTZ_ORE_SLAB);
     public static final RegistryObject<Item> CHISELED_QUARTZ_SLAB = registerItem(MinecraftBlocks.CHISELED_QUARTZ_SLAB);
     public static final RegistryObject<Item> QUARTZ_PILLAR_SLAB = registerItem(MinecraftBlocks.QUARTZ_PILLAR_SLAB);
+    public static final RegistryObject<Item> HAY_SLAB = registerItem(MinecraftBlocks.HAY_SLAB);
     public static final RegistryObject<Item> TERRACOTTA_SLAB = registerItem(MinecraftBlocks.TERRACOTTA_SLAB);
     public static final RegistryObject<Item> COAL_SLAB = registerItem(MinecraftBlocks.COAL_SLAB);
     public static final RegistryObject<Item> PACKED_ICE_SLAB = registerItem(MinecraftBlocks.PACKED_ICE_SLAB);
+    public static final RegistryObject<Item> SLIME_SLAB = registerItem(MinecraftBlocks.SLIME_SLAB);
     public static final RegistryObject<Item> SEA_LANTERN_SLAB = registerItem(MinecraftBlocks.SEA_LANTERN_SLAB);
     public static final RegistryObject<Item> CHISELED_RED_SANDSTONE_SLAB = registerItem(MinecraftBlocks.CHISELED_RED_SANDSTONE_SLAB);
     public static final RegistryObject<Item> MAGMA_SLAB = registerItem(MinecraftBlocks.MAGMA_SLAB);
@@ -196,6 +197,7 @@ public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> FIRE_CORAL_SLAB = registerItem(MinecraftBlocks.FIRE_CORAL_SLAB);
     public static final RegistryObject<Item> HORN_CORAL_SLAB = registerItem(MinecraftBlocks.HORN_CORAL_SLAB);
     public static final RegistryObject<Item> DRIED_KELP_SLAB = registerItem(MinecraftBlocks.DRIED_KELP_SLAB);
+    public static final RegistryObject<Item> HONEY_SLAB = registerItem(MinecraftBlocks.HONEY_SLAB);
     public static final RegistryObject<Item> HONEYCOMB_SLAB = registerItem(MinecraftBlocks.HONEYCOMB_SLAB);
     public static final RegistryObject<Item> OAK_STAIRS = registerItem(MinecraftBlocks.OAK_STAIRS);
     public static final RegistryObject<Item> SPRUCE_STAIRS = registerItem(MinecraftBlocks.SPRUCE_STAIRS);
@@ -350,9 +352,11 @@ public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> NETHER_QUARTZ_ORE_STAIRS = registerItem(MinecraftBlocks.NETHER_QUARTZ_ORE_STAIRS);
     public static final RegistryObject<Item> CHISELED_QUARTZ_STAIRS = registerItem(MinecraftBlocks.CHISELED_QUARTZ_STAIRS);
     public static final RegistryObject<Item> QUARTZ_PILLAR_STAIRS = registerItem(MinecraftBlocks.QUARTZ_PILLAR_STAIRS);
+    public static final RegistryObject<Item> HAY_STAIRS = registerItem(MinecraftBlocks.HAY_STAIRS);
     public static final RegistryObject<Item> TERRACOTTA_STAIRS = registerItem(MinecraftBlocks.TERRACOTTA_STAIRS);
     public static final RegistryObject<Item> COAL_STAIRS = registerItem(MinecraftBlocks.COAL_STAIRS);
     public static final RegistryObject<Item> PACKED_ICE_STAIRS = registerItem(MinecraftBlocks.PACKED_ICE_STAIRS);
+    public static final RegistryObject<Item> SLIME_STAIRS = registerItem(MinecraftBlocks.SLIME_STAIRS);
     public static final RegistryObject<Item> SEA_LANTERN_STAIRS = registerItem(MinecraftBlocks.SEA_LANTERN_STAIRS);
     public static final RegistryObject<Item> CHISELED_RED_SANDSTONE_STAIRS = registerItem(MinecraftBlocks.CHISELED_RED_SANDSTONE_STAIRS);
     public static final RegistryObject<Item> MAGMA_STAIRS = registerItem(MinecraftBlocks.MAGMA_STAIRS);
@@ -369,6 +373,7 @@ public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> FIRE_CORAL_STAIRS = registerItem(MinecraftBlocks.FIRE_CORAL_STAIRS);
     public static final RegistryObject<Item> HORN_CORAL_STAIRS = registerItem(MinecraftBlocks.HORN_CORAL_STAIRS);
     public static final RegistryObject<Item> DRIED_KELP_STAIRS = registerItem(MinecraftBlocks.DRIED_KELP_STAIRS);
+    public static final RegistryObject<Item> HONEY_STAIRS = registerItem(MinecraftBlocks.HONEY_STAIRS);
     public static final RegistryObject<Item> HONEYCOMB_STAIRS = registerItem(MinecraftBlocks.HONEYCOMB_STAIRS);
     public static final RegistryObject<Item> OAK_WALL = registerItem(MinecraftBlocks.OAK_WALL);
     public static final RegistryObject<Item> SPRUCE_WALL = registerItem(MinecraftBlocks.SPRUCE_WALL);
@@ -523,9 +528,11 @@ public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> NETHER_QUARTZ_ORE_WALL = registerItem(MinecraftBlocks.NETHER_QUARTZ_ORE_WALL);
     public static final RegistryObject<Item> CHISELED_QUARTZ_WALL = registerItem(MinecraftBlocks.CHISELED_QUARTZ_WALL);
     public static final RegistryObject<Item> QUARTZ_PILLAR_WALL = registerItem(MinecraftBlocks.QUARTZ_PILLAR_WALL);
+    public static final RegistryObject<Item> HAY_WALL = registerItem(MinecraftBlocks.HAY_WALL);
     public static final RegistryObject<Item> TERRACOTTA_WALL = registerItem(MinecraftBlocks.TERRACOTTA_WALL);
     public static final RegistryObject<Item> COAL_WALL = registerItem(MinecraftBlocks.COAL_WALL);
     public static final RegistryObject<Item> PACKED_ICE_WALL = registerItem(MinecraftBlocks.PACKED_ICE_WALL);
+    public static final RegistryObject<Item> SLIME_WALL = registerItem(MinecraftBlocks.SLIME_WALL);
     public static final RegistryObject<Item> SEA_LANTERN_WALL = registerItem(MinecraftBlocks.SEA_LANTERN_WALL);
     public static final RegistryObject<Item> CHISELED_RED_SANDSTONE_WALL = registerItem(MinecraftBlocks.CHISELED_RED_SANDSTONE_WALL);
     public static final RegistryObject<Item> MAGMA_WALL = registerItem(MinecraftBlocks.MAGMA_WALL);
@@ -542,6 +549,7 @@ public final class MinecraftItems implements ihh.slabsstairswalls.IInit {
     public static final RegistryObject<Item> FIRE_CORAL_WALL = registerItem(MinecraftBlocks.FIRE_CORAL_WALL);
     public static final RegistryObject<Item> HORN_CORAL_WALL = registerItem(MinecraftBlocks.HORN_CORAL_WALL);
     public static final RegistryObject<Item> DRIED_KELP_WALL = registerItem(MinecraftBlocks.DRIED_KELP_WALL);
+    public static final RegistryObject<Item> HONEY_WALL = registerItem(MinecraftBlocks.HONEY_WALL);
     public static final RegistryObject<Item> HONEYCOMB_WALL = registerItem(MinecraftBlocks.HONEYCOMB_WALL);
 
     public static void register() {

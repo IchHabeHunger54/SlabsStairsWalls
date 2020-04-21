@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "slabsstairswalls:block/dried_kelp_slab_top"
+    },
+    "type=bottom": {
+      "model": "slabsstairswalls:block/dried_kelp_slab"
+    },
+    "type=double": {
+      "model": "slabsstairswalls:block/dried_kelp"
+    }
+  }
+}

@@ -25,6 +25,16 @@ public abstract class LangGenDEDE extends LangGen {
     }
 
     @Override
+    public void vertSlab(Supplier<Item> i, String k) {
+        add(i.get(), "Vertikale " + k + "stufe");
+    }
+
+    @Override
+    public void vertStairs(Supplier<Item> i, String k) {
+        add(i.get(), "Vertikale " + k + "treppe");
+    }
+
+    @Override
     public void fence(Supplier<Item> i, String k) {
         add(i.get(), k + "zaun");
     }

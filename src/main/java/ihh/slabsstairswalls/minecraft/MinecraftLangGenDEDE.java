@@ -95,9 +95,11 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         slab(MinecraftItems.NETHER_QUARTZ_ORE_SLAB, "Netherquarzerz");
         slab(MinecraftItems.CHISELED_QUARTZ_SLAB, "Gemeißelte Quarz");
         slab(MinecraftItems.QUARTZ_PILLAR_SLAB, "Quarzsäulen");
+        slab(MinecraftItems.HAY_SLAB, "Heu");
         slab(MinecraftItems.TERRACOTTA_SLAB, "Terrakotta");
         slab(MinecraftItems.COAL_SLAB, "Kohle");
         slab(MinecraftItems.PACKED_ICE_SLAB, "Packeis");
+        slab(MinecraftItems.SLIME_SLAB, "Schleim");
         slab(MinecraftItems.SEA_LANTERN_SLAB, "Seelaternen");
         slab(MinecraftItems.CHISELED_RED_SANDSTONE_SLAB, "Gemeißelte rote Sandstein");
         slab(MinecraftItems.MAGMA_SLAB, "Magma");
@@ -114,6 +116,7 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         slab(MinecraftItems.FIRE_CORAL_SLAB, "Feuerkorallen");
         slab(MinecraftItems.HORN_CORAL_SLAB, "Gehirnkorallen");
         slab(MinecraftItems.DRIED_KELP_SLAB, "Getrocknete Seetang");
+        slab(MinecraftItems.HONEY_SLAB, "Honig");
         slab(MinecraftItems.HONEYCOMB_SLAB, "Honigwaben");
         stairs(MinecraftItems.OAK_STAIRS, "Eichen");
         stairs(MinecraftItems.SPRUCE_STAIRS, "Fichten");
@@ -178,9 +181,11 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         stairs(MinecraftItems.NETHER_QUARTZ_ORE_STAIRS, "Netherquarzerz");
         stairs(MinecraftItems.CHISELED_QUARTZ_STAIRS, "Gemeißelte Quarz");
         stairs(MinecraftItems.QUARTZ_PILLAR_STAIRS, "Quarzsäulen");
+        stairs(MinecraftItems.HAY_STAIRS, "Heu");
         stairs(MinecraftItems.TERRACOTTA_STAIRS, "Terrakotta");
         stairs(MinecraftItems.COAL_STAIRS, "Kohle");
         stairs(MinecraftItems.PACKED_ICE_STAIRS, "Packeis");
+        stairs(MinecraftItems.SLIME_STAIRS, "Schleim");
         stairs(MinecraftItems.SEA_LANTERN_STAIRS, "Seelaternen");
         stairs(MinecraftItems.CHISELED_RED_SANDSTONE_STAIRS, "Gemeißelte rote Sandstein");
         stairs(MinecraftItems.MAGMA_STAIRS, "Magma");
@@ -197,6 +202,7 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         stairs(MinecraftItems.FIRE_CORAL_STAIRS, "Feuerkorallen");
         stairs(MinecraftItems.HORN_CORAL_STAIRS, "Gehirnkorallen");
         stairs(MinecraftItems.DRIED_KELP_STAIRS, "Getrocknete Seetang");
+        stairs(MinecraftItems.HONEY_STAIRS, "Honig");
         stairs(MinecraftItems.HONEYCOMB_STAIRS, "Honigwaben");
         wall(MinecraftItems.OAK_WALL, "Eichen");
         wall(MinecraftItems.SPRUCE_WALL, "Fichten");
@@ -261,9 +267,11 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         wall(MinecraftItems.NETHER_QUARTZ_ORE_WALL, "Netherquarzerz");
         wall(MinecraftItems.CHISELED_QUARTZ_WALL, "Gemeißelte Quarz");
         wall(MinecraftItems.QUARTZ_PILLAR_WALL, "Quarzsäulen");
+        wall(MinecraftItems.HAY_WALL, "Heu");
         wall(MinecraftItems.TERRACOTTA_WALL, "Terrakotta");
         wall(MinecraftItems.COAL_WALL, "Kohle");
         wall(MinecraftItems.PACKED_ICE_WALL, "Packeis");
+        wall(MinecraftItems.SLIME_WALL, "Schleim");
         wall(MinecraftItems.SEA_LANTERN_WALL, "Seelaternen");
         wall(MinecraftItems.CHISELED_RED_SANDSTONE_WALL, "Gemeißelte rote Sandstein");
         wall(MinecraftItems.MAGMA_WALL, "Magma");
@@ -280,6 +288,7 @@ public final class MinecraftLangGenDEDE extends LangGenDEDE {
         wall(MinecraftItems.FIRE_CORAL_WALL, "Feuerkorallen");
         wall(MinecraftItems.HORN_CORAL_WALL, "Gehirnkorallen");
         wall(MinecraftItems.DRIED_KELP_WALL, "Getrocknete Seetang");
+        wall(MinecraftItems.HONEY_WALL, "Honig");
         wall(MinecraftItems.HONEYCOMB_WALL, "Honigwaben");
     }
 }

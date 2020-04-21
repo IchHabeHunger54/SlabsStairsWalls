@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:honey_wall"
+    },
+    {
+      "item": "slabsstairswalls:honey_wall"
+    },
+    {
+      "item": "slabsstairswalls:honey_wall"
+    },
+    {
+      "item": "slabsstairswalls:honey_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:honey_block",
+    "count": 3
+  }
+}

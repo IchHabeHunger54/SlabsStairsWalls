@@ -182,9 +182,11 @@ public final class MinecraftItemModels extends ItemModels {
         parentSlab(MinecraftBlocks.NETHER_QUARTZ_ORE_SLAB, "nether_quartz_ore");
         parentSlab(MinecraftBlocks.CHISELED_QUARTZ_SLAB, "chiseled_quartz");
         parentSlab(MinecraftBlocks.QUARTZ_PILLAR_SLAB, "quartz_pillar");
+        parentSlab(MinecraftBlocks.HAY_SLAB, "hay");
         parentSlab(MinecraftBlocks.TERRACOTTA_SLAB, "terracotta");
         parentSlab(MinecraftBlocks.COAL_SLAB, "coal");
         parentSlab(MinecraftBlocks.PACKED_ICE_SLAB, "packed_ice");
+        parentSlab(MinecraftBlocks.SLIME_SLAB, "slime");
         parentSlab(MinecraftBlocks.SEA_LANTERN_SLAB, "sea_lantern");
         parentSlab(MinecraftBlocks.CHISELED_RED_SANDSTONE_SLAB, "chiseled_red_sandstone");
         parentSlab(MinecraftBlocks.MAGMA_SLAB, "magma");
@@ -201,6 +203,7 @@ public final class MinecraftItemModels extends ItemModels {
         parentSlab(MinecraftBlocks.FIRE_CORAL_SLAB, "fire_coral");
         parentSlab(MinecraftBlocks.HORN_CORAL_SLAB, "horn_coral");
         parentSlab(MinecraftBlocks.DRIED_KELP_SLAB, "dried_kelp");
+        parentSlab(MinecraftBlocks.HONEY_SLAB, "honey");
         parentSlab(MinecraftBlocks.HONEYCOMB_SLAB, "honeycomb");
         parentStairs(MinecraftBlocks.OAK_STAIRS, "oak");
         parentStairs(MinecraftBlocks.SPRUCE_STAIRS, "spruce");
@@ -355,9 +358,11 @@ public final class MinecraftItemModels extends ItemModels {
         parentStairs(MinecraftBlocks.NETHER_QUARTZ_ORE_STAIRS, "nether_quartz_ore");
         parentStairs(MinecraftBlocks.CHISELED_QUARTZ_STAIRS, "chiseled_quartz");
         parentStairs(MinecraftBlocks.QUARTZ_PILLAR_STAIRS, "quartz_pillar");
+        parentStairs(MinecraftBlocks.HAY_STAIRS, "hay");
         parentStairs(MinecraftBlocks.TERRACOTTA_STAIRS, "terracotta");
         parentStairs(MinecraftBlocks.COAL_STAIRS, "coal");
         parentStairs(MinecraftBlocks.PACKED_ICE_STAIRS, "packed_ice");
+        parentStairs(MinecraftBlocks.SLIME_STAIRS, "slime");
         parentStairs(MinecraftBlocks.SEA_LANTERN_STAIRS, "sea_lantern");
         parentStairs(MinecraftBlocks.CHISELED_RED_SANDSTONE_STAIRS, "chiseled_red_sandstone");
         parentStairs(MinecraftBlocks.MAGMA_STAIRS, "magma");
@@ -374,6 +379,7 @@ public final class MinecraftItemModels extends ItemModels {
         parentStairs(MinecraftBlocks.FIRE_CORAL_STAIRS, "fire_coral");
         parentStairs(MinecraftBlocks.HORN_CORAL_STAIRS, "horn_coral");
         parentStairs(MinecraftBlocks.DRIED_KELP_STAIRS, "dried_kelp");
+        parentStairs(MinecraftBlocks.HONEY_STAIRS, "honey");
         parentStairs(MinecraftBlocks.HONEYCOMB_STAIRS, "honeycomb");
         parentWall(MinecraftBlocks.OAK_WALL, "oak");
         parentWall(MinecraftBlocks.SPRUCE_WALL, "spruce");
@@ -528,9 +534,11 @@ public final class MinecraftItemModels extends ItemModels {
         parentWall(MinecraftBlocks.NETHER_QUARTZ_ORE_WALL, "nether_quartz_ore");
         parentWall(MinecraftBlocks.CHISELED_QUARTZ_WALL, "chiseled_quartz");
         parentWall(MinecraftBlocks.QUARTZ_PILLAR_WALL, "quartz_pillar");
+        parentWall(MinecraftBlocks.HAY_WALL, "hay");
         parentWall(MinecraftBlocks.TERRACOTTA_WALL, "terracotta");
         parentWall(MinecraftBlocks.COAL_WALL, "coal");
         parentWall(MinecraftBlocks.PACKED_ICE_WALL, "packed_ice");
+        parentWall(MinecraftBlocks.SLIME_WALL, "slime");
         parentWall(MinecraftBlocks.SEA_LANTERN_WALL, "sea_lantern");
         parentWall(MinecraftBlocks.CHISELED_RED_SANDSTONE_WALL, "chiseled_red_sandstone");
         parentWall(MinecraftBlocks.MAGMA_WALL, "magma");
@@ -547,6 +555,7 @@ public final class MinecraftItemModels extends ItemModels {
         parentWall(MinecraftBlocks.FIRE_CORAL_WALL, "fire_coral");
         parentWall(MinecraftBlocks.HORN_CORAL_WALL, "horn_coral");
         parentWall(MinecraftBlocks.DRIED_KELP_WALL, "dried_kelp");
+        parentWall(MinecraftBlocks.HONEY_WALL, "honey");
         parentWall(MinecraftBlocks.HONEYCOMB_WALL, "honeycomb");
     }
 }

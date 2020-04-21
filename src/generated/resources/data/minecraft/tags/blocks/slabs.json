@@ -154,9 +154,11 @@
     "slabsstairswalls:nether_quartz_ore_slab",
     "slabsstairswalls:chiseled_quartz_slab",
     "slabsstairswalls:quartz_pillar_slab",
+    "slabsstairswalls:hay_slab",
     "slabsstairswalls:terracotta_slab",
     "slabsstairswalls:coal_slab",
     "slabsstairswalls:packed_ice_slab",
+    "slabsstairswalls:slime_slab",
     "slabsstairswalls:sea_lantern_slab",
     "slabsstairswalls:chiseled_red_sandstone_slab",
     "slabsstairswalls:magma_slab",
@@ -173,6 +175,7 @@
     "slabsstairswalls:fire_coral_slab",
     "slabsstairswalls:horn_coral_slab",
     "slabsstairswalls:dried_kelp_slab",
+    "slabsstairswalls:honey_slab",
     "slabsstairswalls:honeycomb_slab"
   ]
 }

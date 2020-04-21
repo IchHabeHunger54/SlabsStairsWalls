@@ -46,6 +46,14 @@ public abstract class ItemModels extends ItemModelProvider {
         getBuilder(b.get().getRegistryName().getPath()).parent(new ModelFile.UncheckedModelFile(SlabsStairsWalls.MODID + ":block/" + m + "_stairs"));
     }
 
+    public void parentVertSlab(Supplier<VerticalSlabBlock> b, String m) {
+        getBuilder(b.get().getRegistryName().getPath()).parent(new ModelFile.UncheckedModelFile(SlabsStairsWalls.MODID + ":block/" + m + "_vertical_slab"));
+    }
+
+    public void parentVertStairs(Supplier<VerticalStairsBlock> b, String m) {
+        getBuilder(b.get().getRegistryName().getPath()).parent(new ModelFile.UncheckedModelFile(SlabsStairsWalls.MODID + ":block/" + m + "_vertical_stairs"));
+    }
+
     public void parentFence(Supplier<FenceBlock> b, String m) {
         getBuilder(b.get().getRegistryName().getPath()).parent(new ModelFile.UncheckedModelFile(SlabsStairsWalls.MODID + ":block/" + m + "_fence"));
     }

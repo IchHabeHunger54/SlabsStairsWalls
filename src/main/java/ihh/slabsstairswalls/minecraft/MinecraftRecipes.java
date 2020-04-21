@@ -185,9 +185,11 @@ public final class MinecraftRecipes extends RecipeGen {
         slabStairsWallRecipe(MinecraftItems.NETHER_QUARTZ_ORE_SLAB, MinecraftItems.NETHER_QUARTZ_ORE_STAIRS, MinecraftItems.NETHER_QUARTZ_ORE_WALL, () -> Items.NETHER_QUARTZ_ORE, true, c);
         slabStairsWallRecipe(MinecraftItems.CHISELED_QUARTZ_SLAB, MinecraftItems.CHISELED_QUARTZ_STAIRS, MinecraftItems.CHISELED_QUARTZ_WALL, () -> Items.CHISELED_QUARTZ_BLOCK, true, c);
         slabStairsWallRecipe(MinecraftItems.QUARTZ_PILLAR_SLAB, MinecraftItems.QUARTZ_PILLAR_STAIRS, MinecraftItems.QUARTZ_PILLAR_WALL, () -> Items.QUARTZ_PILLAR, true, c);
+        slabStairsWallRecipe(MinecraftItems.HAY_SLAB, MinecraftItems.HAY_STAIRS, MinecraftItems.HAY_WALL, () -> Items.HAY_BLOCK, true, c);
         slabStairsWallRecipe(MinecraftItems.TERRACOTTA_SLAB, MinecraftItems.TERRACOTTA_STAIRS, MinecraftItems.TERRACOTTA_WALL, () -> Items.TERRACOTTA, true, c);
         slabStairsWallRecipe(MinecraftItems.COAL_SLAB, MinecraftItems.COAL_STAIRS, MinecraftItems.COAL_WALL, () -> Items.COAL_BLOCK, true, c);
         slabStairsWallRecipe(MinecraftItems.PACKED_ICE_SLAB, MinecraftItems.PACKED_ICE_STAIRS, MinecraftItems.PACKED_ICE_WALL, () -> Items.PACKED_ICE, false, c);
+        slabStairsWallRecipe(MinecraftItems.SLIME_SLAB, MinecraftItems.SLIME_STAIRS, MinecraftItems.SLIME_WALL, () -> Items.SLIME_BLOCK, true, c);
         slabStairsWallRecipe(MinecraftItems.SEA_LANTERN_SLAB, MinecraftItems.SEA_LANTERN_STAIRS, MinecraftItems.SEA_LANTERN_WALL, () -> Items.SEA_LANTERN, true, c);
         slabStairsWallRecipe(MinecraftItems.CHISELED_RED_SANDSTONE_SLAB, MinecraftItems.CHISELED_RED_SANDSTONE_STAIRS, MinecraftItems.CHISELED_RED_SANDSTONE_WALL, () -> Items.CHISELED_RED_SANDSTONE, true, c);
         slabStairsWallRecipe(MinecraftItems.MAGMA_SLAB, MinecraftItems.MAGMA_STAIRS, MinecraftItems.MAGMA_WALL, () -> Items.MAGMA_BLOCK, false, c);
@@ -204,6 +206,7 @@ public final class MinecraftRecipes extends RecipeGen {
         slabStairsWallRecipe(MinecraftItems.FIRE_CORAL_SLAB, MinecraftItems.FIRE_CORAL_STAIRS, MinecraftItems.FIRE_CORAL_WALL, () -> Items.FIRE_CORAL_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.HORN_CORAL_SLAB, MinecraftItems.HORN_CORAL_STAIRS, MinecraftItems.HORN_CORAL_WALL, () -> Items.HORN_CORAL_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.DRIED_KELP_SLAB, MinecraftItems.DRIED_KELP_STAIRS, MinecraftItems.DRIED_KELP_WALL, () -> Items.DRIED_KELP_BLOCK, false, c);
+        slabStairsWallRecipe(MinecraftItems.HONEY_SLAB, MinecraftItems.HONEY_STAIRS, MinecraftItems.HONEY_WALL, () -> Items.HONEY_BLOCK, false, c);
         slabStairsWallRecipe(MinecraftItems.HONEYCOMB_SLAB, MinecraftItems.HONEYCOMB_STAIRS, MinecraftItems.HONEYCOMB_WALL, () -> Items.HONEYCOMB_BLOCK, false, c);
     }
 }

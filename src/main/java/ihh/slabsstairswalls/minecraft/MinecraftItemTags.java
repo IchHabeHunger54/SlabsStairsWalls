@@ -166,9 +166,11 @@ public final class MinecraftItemTags extends ItemTagGen {
         getBuilder(SLABS).add(MinecraftItems.NETHER_QUARTZ_ORE_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.CHISELED_QUARTZ_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.QUARTZ_PILLAR_SLAB.get());
+        getBuilder(SLABS).add(MinecraftItems.HAY_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.TERRACOTTA_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.COAL_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.PACKED_ICE_SLAB.get());
+        getBuilder(SLABS).add(MinecraftItems.SLIME_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.SEA_LANTERN_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.CHISELED_RED_SANDSTONE_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.MAGMA_SLAB.get());
@@ -185,6 +187,7 @@ public final class MinecraftItemTags extends ItemTagGen {
         getBuilder(SLABS).add(MinecraftItems.FIRE_CORAL_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.HORN_CORAL_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.DRIED_KELP_SLAB.get());
+        getBuilder(SLABS).add(MinecraftItems.HONEY_SLAB.get());
         getBuilder(SLABS).add(MinecraftItems.HONEYCOMB_SLAB.get());
         getBuilder(STAIRS).add(MinecraftItems.CUT_RED_SANDSTONE_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.CUT_SANDSTONE_STAIRS.get());
@@ -342,9 +345,11 @@ public final class MinecraftItemTags extends ItemTagGen {
         getBuilder(STAIRS).add(MinecraftItems.NETHER_QUARTZ_ORE_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.CHISELED_QUARTZ_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.QUARTZ_PILLAR_STAIRS.get());
+        getBuilder(STAIRS).add(MinecraftItems.HAY_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.TERRACOTTA_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.COAL_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.PACKED_ICE_STAIRS.get());
+        getBuilder(STAIRS).add(MinecraftItems.SLIME_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.SEA_LANTERN_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.CHISELED_RED_SANDSTONE_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.MAGMA_STAIRS.get());
@@ -361,6 +366,7 @@ public final class MinecraftItemTags extends ItemTagGen {
         getBuilder(STAIRS).add(MinecraftItems.FIRE_CORAL_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.HORN_CORAL_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.DRIED_KELP_STAIRS.get());
+        getBuilder(STAIRS).add(MinecraftItems.HONEY_STAIRS.get());
         getBuilder(STAIRS).add(MinecraftItems.HONEYCOMB_STAIRS.get());
         getBuilder(WALLS).add(MinecraftItems.CUT_RED_SANDSTONE_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.CUT_SANDSTONE_WALL.get());
@@ -529,9 +535,11 @@ public final class MinecraftItemTags extends ItemTagGen {
         getBuilder(WALLS).add(MinecraftItems.NETHER_QUARTZ_ORE_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.CHISELED_QUARTZ_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.QUARTZ_PILLAR_WALL.get());
+        getBuilder(WALLS).add(MinecraftItems.HAY_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.TERRACOTTA_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.COAL_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.PACKED_ICE_WALL.get());
+        getBuilder(WALLS).add(MinecraftItems.SLIME_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.SEA_LANTERN_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.CHISELED_RED_SANDSTONE_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.MAGMA_WALL.get());
@@ -548,6 +556,7 @@ public final class MinecraftItemTags extends ItemTagGen {
         getBuilder(WALLS).add(MinecraftItems.FIRE_CORAL_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.HORN_CORAL_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.DRIED_KELP_WALL.get());
+        getBuilder(WALLS).add(MinecraftItems.HONEY_WALL.get());
         getBuilder(WALLS).add(MinecraftItems.HONEYCOMB_WALL.get());
     }
 }

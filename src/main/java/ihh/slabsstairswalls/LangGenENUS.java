@@ -25,6 +25,16 @@ public abstract class LangGenENUS extends LangGen {
     }
 
     @Override
+    public void vertSlab(Supplier<Item> i, String k) {
+        add(i.get(), "Vertical " + k + " Slab");
+    }
+
+    @Override
+    public void vertStairs(Supplier<Item> i, String k) {
+        add(i.get(), "Vertical " + k + " Stairs");
+    }
+
+    @Override
     public void fence(Supplier<Item> i, String k) {
         add(i.get(), k + " Fence");
     }

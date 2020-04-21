@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "side": "block/honey_block_side",
+    "bottom": "block/honey_block_side",
+    "top": "block/honey_block_side"
+  }
+}

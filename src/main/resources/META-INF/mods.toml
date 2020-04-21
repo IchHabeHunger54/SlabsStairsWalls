@@ -9,10 +9,10 @@ authors="IchHabeHunger54"
 description='''
 Adds slabs, stairs and fences/walls for blocks where there are none yet.
 '''
-#[[dependencies.slabsstairswalls]] #optional
-#    modId="forge" #mandatory
-#    mandatory=true #mandatory
-#    versionRange="[28,)" #mandatory
+#[[dependencies.slabsstairswalls]]
+#    modId="forge"
+#    mandatory=true
+#    versionRange="[28,)"
 #    ordering="NONE"
 #    side="BOTH"
 #[[dependencies.slabsstairswalls]]

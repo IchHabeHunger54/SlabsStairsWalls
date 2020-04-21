@@ -185,9 +185,11 @@ public final class MinecraftBlockStates extends BlockStates {
         slab(MinecraftBlocks.NETHER_QUARTZ_ORE_SLAB, Blocks.NETHER_QUARTZ_ORE);
         slab(MinecraftBlocks.CHISELED_QUARTZ_SLAB, Blocks.CHISELED_QUARTZ_BLOCK);
         slab(MinecraftBlocks.QUARTZ_PILLAR_SLAB, Blocks.QUARTZ_PILLAR);
+//        slab(MinecraftBlocks.HAY_SLAB, Blocks.HAY_BLOCK);
         slab(MinecraftBlocks.TERRACOTTA_SLAB, Blocks.TERRACOTTA);
         slab(MinecraftBlocks.COAL_SLAB, Blocks.COAL_BLOCK);
         slab(MinecraftBlocks.PACKED_ICE_SLAB, Blocks.PACKED_ICE);
+        slab(MinecraftBlocks.SLIME_SLAB, Blocks.SLIME_BLOCK);
         slab(MinecraftBlocks.SEA_LANTERN_SLAB, Blocks.SEA_LANTERN);
         slab(MinecraftBlocks.CHISELED_RED_SANDSTONE_SLAB, Blocks.CHISELED_RED_SANDSTONE);
 //        slab(MinecraftBlocks.MAGMA_SLAB, Blocks.MAGMA_BLOCK);
@@ -204,6 +206,7 @@ public final class MinecraftBlockStates extends BlockStates {
         slab(MinecraftBlocks.FIRE_CORAL_SLAB, Blocks.FIRE_CORAL_BLOCK);
         slab(MinecraftBlocks.HORN_CORAL_SLAB, Blocks.HORN_CORAL_BLOCK);
 //        slab(MinecraftBlocks.DRIED_KELP_SLAB, Blocks.DRIED_KELP_BLOCK);
+//        slab(MinecraftBlocks.HONEY_SLAB, Blocks.HONEY_BLOCK);
         slab(MinecraftBlocks.HONEYCOMB_SLAB, Blocks.HONEYCOMB_BLOCK);
         stairs(MinecraftBlocks.OAK_STAIRS, Blocks.OAK_LOG);
         stairs(MinecraftBlocks.SPRUCE_STAIRS, Blocks.SPRUCE_LOG);
@@ -358,9 +361,11 @@ public final class MinecraftBlockStates extends BlockStates {
         stairs(MinecraftBlocks.NETHER_QUARTZ_ORE_STAIRS, Blocks.NETHER_QUARTZ_ORE);
         stairs(MinecraftBlocks.CHISELED_QUARTZ_STAIRS, Blocks.CHISELED_QUARTZ_BLOCK);
         stairs(MinecraftBlocks.QUARTZ_PILLAR_STAIRS, Blocks.QUARTZ_PILLAR);
+//        stairs(MinecraftBlocks.HAY_STAIRS, Blocks.HAY_BLOCK);
         stairs(MinecraftBlocks.TERRACOTTA_STAIRS, Blocks.TERRACOTTA);
         stairs(MinecraftBlocks.COAL_STAIRS, Blocks.COAL_BLOCK);
         stairs(MinecraftBlocks.PACKED_ICE_STAIRS, Blocks.PACKED_ICE);
+        stairs(MinecraftBlocks.SLIME_STAIRS, Blocks.SLIME_BLOCK);
         stairs(MinecraftBlocks.SEA_LANTERN_STAIRS, Blocks.SEA_LANTERN);
         stairs(MinecraftBlocks.CHISELED_RED_SANDSTONE_STAIRS, Blocks.CHISELED_RED_SANDSTONE);
 //        stairs(MinecraftBlocks.MAGMA_STAIRS, Blocks.MAGMA_BLOCK);
@@ -377,6 +382,7 @@ public final class MinecraftBlockStates extends BlockStates {
         stairs(MinecraftBlocks.FIRE_CORAL_STAIRS, Blocks.FIRE_CORAL_BLOCK);
         stairs(MinecraftBlocks.HORN_CORAL_STAIRS, Blocks.HORN_CORAL_BLOCK);
 //        stairs(MinecraftBlocks.DRIED_KELP_STAIRS, Blocks.DRIED_KELP_BLOCK);
+//        stairs(MinecraftBlocks.HONEY_STAIRS, Blocks.HONEY_BLOCK);
         stairs(MinecraftBlocks.HONEYCOMB_STAIRS, Blocks.HONEYCOMB_BLOCK);
         wall(MinecraftBlocks.OAK_WALL, Blocks.OAK_LOG);
         wall(MinecraftBlocks.SPRUCE_WALL, Blocks.SPRUCE_LOG);
@@ -531,9 +537,11 @@ public final class MinecraftBlockStates extends BlockStates {
         wall(MinecraftBlocks.NETHER_QUARTZ_ORE_WALL, Blocks.NETHER_QUARTZ_ORE);
         wall(MinecraftBlocks.CHISELED_QUARTZ_WALL, Blocks.CHISELED_QUARTZ_BLOCK);
         wall(MinecraftBlocks.QUARTZ_PILLAR_WALL, Blocks.QUARTZ_PILLAR);
+//        wall(MinecraftBlocks.HAY_WALL, Blocks.HAY_BLOCK);
         wall(MinecraftBlocks.TERRACOTTA_WALL, Blocks.TERRACOTTA);
         wall(MinecraftBlocks.COAL_WALL, Blocks.COAL_BLOCK);
         wall(MinecraftBlocks.PACKED_ICE_WALL, Blocks.PACKED_ICE);
+        wall(MinecraftBlocks.SLIME_WALL, Blocks.SLIME_BLOCK);
         wall(MinecraftBlocks.SEA_LANTERN_WALL, Blocks.SEA_LANTERN);
         wall(MinecraftBlocks.CHISELED_RED_SANDSTONE_WALL, Blocks.CHISELED_RED_SANDSTONE);
 //        wall(MinecraftBlocks.MAGMA_WALL, Blocks.MAGMA_BLOCK);
@@ -550,6 +558,7 @@ public final class MinecraftBlockStates extends BlockStates {
         wall(MinecraftBlocks.FIRE_CORAL_WALL, Blocks.FIRE_CORAL_BLOCK);
         wall(MinecraftBlocks.HORN_CORAL_WALL, Blocks.HORN_CORAL_BLOCK);
 //        wall(MinecraftBlocks.DRIED_KELP_WALL, Blocks.DRIED_KELP_BLOCK);
+//        wall(MinecraftBlocks.HONEY_WALL, Blocks.HONEY_BLOCK);
         wall(MinecraftBlocks.HONEYCOMB_WALL, Blocks.HONEYCOMB_BLOCK);
     }
 }

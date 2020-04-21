@@ -93,9 +93,11 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         slab(MinecraftItems.NETHER_QUARTZ_ORE_SLAB, "Nether Quartz Ore");
         slab(MinecraftItems.CHISELED_QUARTZ_SLAB, "Chiseled Quartz");
         slab(MinecraftItems.QUARTZ_PILLAR_SLAB, "Quartz Pillar");
+        slab(MinecraftItems.HAY_SLAB, "Hay");
         slab(MinecraftItems.TERRACOTTA_SLAB, "Terracotta");
         slab(MinecraftItems.COAL_SLAB, "Coal");
         slab(MinecraftItems.PACKED_ICE_SLAB, "Packed Ice");
+        slab(MinecraftItems.SLIME_SLAB, "Slime");
         slab(MinecraftItems.SEA_LANTERN_SLAB, "Sea Lantern");
         slab(MinecraftItems.CHISELED_RED_SANDSTONE_SLAB, "Chiseled Red Sandstone");
         slab(MinecraftItems.MAGMA_SLAB, "Magma");
@@ -112,6 +114,7 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         slab(MinecraftItems.FIRE_CORAL_SLAB, "Fire Coral");
         slab(MinecraftItems.HORN_CORAL_SLAB, "Horn Coral");
         slab(MinecraftItems.DRIED_KELP_SLAB, "Dried Kelp");
+        slab(MinecraftItems.HONEY_SLAB, "Honey");
         slab(MinecraftItems.HONEYCOMB_SLAB, "Honeycomb");
         stairs(MinecraftItems.OAK_STAIRS, "Oak");
         stairs(MinecraftItems.SPRUCE_STAIRS, "Spruce");
@@ -176,9 +179,11 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         stairs(MinecraftItems.NETHER_QUARTZ_ORE_STAIRS, "Nether Quartz Ore");
         stairs(MinecraftItems.CHISELED_QUARTZ_STAIRS, "Chiseled Quartz");
         stairs(MinecraftItems.QUARTZ_PILLAR_STAIRS, "Quartz Pillar");
+        stairs(MinecraftItems.HAY_STAIRS, "Hay");
         stairs(MinecraftItems.TERRACOTTA_STAIRS, "Terracotta");
         stairs(MinecraftItems.COAL_STAIRS, "Coal");
         stairs(MinecraftItems.PACKED_ICE_STAIRS, "Packed Ice");
+        stairs(MinecraftItems.SLIME_STAIRS, "Slime");
         stairs(MinecraftItems.SEA_LANTERN_STAIRS, "Sea Lantern");
         stairs(MinecraftItems.CHISELED_RED_SANDSTONE_STAIRS, "Chiseled Red Sandstone");
         stairs(MinecraftItems.MAGMA_STAIRS, "Magma");
@@ -195,6 +200,7 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         stairs(MinecraftItems.FIRE_CORAL_STAIRS, "Fire Coral");
         stairs(MinecraftItems.HORN_CORAL_STAIRS, "Horn Coral");
         stairs(MinecraftItems.DRIED_KELP_STAIRS, "Dried Kelp");
+        stairs(MinecraftItems.HONEY_STAIRS, "Honey");
         stairs(MinecraftItems.HONEYCOMB_STAIRS, "Honeycomb");
         wall(MinecraftItems.OAK_WALL, "Oak");
         wall(MinecraftItems.SPRUCE_WALL, "Spruce");
@@ -259,9 +265,11 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         wall(MinecraftItems.NETHER_QUARTZ_ORE_WALL, "Nether Quartz Ore");
         wall(MinecraftItems.CHISELED_QUARTZ_WALL, "Chiseled Quartz");
         wall(MinecraftItems.QUARTZ_PILLAR_WALL, "Quartz Pillar");
+        wall(MinecraftItems.HAY_WALL, "Hay");
         wall(MinecraftItems.TERRACOTTA_WALL, "Terracotta");
         wall(MinecraftItems.COAL_WALL, "Coal");
         wall(MinecraftItems.PACKED_ICE_WALL, "Packed Ice");
+        wall(MinecraftItems.SLIME_WALL, "Slime");
         wall(MinecraftItems.SEA_LANTERN_WALL, "Sea Lantern");
         wall(MinecraftItems.CHISELED_RED_SANDSTONE_WALL, "Chiseled Red Sandstone");
         wall(MinecraftItems.MAGMA_WALL, "Magma");
@@ -278,6 +286,7 @@ public final class MinecraftLangGenENUS extends LangGenENUS {
         wall(MinecraftItems.FIRE_CORAL_WALL, "Fire Coral");
         wall(MinecraftItems.HORN_CORAL_WALL, "Horn Coral");
         wall(MinecraftItems.DRIED_KELP_WALL, "Dried Kelp");
+        wall(MinecraftItems.HONEY_WALL, "Honey");
         wall(MinecraftItems.HONEYCOMB_WALL, "Honeycomb");
     }
 }

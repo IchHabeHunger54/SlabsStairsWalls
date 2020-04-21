@@ -41,5 +41,10 @@
       <option name="name" value="ModMaven" />
       <option name="url" value="https://modmaven.k-4u.nl" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="http://girafi.dk/maven/" />
+    </remote-repository>
   </component>
 </project>
