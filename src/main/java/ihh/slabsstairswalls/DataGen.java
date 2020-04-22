@@ -5,6 +5,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = SlabsStairsWalls.MODID)
+@SuppressWarnings("unused")
 public abstract class DataGen {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent e) {

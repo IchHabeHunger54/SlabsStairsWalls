@@ -1,13 +1,6 @@
 package ihh.slabsstairswalls.minecraft;
 
-import ihh.slabsstairswalls.LootTableGen;
-import net.minecraft.data.DataGenerator;
-
-public final class MinecraftLootTables extends LootTableGen {
-    public MinecraftLootTables(DataGenerator g) {
-        super(g);
-    }
-
+public class MinecraftLootTables extends ihh.slabsstairswalls.LootTables {
     @Override
     protected void addTables() {
         dropSelf(MinecraftBlocks.NETHER_BRICK_FENCE_GATE);

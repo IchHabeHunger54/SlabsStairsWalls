@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = SlabsStairsWalls.MODID)
+@SuppressWarnings("unused")
 public final class MinecraftDataGen extends DataGen {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent e) {
@@ -16,7 +17,7 @@ public final class MinecraftDataGen extends DataGen {
         ExistingFileHelper h = e.getExistingFileHelper();
         if (e.includeServer()) {
             g.addProvider(new MinecraftRecipes(g));
-            g.addProvider(new MinecraftLootTables(g));
+            g.addProvider(new MinecraftLootTableGen(g));
             g.addProvider(new MinecraftBlockTags(g));
             g.addProvider(new MinecraftItemTags(g));
         }
