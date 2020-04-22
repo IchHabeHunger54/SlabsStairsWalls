@@ -1,6 +1,6 @@
 package ihh.slabsstairswalls.minecraft;
 
-public class MinecraftLootTables extends ihh.slabsstairswalls.LootTables {
+public final class MinecraftLootTables extends ihh.slabsstairswalls.LootTables {
     @Override
     protected void addTables() {
         dropSelf(MinecraftBlocks.NETHER_BRICK_FENCE_GATE);

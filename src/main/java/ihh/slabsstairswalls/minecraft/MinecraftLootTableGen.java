@@ -13,7 +13,7 @@ import net.minecraft.world.storage.loot.LootParameterSet;
 import net.minecraft.world.storage.loot.LootParameterSets;
 import net.minecraft.world.storage.loot.LootTable;
 
-public class MinecraftLootTableGen extends ihh.slabsstairswalls.LootTableGen {
+public final class MinecraftLootTableGen extends ihh.slabsstairswalls.LootTableGen {
     public MinecraftLootTableGen(DataGenerator g) {
         super(g);
     }
