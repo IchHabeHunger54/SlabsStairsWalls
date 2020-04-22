@@ -14,6 +14,7 @@ public abstract class DataGen {
 //            g.addProvider(new RecipeGen(g));
 //            g.addProvider(new BlockTagGen(g));
 //            g.addProvider(new ItemTagGen(g));
+//            g.addProvider(new LootTableGen(g));
 //        }
 //        if(e.includeClient()) {
 //            g.addProvider(new LangGenENUS(g));

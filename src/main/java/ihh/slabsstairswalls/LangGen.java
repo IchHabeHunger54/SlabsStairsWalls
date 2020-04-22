@@ -10,6 +10,9 @@ abstract class LangGen extends LanguageProvider {
         super(g, SlabsStairsWalls.MODID, l);
     }
 
+    @Override
+    protected abstract void addTranslations();
+
     public abstract void slab(Supplier<Item> i, String k);
 
     public abstract void stairs(Supplier<Item> i, String k);

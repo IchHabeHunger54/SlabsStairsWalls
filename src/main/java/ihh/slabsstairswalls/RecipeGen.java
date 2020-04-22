@@ -22,6 +22,9 @@ public abstract class RecipeGen extends ForgeRecipeProvider {
         super(g);
     }
 
+    @Override
+    protected abstract void registerRecipes(Consumer<IFinishedRecipe> consumer);
+
     public static void slabRecipe(Supplier<Item> r, Supplier<Item> b, boolean s, Consumer<IFinishedRecipe> c) {
         ShapedRecipeBuilder.shapedRecipe(r.get(), 6).patternLine("###").key('#', b.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(b.get())).build(c);
         ShapelessRecipeBuilder.shapelessRecipe(b.get()).addIngredient(r.get()).addIngredient(r.get()).addCriterion("item", InventoryChangeTrigger.Instance.forItems(r.get())).build(c, new ResourceLocation(SlabsStairsWalls.MODID, Registry.ITEM.getKey(r.get()).getPath() + "_uncrafting"));

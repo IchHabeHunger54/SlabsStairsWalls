@@ -9,6 +9,5 @@ public abstract class BlockTagGen extends BlockTagsProvider {
     }
 
     @Override
-    protected void registerTags() {
-    }
+    protected abstract void registerTags();
 }

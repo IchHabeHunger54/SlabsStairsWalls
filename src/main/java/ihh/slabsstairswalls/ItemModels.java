@@ -21,8 +21,7 @@ public abstract class ItemModels extends ItemModelProvider {
     }
 
     @Override
-    protected void registerModels() {
-    }
+    protected abstract void registerModels();
 
     @Nonnull
     @Override

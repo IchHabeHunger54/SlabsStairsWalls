@@ -9,6 +9,5 @@ public abstract class ItemTagGen extends ItemTagsProvider {
     }
 
     @Override
-    protected void registerTags() {
-    }
+    protected abstract void registerTags();
 }

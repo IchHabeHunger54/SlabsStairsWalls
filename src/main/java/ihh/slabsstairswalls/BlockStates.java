@@ -22,8 +22,7 @@ public abstract class BlockStates extends BlockStateProvider {
     }
 
     @Override
-    protected void registerStatesAndModels() {
-    }
+    protected abstract void registerStatesAndModels();
 
     @Nonnull
     @Override

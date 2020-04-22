@@ -16,6 +16,7 @@ public final class MinecraftDataGen extends DataGen {
         ExistingFileHelper h = e.getExistingFileHelper();
         if (e.includeServer()) {
             g.addProvider(new MinecraftRecipes(g));
+            g.addProvider(new MinecraftLootTables(g));
             g.addProvider(new MinecraftBlockTags(g));
             g.addProvider(new MinecraftItemTags(g));
         }
