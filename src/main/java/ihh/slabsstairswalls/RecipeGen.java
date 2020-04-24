@@ -127,6 +127,12 @@ public abstract class RecipeGen extends ForgeRecipeProvider {
         }
     }
 
+    public static void slabStairsWallRecipe(Supplier<Item> s, Supplier<Item> st, Supplier<Item> w, Supplier<Item> l, boolean b, Consumer<IFinishedRecipe> c) {
+        slabRecipe(s, l, b, c);
+        stairsRecipe(st, l, b, c);
+        wallRecipe(w, l, b, c);
+    }
+
     public static void slabStairsWallVSlabVStairsRecipe(Supplier<Item> s, Supplier<Item> st, Supplier<Item> w, Supplier<Item> vs, Supplier<Item> vst, Supplier<Item> l, boolean b, Consumer<IFinishedRecipe> c) {
         slabRecipe(s, l, b, c);
         stairsRecipe(st, l, b, c);

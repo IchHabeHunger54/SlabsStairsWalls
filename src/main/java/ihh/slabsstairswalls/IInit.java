@@ -35,14 +35,12 @@ public interface IInit {
         return BLOCKS.register(b.get().getRegistryName().getPath() + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
     }
 
-    static RegistryObject<VerticalSlabBlock> registerVertSlab(Supplier<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_slab") || !(b.get() instanceof SlabBlock)) throw new IllegalArgumentException("Vertical slab requires a slab block");
-        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_slab", "_vertical_slab"), () -> new VerticalSlabBlock((SlabBlock)b.get()));
+    static RegistryObject<VerticalSlabBlock> registerVSlab(Supplier<? extends SlabBlock> b) {
+        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_slab", "_vertical_slab"), () -> new VerticalSlabBlock(b));
     }
 
-    static RegistryObject<VerticalStairsBlock> registerVertStairs(Supplier<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_stairs") || !(b.get() instanceof StairsBlock)) throw new IllegalArgumentException("Vertical stairs requires a stairs block");
-        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_stairs", "_vertical_stairs"), () -> new VerticalStairsBlock((StairsBlock)b.get()));
+    static RegistryObject<VerticalStairsBlock> registerVStairs(Supplier<? extends StairsBlock> b) {
+        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_stairs", "_vertical_stairs"), () -> new VerticalStairsBlock(b));
     }
 
     static RegistryObject<SlabBlock> registerSlab(String n, Supplier<? extends Block> b) {
@@ -57,58 +55,12 @@ public interface IInit {
         return BLOCKS.register(n + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
     }
 
-    static RegistryObject<VerticalSlabBlock> registerVertSlab(String n, Supplier<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_slab") || !(b.get() instanceof SlabBlock)) throw new IllegalArgumentException("Vertical slab requires a slab block");
-        return BLOCKS.register(n + "_vertical_slab", () -> new VerticalSlabBlock((SlabBlock)b.get()));
+    static RegistryObject<VerticalSlabBlock> registerVSlab(String n, Supplier<? extends SlabBlock> b) {
+        return BLOCKS.register(n + "_vertical_slab", () -> new VerticalSlabBlock(b));
     }
 
-    static RegistryObject<VerticalStairsBlock> registerVertStairs(String n, Supplier<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_stairs") || !(b.get() instanceof StairsBlock)) throw new IllegalArgumentException("Vertical stairs requires a stairs block");
-        return BLOCKS.register(n + "_vertical_stairs", () -> new VerticalStairsBlock((StairsBlock)b.get()));
-    }
-
-    static RegistryObject<SlabBlock> registerSlab(RegistryObject<? extends Block> b) {
-        return BLOCKS.register(b.get().getRegistryName().getPath() + "_slab", () -> new SlabBlock(Block.Properties.from(b.get())));
-    }
-
-    static RegistryObject<StairsBlock> registerStairs(RegistryObject<? extends Block> b) {
-        return BLOCKS.register(b.get().getRegistryName().getPath() + "_stairs", () -> new StairsBlock(() -> b.get().getDefaultState(), Block.Properties.from(b.get())));
-    }
-
-    static RegistryObject<WallBlock> registerWall(RegistryObject<? extends Block> b) {
-        return BLOCKS.register(b.get().getRegistryName().getPath() + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
-    }
-
-    static RegistryObject<VerticalSlabBlock> registerVertSlab(RegistryObject<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_slab") || !(b.get() instanceof SlabBlock)) throw new IllegalArgumentException("Vertical slab requires a slab block");
-        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_slab", "_vertical_slab"), () -> new VerticalSlabBlock((SlabBlock)b.get()));
-    }
-
-    static RegistryObject<VerticalStairsBlock> registerVertStairs(RegistryObject<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_stairs") || !(b.get() instanceof StairsBlock)) throw new IllegalArgumentException("Vertical stairs requires a stairs block");
-        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_stairs", "_vertical_stairs"), () -> new VerticalStairsBlock((StairsBlock)b.get()));
-    }
-
-    static RegistryObject<SlabBlock> registerSlab(String n, RegistryObject<? extends Block> b) {
-        return BLOCKS.register(n + "_slab", () -> new SlabBlock(Block.Properties.from(b.get())));
-    }
-
-    static RegistryObject<StairsBlock> registerStairs(String n, RegistryObject<? extends Block> b) {
-        return BLOCKS.register(n + "_stairs", () -> new StairsBlock(() -> b.get().getDefaultState(), Block.Properties.from(b.get())));
-    }
-
-    static RegistryObject<WallBlock> registerWall(String n, RegistryObject<? extends Block> b) {
-        return BLOCKS.register(n + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
-    }
-
-    static RegistryObject<VerticalSlabBlock> registerVertSlab(String n, RegistryObject<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_slab") || !(b.get() instanceof SlabBlock)) throw new IllegalArgumentException("Vertical slab requires a slab block");
-        return BLOCKS.register(n + "_vertical_slab", () -> new VerticalSlabBlock((SlabBlock)b.get()));
-    }
-
-    static RegistryObject<VerticalStairsBlock> registerVertStairs(String n, RegistryObject<? extends Block> b) {
-        if(!b.get().getRegistryName().getPath().contains("_stairs") || !(b.get() instanceof StairsBlock)) throw new IllegalArgumentException("Vertical stairs requires a stairs block");
-        return BLOCKS.register(n + "_vertical_stairs", () -> new VerticalStairsBlock((StairsBlock)b.get()));
+    static RegistryObject<VerticalStairsBlock> registerVStairs(String n, Supplier<? extends StairsBlock> b) {
+        return BLOCKS.register(n + "_vertical_stairs", () -> new VerticalStairsBlock(b));
     }
 
     static RegistryObject<FenceBlock> registerFence(String n, Supplier<Block> b) {

@@ -1,5 +1,6 @@
 package ihh.slabsstairswalls;
 
+import java.util.function.Supplier;
 import javax.annotation.Nonnull;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -34,9 +35,9 @@ public class VerticalStairsBlock extends Block implements IWaterLoggable {
     public static final EnumProperty<VerticalStairsType> TYPE = EnumProperty.create("type", VerticalStairsType.class);
     public final StairsBlock block;
 
-    public VerticalStairsBlock(StairsBlock block) {
-        super(Block.Properties.from(block));
-        this.block = block;
+    public VerticalStairsBlock(Supplier<? extends StairsBlock> block) {
+        super(Block.Properties.from(block.get()));
+        this.block = block.get();
         setDefaultState(getDefaultState().with(TYPE, VerticalStairsType.north).with(WATERLOGGED, false));
     }
 
