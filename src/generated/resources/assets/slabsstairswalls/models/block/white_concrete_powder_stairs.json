@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/white_concrete_powder",
-    "bottom": "block/white_concrete_powder",
-    "top": "block/white_concrete_powder"
-  }
-}

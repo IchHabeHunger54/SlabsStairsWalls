@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:lapis_ore"
-  },
-  "result": "slabsstairswalls:lapis_ore_stairs",
-  "count": 1
-}

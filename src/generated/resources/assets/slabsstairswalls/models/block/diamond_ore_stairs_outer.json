@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/diamond_ore",
-    "bottom": "block/diamond_ore",
-    "top": "block/diamond_ore"
-  }
-}

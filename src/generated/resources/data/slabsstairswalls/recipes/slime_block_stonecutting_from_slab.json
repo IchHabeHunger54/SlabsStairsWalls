@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:slime_block"
-  },
-  "result": "slabsstairswalls:slime_slab",
-  "count": 2
-}

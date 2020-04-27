@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/dead_tube_coral_block",
-    "bottom": "block/dead_tube_coral_block",
-    "top": "block/dead_tube_coral_block"
-  }
-}
