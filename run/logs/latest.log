@@ -1,24 +1,25 @@
-[23Apr2020 17:53:10.366] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, slabsstairswalls, --all, --output, D:\d\mcm\dev\SlabsStairsWalls\src\generated\resources, --gameDir, ., --launchTarget, fmluserdevdata, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.9]
-[23Apr2020 17:53:10.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
-[23Apr2020 17:53:10.752] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[23Apr2020 17:53:12.045] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevdata' with arguments [--gameDir, ., --mod, slabsstairswalls, --all, --output, D:\d\mcm\dev\SlabsStairsWalls\src\generated\resources]
-[23Apr2020 17:53:12.907] [main/INFO] [net.minecraftforge.fml.ModLoader/]: Initializing Data Gatherer for mods [slabsstairswalls]
-[23Apr2020 17:53:29.200] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.43, for MC 1.15.2 with MCP 20200307.202953
-[23Apr2020 17:53:29.200] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.43 Initialized
-[23Apr2020 17:53:32.281] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[23Apr2020 17:53:33.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 798 ms
-[23Apr2020 17:53:33.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
-[23Apr2020 17:53:33.649] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 567 ms
-[23Apr2020 17:53:33.649] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[23Apr2020 17:53:33.713] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 64 ms
-[23Apr2020 17:53:33.713] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
-[23Apr2020 17:53:33.734] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 20 ms
-[23Apr2020 17:53:33.734] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
-[23Apr2020 17:53:33.748] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 13 ms
-[23Apr2020 17:53:33.748] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: de_de
-[23Apr2020 17:53:33.759] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: de_de finished after 12 ms
-[23Apr2020 17:53:33.760] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Slabs, Stairs, Walls: Block State Provider
-[23Apr2020 17:53:37.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Slabs, Stairs, Walls: Block State Provider finished after 3252 ms
-[23Apr2020 17:53:37.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Slabs, Stairs, Walls: Item Model Provider
-[23Apr2020 17:53:37.204] [main/INFO] [net.minecraft.data.DataGenerator/]: Slabs, Stairs, Walls: Item Model Provider finished after 190 ms
-[23Apr2020 17:53:37.204] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 4922 ms
+[27Apr2020 14:43:15.410] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.9, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\D\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[27Apr2020 14:43:15.421] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
+[27Apr2020 14:43:16.107] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[27Apr2020 14:43:17.868] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\D\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[27Apr2020 14:43:21.897] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[27Apr2020 14:43:38.033] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[27Apr2020 14:43:39.643] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.43, for MC 1.15.2 with MCP 20200307.202953
+[27Apr2020 14:43:39.643] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.43 Initialized
+[27Apr2020 14:43:45.707] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[27Apr2020 14:43:45.872] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[27Apr2020 14:43:46.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[27Apr2020 14:43:47.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.59
+[27Apr2020 14:43:56.338] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[27Apr2020 14:43:56.339] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[27Apr2020 14:43:56.597] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[27Apr2020 14:43:56.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[27Apr2020 14:43:56.656] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[27Apr2020 14:43:56.659] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[27Apr2020 14:43:56.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[27Apr2020 14:43:56.664] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[27Apr2020 14:43:56.666] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[27Apr2020 14:43:58.098] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[27Apr2020 14:43:58.110] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[27Apr2020 14:43:58.112] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[27Apr2020 14:44:02.985] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
