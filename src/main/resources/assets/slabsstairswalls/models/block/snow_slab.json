@@ -3,6 +3,6 @@
   "textures": {
     "side": "block/snow",
     "bottom": "block/snow",
-    "top": "block/soul_sand"
+    "top": "block/snow"
   }
 }
