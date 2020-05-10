@@ -1,8 +1,8 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "side": "block/soul_sand",
-    "bottom": "block/soul_sand",
-    "top": "block/soul_sand"
+    "side": "block/snow",
+    "bottom": "block/snow",
+    "top": "block/snow"
   }
 }
