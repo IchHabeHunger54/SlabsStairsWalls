@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/netherrack",
-    "bottom": "block/netherrack",
-    "top": "block/netherrack"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/netherrack","bottom":"block/netherrack","top":"block/netherrack"}}

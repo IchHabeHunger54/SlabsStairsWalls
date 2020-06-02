@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/hay_block_side",
-    "bottom": "block/hay_block_side",
-    "top": "block/hay_block_side"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/hay_block_side","bottom":"block/hay_block_side","top":"block/hay_block_side"}}

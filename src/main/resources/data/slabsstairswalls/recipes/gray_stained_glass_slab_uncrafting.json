@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:gray_stained_glass_slab"
-    },
-    {
-      "item": "slabsstairswalls:gray_stained_glass_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:gray_stained_glass"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:gray_stained_glass_slab"},{"item":"slabsstairswalls:gray_stained_glass_slab"}],"result":{"item":"minecraft:gray_stained_glass"}}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/bone_block_side",
-    "bottom": "block/bone_block_side",
-    "top": "block/bone_block_side"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/bone_block_side","bottom":"block/bone_block_side","top":"block/bone_block_side"}}

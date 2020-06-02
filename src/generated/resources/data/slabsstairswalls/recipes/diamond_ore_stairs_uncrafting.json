@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:diamond_ore_stairs"
+    },
+    {
+      "item": "slabsstairswalls:diamond_ore_stairs"
+    },
+    {
+      "item": "slabsstairswalls:diamond_ore_stairs"
+    },
+    {
+      "item": "slabsstairswalls:diamond_ore_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_ore",
+    "count": 3
+  }
+}

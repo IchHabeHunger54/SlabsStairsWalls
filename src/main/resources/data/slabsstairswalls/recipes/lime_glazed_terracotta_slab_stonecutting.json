@@ -1,8 +1,1 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:lime_glazed_terracotta"
-  },
-  "result": "slabsstairswalls:lime_glazed_terracotta_slab",
-  "count": 2
-}
+{"type":"minecraft:stonecutting","ingredient":{"item":"minecraft:lime_glazed_terracotta"},"result":"slabsstairswalls:lime_glazed_terracotta_slab","count":2}

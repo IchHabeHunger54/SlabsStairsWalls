@@ -1,8 +1,1 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/iron_ore",
-    "bottom": "block/iron_ore",
-    "top": "block/iron_ore"
-  }
-}
+{"parent":"block/stairs","textures":{"side":"block/iron_ore","bottom":"block/iron_ore","top":"block/iron_ore"}}

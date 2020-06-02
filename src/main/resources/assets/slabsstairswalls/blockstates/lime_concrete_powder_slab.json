@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/lime_concrete_powder_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/lime_concrete_powder_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/lime_concrete_powder"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/lime_concrete_powder_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/lime_concrete_powder_slab"},"type=double":{"model":"slabsstairswalls:block/lime_concrete_powder"}}}

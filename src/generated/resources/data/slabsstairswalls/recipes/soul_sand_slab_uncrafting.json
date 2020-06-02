@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:soul_sand_slab"
+    },
+    {
+      "item": "slabsstairswalls:soul_sand_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:soul_sand"
+  }
+}

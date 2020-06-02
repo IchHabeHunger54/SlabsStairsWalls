@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:acacia_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:acacia_vertical_slab"
+  }
+}

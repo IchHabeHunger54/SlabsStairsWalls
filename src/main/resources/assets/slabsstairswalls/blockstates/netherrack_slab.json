@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/netherrack_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/netherrack_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/netherrack"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/netherrack_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/netherrack_slab"},"type=double":{"model":"slabsstairswalls:block/netherrack"}}}

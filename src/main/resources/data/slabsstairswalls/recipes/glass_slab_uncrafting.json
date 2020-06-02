@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:glass_slab"
-    },
-    {
-      "item": "slabsstairswalls:glass_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:glass"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:glass_slab"},{"item":"slabsstairswalls:glass_slab"}],"result":{"item":"minecraft:glass"}}

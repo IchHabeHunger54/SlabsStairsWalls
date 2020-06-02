@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/coal_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/coal_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/coal_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/coal_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/coal_slab"},"type=double":{"model":"slabsstairswalls:block/coal_block"}}}

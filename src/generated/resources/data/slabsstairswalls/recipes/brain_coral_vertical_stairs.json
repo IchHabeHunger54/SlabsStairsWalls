@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:brain_coral_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:brain_coral_vertical_stairs"
+  }
+}

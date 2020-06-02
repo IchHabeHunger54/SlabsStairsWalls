@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:iron_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:iron_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:iron_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:iron_block_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_block",
+    "count": 3
+  }
+}

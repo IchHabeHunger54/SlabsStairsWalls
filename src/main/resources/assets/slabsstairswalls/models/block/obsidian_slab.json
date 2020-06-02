@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/obsidian",
-    "bottom": "block/obsidian",
-    "top": "block/obsidian"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/obsidian","bottom":"block/obsidian","top":"block/obsidian"}}

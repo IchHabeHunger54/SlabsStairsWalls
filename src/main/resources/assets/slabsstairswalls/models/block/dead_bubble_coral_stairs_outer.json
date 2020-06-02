@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/dead_bubble_coral_block",
-    "bottom": "block/dead_bubble_coral_block",
-    "top": "block/dead_bubble_coral_block"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/dead_bubble_coral_block","bottom":"block/dead_bubble_coral_block","top":"block/dead_bubble_coral_block"}}

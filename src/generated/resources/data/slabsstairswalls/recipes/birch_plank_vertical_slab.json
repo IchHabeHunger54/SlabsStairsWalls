@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_wood"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:birch_plank_vertical_slab"
+  }
+}

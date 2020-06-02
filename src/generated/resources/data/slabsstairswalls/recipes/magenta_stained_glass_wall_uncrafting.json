@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:magenta_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:magenta_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:magenta_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:magenta_stained_glass_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_stained_glass",
+    "count": 3
+  }
+}

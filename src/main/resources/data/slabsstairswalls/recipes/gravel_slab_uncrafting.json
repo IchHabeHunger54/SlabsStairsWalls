@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:gravel_slab"
-    },
-    {
-      "item": "slabsstairswalls:gravel_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:gravel"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:gravel_slab"},{"item":"slabsstairswalls:gravel_slab"}],"result":{"item":"minecraft:gravel"}}

@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/brown_mushroom_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/brown_mushroom_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/brown_mushroom_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/brown_mushroom_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/brown_mushroom_slab"},"type=double":{"model":"slabsstairswalls:block/brown_mushroom_block"}}}

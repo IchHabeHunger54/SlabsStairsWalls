@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:lapis_block_slab"
+    },
+    {
+      "item": "slabsstairswalls:lapis_block_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lapis_block"
+  }
+}

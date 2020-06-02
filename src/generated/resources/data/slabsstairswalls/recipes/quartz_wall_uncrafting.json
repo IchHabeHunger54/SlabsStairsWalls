@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:quartz_wall"
+    },
+    {
+      "item": "slabsstairswalls:quartz_wall"
+    },
+    {
+      "item": "slabsstairswalls:quartz_wall"
+    },
+    {
+      "item": "slabsstairswalls:quartz_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:quartz_block",
+    "count": 3
+  }
+}

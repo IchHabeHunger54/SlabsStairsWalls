@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:emerald_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:emerald_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:emerald_ore_wall"
+    },
+    {
+      "item": "slabsstairswalls:emerald_ore_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:emerald_ore",
+    "count": 3
+  }
+}

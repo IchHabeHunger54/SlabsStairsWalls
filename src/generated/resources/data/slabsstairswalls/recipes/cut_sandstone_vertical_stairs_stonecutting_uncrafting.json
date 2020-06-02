@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:cut_sandstone_vertical_stairs"
+  },
+  "result": "slabsstairswalls:cut_sandstone_stairs",
+  "count": 1
+}

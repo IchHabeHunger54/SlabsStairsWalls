@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/redstone_ore",
-    "bottom": "block/redstone_ore",
-    "top": "block/redstone_ore"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/redstone_ore","bottom":"block/redstone_ore","top":"block/redstone_ore"}}

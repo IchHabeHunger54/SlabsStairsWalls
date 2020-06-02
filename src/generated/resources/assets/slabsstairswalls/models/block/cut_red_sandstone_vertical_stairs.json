@@ -1,0 +1,6 @@
+{
+  "parent": "slabsstairswalls:block/template_vertical_stairs",
+  "textures": {
+    "all": "block/cut_red_sandstone"
+  }
+}

@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/yellow_concrete_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/yellow_concrete_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/yellow_concrete"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/yellow_concrete_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/yellow_concrete_slab"},"type=double":{"model":"slabsstairswalls:block/yellow_concrete"}}}

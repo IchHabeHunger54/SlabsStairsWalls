@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:netherrack_wall"
+    },
+    {
+      "item": "slabsstairswalls:netherrack_wall"
+    },
+    {
+      "item": "slabsstairswalls:netherrack_wall"
+    },
+    {
+      "item": "slabsstairswalls:netherrack_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherrack",
+    "count": 3
+  }
+}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/mycelium_top",
-    "bottom": "block/mycelium_top",
-    "top": "block/mycelium_top"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/mycelium_top","bottom":"block/mycelium_top","top":"block/mycelium_top"}}

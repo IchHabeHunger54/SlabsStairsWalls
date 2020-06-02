@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:red_mushroom_slab"
+    },
+    {
+      "item": "slabsstairswalls:red_mushroom_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_mushroom_block"
+  }
+}

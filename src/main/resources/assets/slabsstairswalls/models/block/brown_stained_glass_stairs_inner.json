@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/brown_stained_glass",
-    "bottom": "block/brown_stained_glass",
-    "top": "block/brown_stained_glass"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/brown_stained_glass","bottom":"block/brown_stained_glass","top":"block/brown_stained_glass"}}

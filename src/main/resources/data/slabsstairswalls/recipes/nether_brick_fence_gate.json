@@ -1,18 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "x#x",
-    "x#x"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:nether_bricks"
-    },
-    "x": {
-      "tag": "forge:ingots/nether_brick"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:nether_brick_fence_gate"
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["x#x","x#x"],"key":{"#":{"item":"minecraft:nether_bricks"},"x":{"tag":"forge:ingots/nether_brick"}},"result":{"item":"slabsstairswalls:nether_brick_fence_gate"}}

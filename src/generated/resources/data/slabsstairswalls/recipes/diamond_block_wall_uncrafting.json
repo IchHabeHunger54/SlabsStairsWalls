@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:diamond_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:diamond_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:diamond_block_wall"
+    },
+    {
+      "item": "slabsstairswalls:diamond_block_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_block",
+    "count": 3
+  }
+}

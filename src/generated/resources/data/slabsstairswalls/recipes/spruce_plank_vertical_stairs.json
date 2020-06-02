@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_wood"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:spruce_plank_vertical_stairs"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:sea_lantern_stairs"
+    },
+    {
+      "item": "slabsstairswalls:sea_lantern_stairs"
+    },
+    {
+      "item": "slabsstairswalls:sea_lantern_stairs"
+    },
+    {
+      "item": "slabsstairswalls:sea_lantern_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sea_lantern",
+    "count": 3
+  }
+}

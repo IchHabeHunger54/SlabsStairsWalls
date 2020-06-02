@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:emerald_block_vertical_slab"
+  },
+  "result": "slabsstairswalls:emerald_block_slab",
+  "count": 1
+}

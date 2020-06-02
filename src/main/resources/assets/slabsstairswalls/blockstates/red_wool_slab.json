@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/red_wool_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/red_wool_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/red_wool"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/red_wool_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/red_wool_slab"},"type=double":{"model":"slabsstairswalls:block/red_wool"}}}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/soul_sand",
-    "bottom": "block/soul_sand",
-    "top": "block/soul_sand"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/soul_sand","bottom":"block/soul_sand","top":"block/soul_sand"}}

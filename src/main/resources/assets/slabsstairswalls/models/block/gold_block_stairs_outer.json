@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/gold_block",
-    "bottom": "block/gold_block",
-    "top": "block/gold_block"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/gold_block","bottom":"block/gold_block","top":"block/gold_block"}}

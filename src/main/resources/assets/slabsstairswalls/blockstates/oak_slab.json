@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/oak_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/oak_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/oak_log"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/oak_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/oak_slab"},"type=double":{"model":"slabsstairswalls:block/oak_log"}}}

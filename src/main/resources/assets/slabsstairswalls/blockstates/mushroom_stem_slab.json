@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/mushroom_stem_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/mushroom_stem_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/mushroom_stem"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/mushroom_stem_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/mushroom_stem_slab"},"type=double":{"model":"slabsstairswalls:block/mushroom_stem"}}}

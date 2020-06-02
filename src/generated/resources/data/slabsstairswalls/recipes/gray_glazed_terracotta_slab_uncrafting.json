@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:gray_glazed_terracotta_slab"
+    },
+    {
+      "item": "slabsstairswalls:gray_glazed_terracotta_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_glazed_terracotta"
+  }
+}

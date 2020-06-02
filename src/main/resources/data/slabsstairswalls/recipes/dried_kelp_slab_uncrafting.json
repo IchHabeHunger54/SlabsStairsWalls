@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:dried_kelp_slab"
-    },
-    {
-      "item": "slabsstairswalls:dried_kelp_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:dried_kelp_block"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:dried_kelp_slab"},{"item":"slabsstairswalls:dried_kelp_slab"}],"result":{"item":"minecraft:dried_kelp_block"}}

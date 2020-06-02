@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/bone_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/bone_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/bone"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/bone_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/bone_slab"},"type=double":{"model":"slabsstairswalls:block/bone"}}}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:fire_coral_stairs"
+    },
+    {
+      "item": "slabsstairswalls:fire_coral_stairs"
+    },
+    {
+      "item": "slabsstairswalls:fire_coral_stairs"
+    },
+    {
+      "item": "slabsstairswalls:fire_coral_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fire_coral_block",
+    "count": 3
+  }
+}

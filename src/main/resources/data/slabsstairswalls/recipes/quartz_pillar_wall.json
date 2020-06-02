@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:quartz_pillar"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:quartz_pillar_wall",
-    "count": 8
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["###","###"],"key":{"#":{"item":"minecraft:quartz_pillar"}},"result":{"item":"slabsstairswalls:quartz_pillar_wall","count":8}}

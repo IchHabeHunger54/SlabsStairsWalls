@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:dark_oak_stairs"
+    },
+    {
+      "item": "slabsstairswalls:dark_oak_stairs"
+    },
+    {
+      "item": "slabsstairswalls:dark_oak_stairs"
+    },
+    {
+      "item": "slabsstairswalls:dark_oak_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dark_oak_wood",
+    "count": 3
+  }
+}

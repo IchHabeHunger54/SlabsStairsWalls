@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/podzol_top",
-    "bottom": "block/podzol_top",
-    "top": "block/podzol_top"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/podzol_top","bottom":"block/podzol_top","top":"block/podzol_top"}}

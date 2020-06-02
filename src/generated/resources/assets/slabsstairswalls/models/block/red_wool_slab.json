@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "side": "block/red_wool",
+    "bottom": "block/red_wool",
+    "top": "block/red_wool"
+  }
+}

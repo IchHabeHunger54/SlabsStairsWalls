@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/black_wool_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/black_wool_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/black_wool"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/black_wool_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/black_wool_slab"},"type=double":{"model":"slabsstairswalls:block/black_wool"}}}

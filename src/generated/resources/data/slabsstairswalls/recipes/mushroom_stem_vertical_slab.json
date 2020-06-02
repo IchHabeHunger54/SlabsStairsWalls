@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:mushroom_stem_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:mushroom_stem_vertical_slab"
+  }
+}

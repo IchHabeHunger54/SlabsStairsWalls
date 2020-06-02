@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:bone_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:bone_vertical_slab"
+  }
+}

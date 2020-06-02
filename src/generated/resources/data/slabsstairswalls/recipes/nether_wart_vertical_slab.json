@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:nether_wart_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:nether_wart_vertical_slab"
+  }
+}

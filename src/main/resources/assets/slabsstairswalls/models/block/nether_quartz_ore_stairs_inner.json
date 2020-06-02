@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/nether_quartz_ore",
-    "bottom": "block/nether_quartz_ore",
-    "top": "block/nether_quartz_ore"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/nether_quartz_ore","bottom":"block/nether_quartz_ore","top":"block/nether_quartz_ore"}}

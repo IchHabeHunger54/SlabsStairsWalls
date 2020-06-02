@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/stripped_acacia_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/stripped_acacia_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/stripped_acacia_log"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/stripped_acacia_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/stripped_acacia_slab"},"type=double":{"model":"slabsstairswalls:block/stripped_acacia_log"}}}

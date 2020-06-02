@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:diamond_block_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:diamond_block_stairs"
+  }
+}

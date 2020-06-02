@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:gray_concrete_powder_wall"
+    },
+    {
+      "item": "slabsstairswalls:gray_concrete_powder_wall"
+    },
+    {
+      "item": "slabsstairswalls:gray_concrete_powder_wall"
+    },
+    {
+      "item": "slabsstairswalls:gray_concrete_powder_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 3
+  }
+}

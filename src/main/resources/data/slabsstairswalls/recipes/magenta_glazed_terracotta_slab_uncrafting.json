@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:magenta_glazed_terracotta_slab"
-    },
-    {
-      "item": "slabsstairswalls:magenta_glazed_terracotta_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:magenta_glazed_terracotta"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:magenta_glazed_terracotta_slab"},{"item":"slabsstairswalls:magenta_glazed_terracotta_slab"}],"result":{"item":"minecraft:magenta_glazed_terracotta"}}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/yellow_wool",
-    "bottom": "block/yellow_wool",
-    "top": "block/yellow_wool"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/yellow_wool","bottom":"block/yellow_wool","top":"block/yellow_wool"}}

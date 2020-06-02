@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:glowstone_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:glowstone_vertical_stairs"
+  }
+}

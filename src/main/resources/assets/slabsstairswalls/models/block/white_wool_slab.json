@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/white_wool",
-    "bottom": "block/white_wool",
-    "top": "block/white_wool"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/white_wool","bottom":"block/white_wool","top":"block/white_wool"}}

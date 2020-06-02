@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "block/honey_block_side"
-  }
-}
+{"parent":"block/template_wall_post","textures":{"wall":"block/honey_block_side"}}

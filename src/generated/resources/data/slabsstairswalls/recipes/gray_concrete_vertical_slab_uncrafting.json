@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:gray_concrete_vertical_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:gray_concrete_slab"
+  }
+}

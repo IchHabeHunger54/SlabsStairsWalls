@@ -1,0 +1,6 @@
+{
+  "parent": "slabsstairswalls:block/template_vertical_stairs",
+  "textures": {
+    "all": "block/stripped_dark_oak_log"
+  }
+}

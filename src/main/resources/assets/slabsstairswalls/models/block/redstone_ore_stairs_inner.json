@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/redstone_ore",
-    "bottom": "block/redstone_ore",
-    "top": "block/redstone_ore"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/redstone_ore","bottom":"block/redstone_ore","top":"block/redstone_ore"}}

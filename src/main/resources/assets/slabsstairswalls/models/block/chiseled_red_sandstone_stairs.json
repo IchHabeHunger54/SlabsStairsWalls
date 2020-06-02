@@ -1,8 +1,1 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/chiseled_red_sandstone",
-    "bottom": "block/chiseled_red_sandstone",
-    "top": "block/chiseled_red_sandstone"
-  }
-}
+{"parent":"block/stairs","textures":{"side":"block/chiseled_red_sandstone","bottom":"block/chiseled_red_sandstone","top":"block/chiseled_red_sandstone"}}

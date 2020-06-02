@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:green_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:green_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:green_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:green_wool_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_wool",
+    "count": 3
+  }
+}

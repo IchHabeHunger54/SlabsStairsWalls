@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:nether_quartz_ore_vertical_stairs"
+  },
+  "result": "slabsstairswalls:nether_quartz_ore_stairs",
+  "count": 1
+}

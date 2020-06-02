@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:dark_oak_slab"
+    },
+    {
+      "item": "slabsstairswalls:dark_oak_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dark_oak_wood"
+  }
+}

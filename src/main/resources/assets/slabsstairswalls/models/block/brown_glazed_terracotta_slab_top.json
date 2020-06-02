@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/brown_glazed_terracotta",
-    "bottom": "block/brown_glazed_terracotta",
-    "top": "block/brown_glazed_terracotta"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/brown_glazed_terracotta","bottom":"block/brown_glazed_terracotta","top":"block/brown_glazed_terracotta"}}

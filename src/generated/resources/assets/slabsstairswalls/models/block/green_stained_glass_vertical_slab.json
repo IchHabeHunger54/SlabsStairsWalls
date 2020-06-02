@@ -1,0 +1,6 @@
+{
+  "parent": "slabsstairswalls:block/template_vertical_slab",
+  "textures": {
+    "all": "block/green_stained_glass"
+  }
+}

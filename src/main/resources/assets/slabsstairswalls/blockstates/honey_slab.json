@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/honey_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/honey_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/honey_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/honey_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/honey_slab"},"type=double":{"model":"slabsstairswalls:block/honey_block"}}}

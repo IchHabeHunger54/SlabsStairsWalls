@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:magma_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:magma_vertical_stairs"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:stripped_birch_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:stripped_birch_stairs"
+  }
+}

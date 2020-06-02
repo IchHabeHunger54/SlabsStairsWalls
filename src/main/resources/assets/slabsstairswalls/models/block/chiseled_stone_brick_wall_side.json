@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "block/chiseled_stone_bricks"
-  }
-}
+{"parent":"block/template_wall_side","textures":{"wall":"block/chiseled_stone_bricks"}}

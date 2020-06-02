@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:lapis_block_vertical_slab"
+  },
+  "result": "slabsstairswalls:lapis_block_slab",
+  "count": 1
+}

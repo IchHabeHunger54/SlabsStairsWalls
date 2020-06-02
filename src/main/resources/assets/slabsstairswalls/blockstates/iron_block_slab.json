@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/iron_block_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/iron_block_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/iron_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/iron_block_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/iron_block_slab"},"type=double":{"model":"slabsstairswalls:block/iron_block"}}}

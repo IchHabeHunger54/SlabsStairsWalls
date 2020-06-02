@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:end_stone_vertical_stairs"
+  },
+  "result": "slabsstairswalls:end_stone_stairs",
+  "count": 1
+}

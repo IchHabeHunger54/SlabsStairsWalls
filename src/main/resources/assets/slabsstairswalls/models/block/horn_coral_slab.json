@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/horn_coral_block",
-    "bottom": "block/horn_coral_block",
-    "top": "block/horn_coral_block"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/horn_coral_block","bottom":"block/horn_coral_block","top":"block/horn_coral_block"}}

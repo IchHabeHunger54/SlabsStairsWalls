@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:redstone_block_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:redstone_block_vertical_stairs"
+  }
+}

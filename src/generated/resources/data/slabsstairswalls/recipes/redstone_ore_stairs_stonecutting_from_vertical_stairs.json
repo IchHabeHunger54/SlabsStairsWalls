@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:redstone_ore_stairs"
+  },
+  "result": "slabsstairswalls:redstone_ore_vertical_stairs",
+  "count": 1
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:obsidian_stairs"
+    },
+    {
+      "item": "slabsstairswalls:obsidian_stairs"
+    },
+    {
+      "item": "slabsstairswalls:obsidian_stairs"
+    },
+    {
+      "item": "slabsstairswalls:obsidian_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 3
+  }
+}

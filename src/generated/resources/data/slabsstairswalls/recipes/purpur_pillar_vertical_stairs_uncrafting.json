@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:purpur_pillar_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:purpur_pillar_stairs"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:cyan_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:cyan_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:cyan_stained_glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:cyan_stained_glass_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_stained_glass",
+    "count": 3
+  }
+}

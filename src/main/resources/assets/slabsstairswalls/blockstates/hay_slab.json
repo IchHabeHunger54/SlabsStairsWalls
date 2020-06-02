@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/hay_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/hay_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/hay_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/hay_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/hay_slab"},"type=double":{"model":"slabsstairswalls:block/hay_block"}}}

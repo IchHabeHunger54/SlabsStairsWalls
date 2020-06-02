@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/chiseled_quartz_block",
-    "bottom": "block/chiseled_quartz_block",
-    "top": "block/chiseled_quartz_block"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/chiseled_quartz_block","bottom":"block/chiseled_quartz_block","top":"block/chiseled_quartz_block"}}

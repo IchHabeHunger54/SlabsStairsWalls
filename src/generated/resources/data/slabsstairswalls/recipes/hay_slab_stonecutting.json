@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:hay_block"
+  },
+  "result": "slabsstairswalls:hay_slab",
+  "count": 2
+}

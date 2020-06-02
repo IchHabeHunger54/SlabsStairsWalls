@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:jungle_slab"
-    },
-    {
-      "item": "slabsstairswalls:jungle_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:jungle_wood"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:jungle_slab"},{"item":"slabsstairswalls:jungle_slab"}],"result":{"item":"minecraft:jungle_wood"}}

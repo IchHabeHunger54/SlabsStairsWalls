@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:bedrock_slab"
+    },
+    {
+      "item": "slabsstairswalls:bedrock_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bedrock"
+  }
+}

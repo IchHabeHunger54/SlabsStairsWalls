@@ -1,6 +1,1 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "block/yellow_wool"
-  }
-}
+{"parent":"block/wall_inventory","textures":{"wall":"block/yellow_wool"}}

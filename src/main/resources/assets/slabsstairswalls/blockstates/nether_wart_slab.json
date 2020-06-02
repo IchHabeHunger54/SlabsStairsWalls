@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/nether_wart_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/nether_wart_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/nether_wart_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/nether_wart_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/nether_wart_slab"},"type=double":{"model":"slabsstairswalls:block/nether_wart_block"}}}

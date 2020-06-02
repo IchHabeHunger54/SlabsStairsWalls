@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/purple_concrete_powder",
-    "bottom": "block/purple_concrete_powder",
-    "top": "block/purple_concrete_powder"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/purple_concrete_powder","bottom":"block/purple_concrete_powder","top":"block/purple_concrete_powder"}}

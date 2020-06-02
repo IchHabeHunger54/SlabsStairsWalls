@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/coal_ore",
-    "bottom": "block/coal_ore",
-    "top": "block/coal_ore"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/coal_ore","bottom":"block/coal_ore","top":"block/coal_ore"}}

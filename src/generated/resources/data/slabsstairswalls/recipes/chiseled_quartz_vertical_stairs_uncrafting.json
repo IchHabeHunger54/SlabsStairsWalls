@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:chiseled_quartz_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:chiseled_quartz_stairs"
+  }
+}

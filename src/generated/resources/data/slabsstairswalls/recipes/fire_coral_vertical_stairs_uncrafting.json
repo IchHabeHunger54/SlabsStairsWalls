@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:fire_coral_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:fire_coral_stairs"
+  }
+}

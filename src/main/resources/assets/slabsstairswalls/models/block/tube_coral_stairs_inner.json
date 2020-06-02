@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/tube_coral_block",
-    "bottom": "block/tube_coral_block",
-    "top": "block/tube_coral_block"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/tube_coral_block","bottom":"block/tube_coral_block","top":"block/tube_coral_block"}}

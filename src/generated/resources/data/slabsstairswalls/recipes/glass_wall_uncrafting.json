@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:glass_wall"
+    },
+    {
+      "item": "slabsstairswalls:glass_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glass",
+    "count": 3
+  }
+}

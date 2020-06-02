@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/lime_concrete_powder",
-    "bottom": "block/lime_concrete_powder",
-    "top": "block/lime_concrete_powder"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/lime_concrete_powder","bottom":"block/lime_concrete_powder","top":"block/lime_concrete_powder"}}

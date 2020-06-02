@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:podzol"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:podzol_wall",
-    "count": 8
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["###","###"],"key":{"#":{"item":"minecraft:podzol"}},"result":{"item":"slabsstairswalls:podzol_wall","count":8}}

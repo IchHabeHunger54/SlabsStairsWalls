@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:sand_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:sand_vertical_stairs"
+  }
+}

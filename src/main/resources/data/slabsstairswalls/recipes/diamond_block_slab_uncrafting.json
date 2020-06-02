@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:diamond_block_slab"
-    },
-    {
-      "item": "slabsstairswalls:diamond_block_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:diamond_block"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:diamond_block_slab"},{"item":"slabsstairswalls:diamond_block_slab"}],"result":{"item":"minecraft:diamond_block"}}

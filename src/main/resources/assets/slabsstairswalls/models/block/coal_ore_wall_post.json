@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "block/coal_ore"
-  }
-}
+{"parent":"block/template_wall_post","textures":{"wall":"block/coal_ore"}}

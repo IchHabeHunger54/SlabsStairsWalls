@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/honey_block_side",
-    "bottom": "block/honey_block_side",
-    "top": "block/honey_block_side"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/honey_block_side","bottom":"block/honey_block_side","top":"block/honey_block_side"}}

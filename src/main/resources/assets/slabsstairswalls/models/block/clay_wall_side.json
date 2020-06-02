@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "block/clay"
-  }
-}
+{"parent":"block/template_wall_side","textures":{"wall":"block/clay"}}

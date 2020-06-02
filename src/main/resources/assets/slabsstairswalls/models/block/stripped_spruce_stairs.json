@@ -1,8 +1,1 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/stripped_spruce_log",
-    "bottom": "block/stripped_spruce_log",
-    "top": "block/stripped_spruce_log"
-  }
-}
+{"parent":"block/stairs","textures":{"side":"block/stripped_spruce_log","bottom":"block/stripped_spruce_log","top":"block/stripped_spruce_log"}}

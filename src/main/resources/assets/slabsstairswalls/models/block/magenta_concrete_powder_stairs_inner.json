@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/magenta_concrete_powder",
-    "bottom": "block/magenta_concrete_powder",
-    "top": "block/magenta_concrete_powder"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/magenta_concrete_powder","bottom":"block/magenta_concrete_powder","top":"block/magenta_concrete_powder"}}

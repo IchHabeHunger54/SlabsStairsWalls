@@ -1,6 +1,1 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:granite"
-  }
-}
+{"type":"minecraft:stonecutting","ingredient":{"item":"minecraft:granite"}}

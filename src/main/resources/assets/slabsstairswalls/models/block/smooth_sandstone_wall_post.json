@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "block/sandstone_top"
-  }
-}
+{"parent":"block/template_wall_post","textures":{"wall":"block/sandstone_top"}}

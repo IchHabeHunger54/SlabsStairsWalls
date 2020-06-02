@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:lapis_ore_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:lapis_ore_vertical_stairs"
+  }
+}

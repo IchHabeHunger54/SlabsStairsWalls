@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/fire_coral_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/fire_coral_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/fire_coral_block"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/fire_coral_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/fire_coral_slab"},"type=double":{"model":"slabsstairswalls:block/fire_coral_block"}}}

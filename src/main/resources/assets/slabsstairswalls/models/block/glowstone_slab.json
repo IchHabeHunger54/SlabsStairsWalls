@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/glowstone",
-    "bottom": "block/glowstone",
-    "top": "block/glowstone"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/glowstone","bottom":"block/glowstone","top":"block/glowstone"}}

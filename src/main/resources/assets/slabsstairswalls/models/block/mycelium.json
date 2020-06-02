@@ -1,6 +1,1 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "block/mycelium_top"
-  }
-}
+{"parent":"block/cube_all","textures":{"all":"block/mycelium_top"}}

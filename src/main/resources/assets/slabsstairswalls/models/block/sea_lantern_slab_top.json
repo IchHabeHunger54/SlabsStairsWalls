@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/sea_lantern",
-    "bottom": "block/sea_lantern",
-    "top": "block/sea_lantern"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/sea_lantern","bottom":"block/sea_lantern","top":"block/sea_lantern"}}

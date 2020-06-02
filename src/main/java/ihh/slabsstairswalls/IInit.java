@@ -35,12 +35,12 @@ public interface IInit {
         return BLOCKS.register(b.get().getRegistryName().getPath() + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
     }
 
-    static RegistryObject<VerticalSlabBlock> registerVSlab(Supplier<? extends SlabBlock> b) {
-        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_slab", "_vertical_slab"), () -> new VerticalSlabBlock(b));
+    static RegistryObject<VerticalSlabBlock> registerVSlab(Supplier<? extends Block> b) {
+        return BLOCKS.register(b.get().getRegistryName().getPath() + "_vertical_slab", () -> new VerticalSlabBlock(b));
     }
 
-    static RegistryObject<VerticalStairsBlock> registerVStairs(Supplier<? extends StairsBlock> b) {
-        return BLOCKS.register(b.get().getRegistryName().getPath().replace("_stairs", "_vertical_stairs"), () -> new VerticalStairsBlock(b));
+    static RegistryObject<VerticalStairsBlock> registerVStairs(Supplier<? extends Block> b) {
+        return BLOCKS.register(b.get().getRegistryName().getPath() + "_vertical_stairs", () -> new VerticalStairsBlock(b));
     }
 
     static RegistryObject<SlabBlock> registerSlab(String n, Supplier<? extends Block> b) {
@@ -55,11 +55,11 @@ public interface IInit {
         return BLOCKS.register(n + "_wall", () -> new WallBlock(Block.Properties.from(b.get())));
     }
 
-    static RegistryObject<VerticalSlabBlock> registerVSlab(String n, Supplier<? extends SlabBlock> b) {
+    static RegistryObject<VerticalSlabBlock> registerVSlab(String n, Supplier<? extends Block> b) {
         return BLOCKS.register(n + "_vertical_slab", () -> new VerticalSlabBlock(b));
     }
 
-    static RegistryObject<VerticalStairsBlock> registerVStairs(String n, Supplier<? extends StairsBlock> b) {
+    static RegistryObject<VerticalStairsBlock> registerVStairs(String n, Supplier<? extends Block> b) {
         return BLOCKS.register(n + "_vertical_stairs", () -> new VerticalStairsBlock(b));
     }
 

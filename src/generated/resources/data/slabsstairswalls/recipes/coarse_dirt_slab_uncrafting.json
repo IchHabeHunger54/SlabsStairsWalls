@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:coarse_dirt_slab"
+    },
+    {
+      "item": "slabsstairswalls:coarse_dirt_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coarse_dirt"
+  }
+}

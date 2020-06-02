@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:mossy_stone_brick_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_brick_stairs"
+  }
+}

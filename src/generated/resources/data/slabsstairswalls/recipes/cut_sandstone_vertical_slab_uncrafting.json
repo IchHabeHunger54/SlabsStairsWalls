@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:cut_sandstone_vertical_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cut_sandstone_slab"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "slabsstairswalls:block/wet_sponge_slab_top"
+    },
+    "type=bottom": {
+      "model": "slabsstairswalls:block/wet_sponge_slab"
+    },
+    "type=double": {
+      "model": "slabsstairswalls:block/wet_sponge"
+    }
+  }
+}

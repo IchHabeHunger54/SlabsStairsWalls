@@ -5,7 +5,6 @@ import javax.annotation.Nonnull;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.IWaterLoggable;
-import net.minecraft.block.SlabBlock;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.IFluidState;
@@ -29,11 +28,9 @@ import net.minecraft.world.IWorld;
 public class VerticalSlabBlock extends Block implements IWaterLoggable {
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<VerticalSlabType> TYPE = EnumProperty.create("type", VerticalSlabType.class);
-    public final SlabBlock block;
 
-    public VerticalSlabBlock(Supplier<? extends SlabBlock> block) {
+    public VerticalSlabBlock(Supplier<? extends Block> block) {
         super(Block.Properties.from(block.get()));
-        this.block = block.get();
         setDefaultState(getDefaultState().with(TYPE, VerticalSlabType.north).with(WATERLOGGED, false));
     }
 
@@ -92,15 +89,11 @@ public class VerticalSlabBlock extends Block implements IWaterLoggable {
         return state.get(TYPE).shape;
     }
 
-    @Override
-    public boolean isEmissiveRendering(BlockState state) {
-        return block.getBlock().isEmissiveRendering(state);
-    }
-
     @Nonnull
     @Override
     public BlockState updatePostPlacement(BlockState state, Direction direction, BlockState facing, IWorld world, BlockPos curPos, BlockPos facingPos) {
-        if (state.get(WATERLOGGED)) world.getPendingFluidTicks().scheduleTick(curPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+        if (state.get(WATERLOGGED))
+            world.getPendingFluidTicks().scheduleTick(curPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
         return super.updatePostPlacement(state, direction, facing, world, curPos, facingPos);
     }
 
@@ -110,6 +103,7 @@ public class VerticalSlabBlock extends Block implements IWaterLoggable {
         south(Direction.SOUTH),
         west(Direction.WEST),
         DOUBLE(null);
+
         public final Direction direction;
         public final VoxelShape shape;
 

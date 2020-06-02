@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/light_gray_concrete",
-    "bottom": "block/light_gray_concrete",
-    "top": "block/light_gray_concrete"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/light_gray_concrete","bottom":"block/light_gray_concrete","top":"block/light_gray_concrete"}}

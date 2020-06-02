@@ -1,15 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:pink_concrete_powder"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:pink_concrete_powder_slab",
-    "count": 6
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["###"],"key":{"#":{"item":"minecraft:pink_concrete_powder"}},"result":{"item":"slabsstairswalls:pink_concrete_powder_slab","count":6}}

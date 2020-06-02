@@ -1,8 +1,1 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/lime_glazed_terracotta",
-    "bottom": "block/lime_glazed_terracotta",
-    "top": "block/lime_glazed_terracotta"
-  }
-}
+{"parent":"block/stairs","textures":{"side":"block/lime_glazed_terracotta","bottom":"block/lime_glazed_terracotta","top":"block/lime_glazed_terracotta"}}

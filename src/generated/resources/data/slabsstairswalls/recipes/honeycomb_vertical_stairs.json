@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:honeycomb_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:honeycomb_vertical_stairs"
+  }
+}

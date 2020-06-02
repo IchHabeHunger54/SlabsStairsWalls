@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:brown_mushroom_slab"
-    },
-    {
-      "item": "slabsstairswalls:brown_mushroom_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:brown_mushroom_block"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:brown_mushroom_slab"},{"item":"slabsstairswalls:brown_mushroom_slab"}],"result":{"item":"minecraft:brown_mushroom_block"}}

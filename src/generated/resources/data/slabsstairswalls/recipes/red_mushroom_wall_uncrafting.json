@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:red_mushroom_wall"
+    },
+    {
+      "item": "slabsstairswalls:red_mushroom_wall"
+    },
+    {
+      "item": "slabsstairswalls:red_mushroom_wall"
+    },
+    {
+      "item": "slabsstairswalls:red_mushroom_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_mushroom_block",
+    "count": 3
+  }
+}

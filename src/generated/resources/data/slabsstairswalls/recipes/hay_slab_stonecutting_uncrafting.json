@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:hay_vertical_slab"
+  },
+  "result": "slabsstairswalls:hay_slab",
+  "count": 1
+}

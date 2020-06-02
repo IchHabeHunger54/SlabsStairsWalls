@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:bone_slab"
-    },
-    {
-      "item": "slabsstairswalls:bone_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:bone_block"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:bone_slab"},{"item":"slabsstairswalls:bone_slab"}],"result":{"item":"minecraft:bone_block"}}

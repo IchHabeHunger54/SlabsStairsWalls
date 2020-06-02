@@ -1,17 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:birch_wood"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:birch_stairs",
-    "count": 8
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["#  ","## ","###"],"key":{"#":{"item":"minecraft:birch_wood"}},"result":{"item":"slabsstairswalls:birch_stairs","count":8}}

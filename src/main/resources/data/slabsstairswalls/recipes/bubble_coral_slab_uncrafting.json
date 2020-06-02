@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:bubble_coral_slab"
-    },
-    {
-      "item": "slabsstairswalls:bubble_coral_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:bubble_coral_block"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:bubble_coral_slab"},{"item":"slabsstairswalls:bubble_coral_slab"}],"result":{"item":"minecraft:bubble_coral_block"}}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:magenta_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:magenta_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:magenta_wool_wall"
+    },
+    {
+      "item": "slabsstairswalls:magenta_wool_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_wool",
+    "count": 3
+  }
+}

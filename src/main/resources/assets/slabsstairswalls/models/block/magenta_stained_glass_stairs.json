@@ -1,8 +1,1 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/magenta_stained_glass",
-    "bottom": "block/magenta_stained_glass",
-    "top": "block/magenta_stained_glass"
-  }
-}
+{"parent":"block/stairs","textures":{"side":"block/magenta_stained_glass","bottom":"block/magenta_stained_glass","top":"block/magenta_stained_glass"}}

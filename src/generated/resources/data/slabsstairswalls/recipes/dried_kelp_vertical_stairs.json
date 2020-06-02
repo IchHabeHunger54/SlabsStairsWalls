@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:dried_kelp_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:dried_kelp_vertical_stairs"
+  }
+}

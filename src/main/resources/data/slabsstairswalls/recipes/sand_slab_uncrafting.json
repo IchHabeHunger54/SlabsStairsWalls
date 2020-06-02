@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:sand_slab"
-    },
-    {
-      "item": "slabsstairswalls:sand_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:sand"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:sand_slab"},{"item":"slabsstairswalls:sand_slab"}],"result":{"item":"minecraft:sand"}}

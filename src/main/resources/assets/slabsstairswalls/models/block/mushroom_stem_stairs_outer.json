@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/mushroom_stem",
-    "bottom": "block/mushroom_stem",
-    "top": "block/mushroom_stem"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/mushroom_stem","bottom":"block/mushroom_stem","top":"block/mushroom_stem"}}

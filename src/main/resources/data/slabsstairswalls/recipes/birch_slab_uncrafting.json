@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "slabsstairswalls:birch_slab"
-    },
-    {
-      "item": "slabsstairswalls:birch_slab"
-    }
-  ],
-  "result": {
-    "item": "minecraft:birch_wood"
-  }
-}
+{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"slabsstairswalls:birch_slab"},{"item":"slabsstairswalls:birch_slab"}],"result":{"item":"minecraft:birch_wood"}}

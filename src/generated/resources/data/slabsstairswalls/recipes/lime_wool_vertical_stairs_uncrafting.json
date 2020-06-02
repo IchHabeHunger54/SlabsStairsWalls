@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:lime_wool_vertical_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:lime_wool_stairs"
+  }
+}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/cyan_terracotta",
-    "bottom": "block/cyan_terracotta",
-    "top": "block/cyan_terracotta"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/cyan_terracotta","bottom":"block/cyan_terracotta","top":"block/cyan_terracotta"}}

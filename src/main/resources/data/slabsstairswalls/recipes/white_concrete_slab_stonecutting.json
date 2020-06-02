@@ -1,8 +1,1 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:white_concrete"
-  },
-  "result": "slabsstairswalls:white_concrete_slab",
-  "count": 2
-}
+{"type":"minecraft:stonecutting","ingredient":{"item":"minecraft:white_concrete"},"result":"slabsstairswalls:white_concrete_slab","count":2}

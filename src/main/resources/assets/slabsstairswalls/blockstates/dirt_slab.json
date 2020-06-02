@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/dirt_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/dirt_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/dirt"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/dirt_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/dirt_slab"},"type=double":{"model":"slabsstairswalls:block/dirt"}}}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:emerald_ore_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:emerald_ore_vertical_slab"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "type=north": {
+      "model": "slabsstairswalls:block/magenta_concrete_powder_vertical_slab"
+    },
+    "type=east": {
+      "model": "slabsstairswalls:block/magenta_concrete_powder_vertical_slab",
+      "y": 90
+    },
+    "type=south": {
+      "model": "slabsstairswalls:block/magenta_concrete_powder_vertical_slab",
+      "y": 180
+    },
+    "type=west": {
+      "model": "slabsstairswalls:block/magenta_concrete_powder_vertical_slab",
+      "y": 270
+    },
+    "type=DOUBLE": {
+      "model": "slabsstairswalls:block/magenta_concrete_powder_vertical_slab_double"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:netherrack_vertical_slab"
+  },
+  "result": "slabsstairswalls:netherrack_slab",
+  "count": 1
+}

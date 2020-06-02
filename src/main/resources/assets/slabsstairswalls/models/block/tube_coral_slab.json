@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/tube_coral_block",
-    "bottom": "block/tube_coral_block",
-    "top": "block/tube_coral_block"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/tube_coral_block","bottom":"block/tube_coral_block","top":"block/tube_coral_block"}}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:diamond_ore_stairs"
+  },
+  "result": "slabsstairswalls:diamond_ore_vertical_stairs",
+  "count": 1
+}

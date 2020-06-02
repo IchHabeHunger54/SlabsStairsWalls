@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/quartz_pillar_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/quartz_pillar_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/quartz_pillar"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/quartz_pillar_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/quartz_pillar_slab"},"type=double":{"model":"slabsstairswalls:block/quartz_pillar"}}}

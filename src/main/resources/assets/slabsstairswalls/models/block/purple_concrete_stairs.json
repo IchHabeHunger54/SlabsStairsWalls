@@ -1,8 +1,1 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "side": "block/purple_concrete",
-    "bottom": "block/purple_concrete",
-    "top": "block/purple_concrete"
-  }
-}
+{"parent":"block/stairs","textures":{"side":"block/purple_concrete","bottom":"block/purple_concrete","top":"block/purple_concrete"}}

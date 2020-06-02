@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:green_wool"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:green_wool_wall",
-    "count": 8
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["###","###"],"key":{"#":{"item":"minecraft:green_wool"}},"result":{"item":"slabsstairswalls:green_wool_wall","count":8}}

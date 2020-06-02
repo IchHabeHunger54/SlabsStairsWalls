@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "type=north": {
+      "model": "slabsstairswalls:block/brown_terracotta_vertical_slab"
+    },
+    "type=east": {
+      "model": "slabsstairswalls:block/brown_terracotta_vertical_slab",
+      "y": 90
+    },
+    "type=south": {
+      "model": "slabsstairswalls:block/brown_terracotta_vertical_slab",
+      "y": 180
+    },
+    "type=west": {
+      "model": "slabsstairswalls:block/brown_terracotta_vertical_slab",
+      "y": 270
+    },
+    "type=DOUBLE": {
+      "model": "slabsstairswalls:block/brown_terracotta_vertical_slab_double"
+    }
+  }
+}

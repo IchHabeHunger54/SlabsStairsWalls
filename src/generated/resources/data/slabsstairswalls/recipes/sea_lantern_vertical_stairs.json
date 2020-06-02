@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:sea_lantern_stairs"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:sea_lantern_vertical_stairs"
+  }
+}

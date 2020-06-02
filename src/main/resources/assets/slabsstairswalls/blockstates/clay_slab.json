@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/clay_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/clay_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/clay"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/clay_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/clay_slab"},"type=double":{"model":"slabsstairswalls:block/clay"}}}

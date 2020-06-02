@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/cracked_stone_bricks",
-    "bottom": "block/cracked_stone_bricks",
-    "top": "block/cracked_stone_bricks"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/cracked_stone_bricks","bottom":"block/cracked_stone_bricks","top":"block/cracked_stone_bricks"}}

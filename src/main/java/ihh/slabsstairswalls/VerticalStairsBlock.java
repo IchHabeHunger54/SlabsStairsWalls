@@ -5,7 +5,6 @@ import javax.annotation.Nonnull;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.IWaterLoggable;
-import net.minecraft.block.StairsBlock;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.IFluidState;
@@ -33,11 +32,9 @@ public class VerticalStairsBlock extends Block implements IWaterLoggable {
     private static final VoxelShape WEST_SHAPE = Block.makeCuboidShape(0, 0, 8, 8, 16, 16);
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<VerticalStairsType> TYPE = EnumProperty.create("type", VerticalStairsType.class);
-    public final StairsBlock block;
 
-    public VerticalStairsBlock(Supplier<? extends StairsBlock> block) {
+    public VerticalStairsBlock(Supplier<? extends Block> block) {
         super(Block.Properties.from(block.get()));
-        this.block = block.get();
         setDefaultState(getDefaultState().with(TYPE, VerticalStairsType.north).with(WATERLOGGED, false));
     }
 
@@ -80,11 +77,6 @@ public class VerticalStairsBlock extends Block implements IWaterLoggable {
     }
 
     @Override
-    public boolean isEmissiveRendering(BlockState state) {
-        return block.getBlock().isEmissiveRendering(state);
-    }
-
-    @Override
     public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
         VerticalStairsType type = state.get(TYPE);
         Direction direction = useContext.getFace();
@@ -98,7 +90,8 @@ public class VerticalStairsBlock extends Block implements IWaterLoggable {
     @Nonnull
     @Override
     public BlockState updatePostPlacement(BlockState state, Direction direction, BlockState facing, IWorld world, BlockPos curPos, BlockPos facingPos) {
-        if (state.get(WATERLOGGED)) world.getPendingFluidTicks().scheduleTick(curPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+        if (state.get(WATERLOGGED))
+            world.getPendingFluidTicks().scheduleTick(curPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
         return super.updatePostPlacement(state, direction, facing, world, curPos, facingPos);
     }
 
@@ -107,8 +100,10 @@ public class VerticalStairsBlock extends Block implements IWaterLoggable {
         east(Direction.EAST),
         south(Direction.SOUTH),
         west(Direction.WEST);
+
         public final Direction direction;
         public final VoxelShape shape;
+
         VerticalStairsType(Direction direction) {
             this.direction = direction;
             this.shape = direction == Direction.NORTH ? VoxelShapes.or(WEST_SHAPE, SOUTH_SHAPE, EAST_SHAPE) : direction == Direction.EAST ? VoxelShapes.or(NORTH_SHAPE, EAST_SHAPE, SOUTH_SHAPE) : direction == Direction.SOUTH ? VoxelShapes.or(EAST_SHAPE, NORTH_SHAPE, WEST_SHAPE) : direction == Direction.WEST ? VoxelShapes.or(SOUTH_SHAPE, WEST_SHAPE, NORTH_SHAPE) : null;

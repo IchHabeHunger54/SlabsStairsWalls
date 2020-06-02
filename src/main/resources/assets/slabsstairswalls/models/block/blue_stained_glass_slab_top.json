@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/blue_stained_glass",
-    "bottom": "block/blue_stained_glass",
-    "top": "block/blue_stained_glass"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/blue_stained_glass","bottom":"block/blue_stained_glass","top":"block/blue_stained_glass"}}

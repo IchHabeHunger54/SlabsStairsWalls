@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/white_terracotta",
-    "bottom": "block/white_terracotta",
-    "top": "block/white_terracotta"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/white_terracotta","bottom":"block/white_terracotta","top":"block/white_terracotta"}}

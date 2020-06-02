@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "block/mycelium_top"
-  }
-}
+{"parent":"block/template_wall_side","textures":{"wall":"block/mycelium_top"}}

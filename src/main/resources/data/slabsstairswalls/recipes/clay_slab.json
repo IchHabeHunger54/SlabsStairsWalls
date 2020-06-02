@@ -1,15 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:clay"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:clay_slab",
-    "count": 6
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["###"],"key":{"#":{"item":"minecraft:clay"}},"result":{"item":"slabsstairswalls:clay_slab","count":6}}

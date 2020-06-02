@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/stripped_dark_oak_log",
-    "bottom": "block/stripped_dark_oak_log",
-    "top": "block/stripped_dark_oak_log"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/stripped_dark_oak_log","bottom":"block/stripped_dark_oak_log","top":"block/stripped_dark_oak_log"}}

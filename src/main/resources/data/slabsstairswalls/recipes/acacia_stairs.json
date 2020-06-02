@@ -1,17 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:acacia_wood"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:acacia_stairs",
-    "count": 8
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["#  ","## ","###"],"key":{"#":{"item":"minecraft:acacia_wood"}},"result":{"item":"slabsstairswalls:acacia_stairs","count":8}}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "block/quartz_pillar",
-    "bottom": "block/quartz_pillar",
-    "top": "block/quartz_pillar"
-  }
-}
+{"parent":"block/slab_top","textures":{"side":"block/quartz_pillar","bottom":"block/quartz_pillar","top":"block/quartz_pillar"}}

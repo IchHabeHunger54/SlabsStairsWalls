@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:slime_stairs"
+    },
+    {
+      "item": "slabsstairswalls:slime_stairs"
+    },
+    {
+      "item": "slabsstairswalls:slime_stairs"
+    },
+    {
+      "item": "slabsstairswalls:slime_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_block",
+    "count": 3
+  }
+}

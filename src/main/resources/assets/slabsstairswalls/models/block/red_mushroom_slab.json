@@ -1,8 +1,1 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "side": "block/red_mushroom_block",
-    "bottom": "block/red_mushroom_block",
-    "top": "block/red_mushroom_block"
-  }
-}
+{"parent":"block/slab","textures":{"side":"block/red_mushroom_block","bottom":"block/red_mushroom_block","top":"block/red_mushroom_block"}}

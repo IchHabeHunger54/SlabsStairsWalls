@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:light_blue_terracotta_slab"
+    }
+  ],
+  "result": {
+    "item": "slabsstairswalls:light_blue_terracotta_vertical_slab"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slabsstairswalls:pink_wool_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_wool_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_wool_stairs"
+    },
+    {
+      "item": "slabsstairswalls:pink_wool_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_wool",
+    "count": 3
+  }
+}

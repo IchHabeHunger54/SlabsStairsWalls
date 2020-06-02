@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:coal_ore_slab"
+  },
+  "result": "slabsstairswalls:coal_ore_vertical_slab",
+  "count": 1
+}

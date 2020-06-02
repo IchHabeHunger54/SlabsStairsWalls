@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:light_gray_stained_glass"
-    }
-  },
-  "result": {
-    "item": "slabsstairswalls:light_gray_stained_glass_wall",
-    "count": 8
-  }
-}
+{"type":"minecraft:crafting_shaped","pattern":["###","###"],"key":{"#":{"item":"minecraft:light_gray_stained_glass"}},"result":{"item":"slabsstairswalls:light_gray_stained_glass_wall","count":8}}

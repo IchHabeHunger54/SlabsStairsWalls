@@ -1,8 +1,1 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "side": "block/lapis_block",
-    "bottom": "block/lapis_block",
-    "top": "block/lapis_block"
-  }
-}
+{"parent":"block/outer_stairs","textures":{"side":"block/lapis_block","bottom":"block/lapis_block","top":"block/lapis_block"}}

@@ -1,8 +1,1 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "side": "block/melon_side",
-    "bottom": "block/melon_side",
-    "top": "block/melon_side"
-  }
-}
+{"parent":"block/inner_stairs","textures":{"side":"block/melon_side","bottom":"block/melon_side","top":"block/melon_side"}}

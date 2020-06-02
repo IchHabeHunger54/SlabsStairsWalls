@@ -1,13 +1,1 @@
-{
-  "variants": {
-    "type=top": {
-      "model": "slabsstairswalls:block/sponge_slab_top"
-    },
-    "type=bottom": {
-      "model": "slabsstairswalls:block/sponge_slab"
-    },
-    "type=double": {
-      "model": "slabsstairswalls:block/sponge"
-    }
-  }
-}
+{"variants":{"type=top":{"model":"slabsstairswalls:block/sponge_slab_top"},"type=bottom":{"model":"slabsstairswalls:block/sponge_slab"},"type=double":{"model":"slabsstairswalls:block/sponge"}}}

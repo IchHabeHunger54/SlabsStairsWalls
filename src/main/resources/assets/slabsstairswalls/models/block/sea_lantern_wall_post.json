@@ -1,6 +1,1 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "block/sea_lantern"
-  }
-}
+{"parent":"block/template_wall_post","textures":{"wall":"block/sea_lantern"}}

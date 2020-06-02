@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "side": "block/wet_sponge",
+    "bottom": "block/wet_sponge",
+    "top": "block/wet_sponge"
+  }
+}

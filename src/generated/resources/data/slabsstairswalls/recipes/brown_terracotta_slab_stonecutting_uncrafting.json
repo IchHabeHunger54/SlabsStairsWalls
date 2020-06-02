@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "slabsstairswalls:brown_terracotta_vertical_slab"
+  },
+  "result": "slabsstairswalls:brown_terracotta_slab",
+  "count": 1
+}
