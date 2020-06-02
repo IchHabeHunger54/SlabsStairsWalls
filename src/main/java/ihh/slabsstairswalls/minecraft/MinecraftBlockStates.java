@@ -724,8 +724,8 @@ public final class MinecraftBlockStates extends BlockStates {
         vertSlab(MinecraftBlocks.MOSSY_STONE_BRICK_VERTICAL_SLAB, Blocks.MOSSY_STONE_BRICKS);
         vertSlab(MinecraftBlocks.CRACKED_STONE_BRICK_VERTICAL_SLAB, Blocks.CRACKED_STONE_BRICKS);
         vertSlab(MinecraftBlocks.CHISELED_STONE_BRICK_VERTICAL_SLAB, Blocks.CHISELED_STONE_BRICKS);
-        vertSlab(MinecraftBlocks.BROWN_MUSHROOM_VERTICAL_SLAB, Blocks.BROWN_MUSHROOM);
-        vertSlab(MinecraftBlocks.RED_MUSHROOM_VERTICAL_SLAB, Blocks.RED_MUSHROOM);
+        vertSlab(MinecraftBlocks.BROWN_MUSHROOM_VERTICAL_SLAB, Blocks.BROWN_MUSHROOM_BLOCK);
+        vertSlab(MinecraftBlocks.RED_MUSHROOM_VERTICAL_SLAB, Blocks.RED_MUSHROOM_BLOCK);
         vertSlab(MinecraftBlocks.MUSHROOM_STEM_VERTICAL_SLAB, Blocks.MUSHROOM_STEM);
 //        vertSlab(MinecraftBlocks.MELON_VERTICAL_SLAB, Blocks.MELON);
 //        vertSlab(MinecraftBlocks.MYCELIUM_VERTICAL_SLAB, Blocks.MYCELIUM);
@@ -934,8 +934,8 @@ public final class MinecraftBlockStates extends BlockStates {
         vertStairs(MinecraftBlocks.MOSSY_STONE_BRICK_VERTICAL_STAIRS, Blocks.MOSSY_STONE_BRICKS);
         vertStairs(MinecraftBlocks.CRACKED_STONE_BRICK_VERTICAL_STAIRS, Blocks.CRACKED_STONE_BRICKS);
         vertStairs(MinecraftBlocks.CHISELED_STONE_BRICK_VERTICAL_STAIRS, Blocks.CHISELED_STONE_BRICKS);
-        vertStairs(MinecraftBlocks.BROWN_MUSHROOM_VERTICAL_STAIRS, Blocks.BROWN_MUSHROOM);
-        vertStairs(MinecraftBlocks.RED_MUSHROOM_VERTICAL_STAIRS, Blocks.RED_MUSHROOM);
+        vertStairs(MinecraftBlocks.BROWN_MUSHROOM_VERTICAL_STAIRS, Blocks.BROWN_MUSHROOM_BLOCK);
+        vertStairs(MinecraftBlocks.RED_MUSHROOM_VERTICAL_STAIRS, Blocks.RED_MUSHROOM_BLOCK);
         vertStairs(MinecraftBlocks.MUSHROOM_STEM_VERTICAL_STAIRS, Blocks.MUSHROOM_STEM);
 //        vertStairs(MinecraftBlocks.MELON_VERTICAL_STAIRS, Blocks.MELON);
 //        vertStairs(MinecraftBlocks.MYCELIUM_VERTICAL_STAIRS, Blocks.MYCELIUM);

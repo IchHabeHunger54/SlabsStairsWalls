@@ -15,7 +15,7 @@
       "model": "slabsstairswalls:block/end_stone_brick_vertical_slab",
       "y": 270
     },
-    "type=DOUBLE": {
+    "type=double": {
       "model": "slabsstairswalls:block/end_stone_brick_vertical_slab_double"
     }
   }

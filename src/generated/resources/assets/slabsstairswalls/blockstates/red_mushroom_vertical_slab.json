@@ -15,7 +15,7 @@
       "model": "slabsstairswalls:block/red_mushroom_vertical_slab",
       "y": 270
     },
-    "type=DOUBLE": {
+    "type=double": {
       "model": "slabsstairswalls:block/red_mushroom_vertical_slab_double"
     }
   }

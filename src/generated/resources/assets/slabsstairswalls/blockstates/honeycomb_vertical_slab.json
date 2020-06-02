@@ -15,7 +15,7 @@
       "model": "slabsstairswalls:block/honeycomb_vertical_slab",
       "y": 270
     },
-    "type=DOUBLE": {
+    "type=double": {
       "model": "slabsstairswalls:block/honeycomb_vertical_slab_double"
     }
   }

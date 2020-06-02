@@ -15,7 +15,7 @@
       "model": "slabsstairswalls:block/mossy_stone_brick_vertical_slab",
       "y": 270
     },
-    "type=DOUBLE": {
+    "type=double": {
       "model": "slabsstairswalls:block/mossy_stone_brick_vertical_slab_double"
     }
   }

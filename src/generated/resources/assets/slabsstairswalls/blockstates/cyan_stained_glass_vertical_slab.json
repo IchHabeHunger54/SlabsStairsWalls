@@ -15,7 +15,7 @@
       "model": "slabsstairswalls:block/cyan_stained_glass_vertical_slab",
       "y": 270
     },
-    "type=DOUBLE": {
+    "type=double": {
       "model": "slabsstairswalls:block/cyan_stained_glass_vertical_slab_double"
     }
   }

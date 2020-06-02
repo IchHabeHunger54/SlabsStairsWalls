@@ -15,7 +15,7 @@
       "model": "slabsstairswalls:block/nether_quartz_ore_vertical_slab",
       "y": 270
     },
-    "type=DOUBLE": {
+    "type=double": {
       "model": "slabsstairswalls:block/nether_quartz_ore_vertical_slab_double"
     }
   }

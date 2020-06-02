@@ -681,7 +681,7 @@ public final class MinecraftItemModels extends ItemModels {
         parentVSlab(MinecraftBlocks.DIRT_VERTICAL_SLAB, "dirt");
         parentVSlab(MinecraftBlocks.COARSE_DIRT_VERTICAL_SLAB, "coarse_dirt");
         parentVSlab(MinecraftBlocks.PODZOL_VERTICAL_SLAB, "podzol");
-        parentVSlab(MinecraftBlocks.BEDROCK_VERTICAL_SLAB, "cobblestone");
+        parentVSlab(MinecraftBlocks.COBBLESTONE_VERTICAL_SLAB, "cobblestone");
         parentVSlab(MinecraftBlocks.BEDROCK_VERTICAL_SLAB, "bedrock");
         parentVSlab(MinecraftBlocks.SAND_VERTICAL_SLAB, "sand");
         parentVSlab(MinecraftBlocks.RED_SAND_VERTICAL_SLAB, "red_sand");
@@ -700,8 +700,8 @@ public final class MinecraftItemModels extends ItemModels {
         parentVSlab(MinecraftBlocks.GOLD_BLOCK_VERTICAL_SLAB, "gold_block");
         parentVSlab(MinecraftBlocks.IRON_BLOCK_VERTICAL_SLAB, "iron_block");
         parentVSlab(MinecraftBlocks.SMOOTH_QUARTZ_VERTICAL_SLAB, "smooth_quartz");
-        parentVSlab(MinecraftBlocks.RED_SANDSTONE_VERTICAL_SLAB, "smooth_red_sandstone");
-        parentVSlab(MinecraftBlocks.SANDSTONE_VERTICAL_SLAB, "smooth_sandstone");
+        parentVSlab(MinecraftBlocks.SMOOTH_RED_SANDSTONE_VERTICAL_SLAB, "smooth_red_sandstone");
+        parentVSlab(MinecraftBlocks.SMOOTH_SANDSTONE_VERTICAL_SLAB, "smooth_sandstone");
         parentVSlab(MinecraftBlocks.SMOOTH_STONE_VERTICAL_SLAB, "smooth_stone");
         parentVSlab(MinecraftBlocks.BRICK_VERTICAL_SLAB, "brick");
         parentVSlab(MinecraftBlocks.BOOKSHELF_VERTICAL_SLAB, "bookshelf");
@@ -891,7 +891,7 @@ public final class MinecraftItemModels extends ItemModels {
         parentVStairs(MinecraftBlocks.DIRT_VERTICAL_STAIRS, "dirt");
         parentVStairs(MinecraftBlocks.COARSE_DIRT_VERTICAL_STAIRS, "coarse_dirt");
         parentVStairs(MinecraftBlocks.PODZOL_VERTICAL_STAIRS, "podzol");
-        parentVStairs(MinecraftBlocks.BEDROCK_VERTICAL_STAIRS, "cobblestone");
+        parentVStairs(MinecraftBlocks.COBBLESTONE_VERTICAL_STAIRS, "cobblestone");
         parentVStairs(MinecraftBlocks.BEDROCK_VERTICAL_STAIRS, "bedrock");
         parentVStairs(MinecraftBlocks.SAND_VERTICAL_STAIRS, "sand");
         parentVStairs(MinecraftBlocks.RED_SAND_VERTICAL_STAIRS, "red_sand");
@@ -910,8 +910,8 @@ public final class MinecraftItemModels extends ItemModels {
         parentVStairs(MinecraftBlocks.GOLD_BLOCK_VERTICAL_STAIRS, "gold_block");
         parentVStairs(MinecraftBlocks.IRON_BLOCK_VERTICAL_STAIRS, "iron_block");
         parentVStairs(MinecraftBlocks.SMOOTH_QUARTZ_VERTICAL_STAIRS, "smooth_quartz");
-        parentVStairs(MinecraftBlocks.RED_SANDSTONE_VERTICAL_STAIRS, "smooth_red_sandstone");
-        parentVStairs(MinecraftBlocks.SANDSTONE_VERTICAL_STAIRS, "smooth_sandstone");
+        parentVStairs(MinecraftBlocks.SMOOTH_RED_SANDSTONE_VERTICAL_STAIRS, "smooth_red_sandstone");
+        parentVStairs(MinecraftBlocks.SMOOTH_SANDSTONE_VERTICAL_STAIRS, "smooth_sandstone");
         parentVStairs(MinecraftBlocks.SMOOTH_STONE_VERTICAL_STAIRS, "smooth_stone");
         parentVStairs(MinecraftBlocks.BRICK_VERTICAL_STAIRS, "brick");
         parentVStairs(MinecraftBlocks.BOOKSHELF_VERTICAL_STAIRS, "bookshelf");

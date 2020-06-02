@@ -749,7 +749,7 @@ public final class MinecraftBlocks implements IInit {
     public static final RegistryObject<VerticalSlabBlock> PACKED_ICE_VERTICAL_SLAB = registerVSlab(() -> Blocks.PACKED_ICE);
     public static final RegistryObject<VerticalSlabBlock> SLIME_VERTICAL_SLAB = registerVSlab("slime", () -> Blocks.SLIME_BLOCK);
     public static final RegistryObject<VerticalSlabBlock> PRISMARINE_VERTICAL_SLAB = registerVSlab(() -> Blocks.PRISMARINE);
-    public static final RegistryObject<VerticalSlabBlock> PRISMARINE_BRICK_VERTICAL_SLAB = registerVSlab(() -> Blocks.PRISMARINE_BRICKS);
+    public static final RegistryObject<VerticalSlabBlock> PRISMARINE_BRICK_VERTICAL_SLAB = registerVSlab("prismarine_brick", () -> Blocks.PRISMARINE_BRICKS);
     public static final RegistryObject<VerticalSlabBlock> DARK_PRISMARINE_VERTICAL_SLAB = registerVSlab(() -> Blocks.DARK_PRISMARINE);
     public static final RegistryObject<VerticalSlabBlock> SEA_LANTERN_VERTICAL_SLAB = registerVSlab(() -> Blocks.SEA_LANTERN);
     public static final RegistryObject<VerticalSlabBlock> RED_SANDSTONE_VERTICAL_SLAB = registerVSlab(() -> Blocks.RED_SANDSTONE);
@@ -959,7 +959,7 @@ public final class MinecraftBlocks implements IInit {
     public static final RegistryObject<VerticalStairsBlock> PACKED_ICE_VERTICAL_STAIRS = registerVStairs(() -> Blocks.PACKED_ICE);
     public static final RegistryObject<VerticalStairsBlock> SLIME_VERTICAL_STAIRS = registerVStairs("slime", () -> Blocks.SLIME_BLOCK);
     public static final RegistryObject<VerticalStairsBlock> PRISMARINE_VERTICAL_STAIRS = registerVStairs(() -> Blocks.PRISMARINE);
-    public static final RegistryObject<VerticalStairsBlock> PRISMARINE_BRICK_VERTICAL_STAIRS = registerVStairs(() -> Blocks.PRISMARINE_BRICKS);
+    public static final RegistryObject<VerticalStairsBlock> PRISMARINE_BRICK_VERTICAL_STAIRS = registerVStairs("prismarine_brick", () -> Blocks.PRISMARINE_BRICKS);
     public static final RegistryObject<VerticalStairsBlock> DARK_PRISMARINE_VERTICAL_STAIRS = registerVStairs(() -> Blocks.DARK_PRISMARINE);
     public static final RegistryObject<VerticalStairsBlock> SEA_LANTERN_VERTICAL_STAIRS = registerVStairs(() -> Blocks.SEA_LANTERN);
     public static final RegistryObject<VerticalStairsBlock> RED_SANDSTONE_VERTICAL_STAIRS = registerVStairs(() -> Blocks.RED_SANDSTONE);
