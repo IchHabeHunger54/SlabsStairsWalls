@@ -1,6 +1,6 @@
 {
   "parent": "slabsstairswalls:block/template_vertical_stairs",
   "textures": {
-    "all": "block/dead_tube_coral"
+    "all": "block/dead_tube_coral_block"
   }
 }

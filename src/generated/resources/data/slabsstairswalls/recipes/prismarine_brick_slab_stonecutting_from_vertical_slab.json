@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:prismarine_brick_slab"
   },
-  "result": "slabsstairswalls:prismarine_bricks_vertical_slab",
+  "result": "slabsstairswalls:prismarine_brick_vertical_slab",
   "count": 1
 }

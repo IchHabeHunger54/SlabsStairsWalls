@@ -1,6 +1,6 @@
 {
   "parent": "slabsstairswalls:block/template_vertical_slab",
   "textures": {
-    "all": "block/brown_mushroom"
+    "all": "block/brown_mushroom_block"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "slabsstairswalls:block/template_vertical_stairs",
   "textures": {
-    "all": "block/brain_coral"
+    "all": "block/brain_coral_block"
   }
 }

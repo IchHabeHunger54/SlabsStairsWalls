@@ -23,7 +23,7 @@ public final class MinecraftBlocks implements IInit {
     public static final RegistryObject<WallBlock> CUT_RED_SANDSTONE_WALL = registerWall(() -> Blocks.CUT_RED_SANDSTONE);
     public static final RegistryObject<WallBlock> CUT_SANDSTONE_WALL = registerWall(() -> Blocks.CUT_SANDSTONE);
     public static final RegistryObject<WallBlock> DARK_PRISMARINE_WALL = registerWall(() -> Blocks.DARK_PRISMARINE);
-    public static final RegistryObject<WallBlock> PRISMARINE_BRICK_WALL = registerWall(() -> Blocks.PRISMARINE_BRICKS);
+    public static final RegistryObject<WallBlock> PRISMARINE_BRICK_WALL = registerWall("prismarine_brick", () -> Blocks.PRISMARINE_BRICKS);
     public static final RegistryObject<WallBlock> POLISHED_ANDESITE_WALL = registerWall(() -> Blocks.POLISHED_ANDESITE);
     public static final RegistryObject<WallBlock> POLISHED_DIORITE_WALL = registerWall(() -> Blocks.POLISHED_DIORITE);
     public static final RegistryObject<WallBlock> POLISHED_GRANITE_WALL = registerWall(() -> Blocks.POLISHED_GRANITE);
